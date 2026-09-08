@@ -21,3 +21,9 @@ test('inventory changes on altered or added bytes',async()=>{
  const dir=await mkdtemp(path.join(os.tmpdir(),'receiz-inventory-'));
  try {await writeFile(path.join(dir,'file.txt'),'original');const held=await inventory(dir);await writeFile(path.join(dir,'file.txt'),'altered');assert.notDeepEqual(await inventory(dir),held);await writeFile(path.join(dir,'extra.txt'),'extra');assert.equal((await inventory(dir)).length,2);}finally{await rm(dir,{recursive:true,force:true});}
 });
+
+test('foundation declaration equals its 55 numbered entries',async()=>{
+ const foundation=JSON.parse(await readFile(new URL('../release/ontology/foundation-register.json',import.meta.url),'utf8'));
+ assert.equal(foundation.invariants.length,55);
+ assert.equal(foundation.declaredInvariantCount,foundation.invariants.length);
+});

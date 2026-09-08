@@ -1,6 +1,6 @@
 {
   "scope": "Historical foundation register; not an exhaustive count of current Receiz primitives.",
-  "declaredInvariantCount": 56,
+  "declaredInvariantCount": 55,
   "primitives": [
     {
       "id": "TP-01",
@@ -8,7 +8,7 @@
     },
     {
       "id": "TP-02",
-      "name": "μPulse Scheduler"
+      "name": "\u03bcPulse Scheduler"
     },
     {
       "id": "TP-03",
@@ -24,7 +24,7 @@
     },
     {
       "id": "IP-02",
-      "name": "ΦKey"
+      "name": "\u03a6Key"
     },
     {
       "id": "IP-03",
@@ -68,7 +68,7 @@
     },
     {
       "id": "VP-04",
-      "name": "Parent→Child Transfer Graph"
+      "name": "Parent\u2192Child Transfer Graph"
     },
     {
       "id": "VP-05",
@@ -126,11 +126,11 @@
     },
     {
       "id": "T-05",
-      "name": "μPulse Determinism"
+      "name": "\u03bcPulse Determinism"
     },
     {
       "id": "T-06",
-      "name": "φ-Exact Breath Period"
+      "name": "\u03c6-Exact Breath Period"
     },
     {
       "id": "T-07",
@@ -138,7 +138,7 @@
     },
     {
       "id": "T-08",
-      "name": "Total Pulse→Beat→Step Mapping"
+      "name": "Total Pulse\u2192Beat\u2192Step Mapping"
     },
     {
       "id": "T-09",
@@ -246,7 +246,7 @@
     },
     {
       "id": "V-03",
-      "name": "Parent→Child Lineage Transfer"
+      "name": "Parent\u2192Child Lineage Transfer"
     },
     {
       "id": "V-04",

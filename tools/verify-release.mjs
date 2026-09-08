@@ -26,7 +26,7 @@ export async function verifyRelease(root) {
  const payload=await verifyProofNativeReleaseAttestation(artifact,GOVERNANCE_OWNER,LEGACY_GOVERNANCE_MANIFEST_SHA256);
  assert.deepEqual(Object.keys(payload).sort(),['schema','release','repository','candidateCommit','candidateTree','sourceCommit','productHistory','scope','files'].sort());
  assert.equal(payload.schema,'receiz.disclosure.release.v1');
- assert.equal(payload.release,'v126.0.0-disclosure.1');
+ assert.equal(payload.release,`v${JSON.parse(await readFile(path.join(root,'package.json'),'utf8')).version}`);
  assert.equal(payload.repository,'https://github.com/kojibai/reality-grade-infrastructure');
  for(const key of ['candidateCommit','candidateTree','sourceCommit'])assert.match(payload[key],/^[a-f0-9]{40}$/);
  assert.deepEqual(payload.files,await inventory(root),'release_inventory_mismatch');

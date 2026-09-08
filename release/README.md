@@ -9,3 +9,7 @@ The audit tool reuses selected read-only functions from the existing Receiz gove
 Captured report scope, incomplete census scope and dependency qualification remain explicit. Neither an unsigned digest nor passing hosted reports prove a complete private application audit. No claim of institutional certification or independent priority adjudication is made.
 
 Dependency qualification pins @receiz/sdk 126.0.0 and overrides its transitive Underscore dependency to 1.13.8 in the lockfile. SDK conformance passes with that patch; the dependency audit reports zero vulnerabilities at qualification time.
+
+## v1.0.1 correction successor
+
+This repository uses its own version: v1.0.1, compatible with Receiz v126.0.0. The previous public release v1.0.0 at commit `702af2c003d99e0c4611cef055fab58ed0a8e3a2` is preserved. Its attestation carried the earlier internal disclosure label; the original signed bytes remain in `history/v1.0.0-attestation.json`. This successor corrects the declared invariant count to the 55 actual entries and aligns package and attestation versions. No primitive or invariant was added or removed.
