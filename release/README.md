@@ -1,15 +1,11 @@
 # Disclosure release boundary
 
-Compatible product release: v126.0.0. Public product-history commit: `31e8f065d49c1ec60ddbdcf4f4b60f3de4b6403e` (verified on remote main and v126.0.0).
+Disclosure version: **1.1.0**. Compatible product release: **127.0.0**. Exact source coordinates are recorded in [source.json](source.json).
 
-The release payload binds the candidate commit and tree, the complete file inventory, public report snapshots, law registry, ontology and audit-tool source selection. The subsequent release commit adds the carried attestation only. This avoids a self-referential signature while preserving exact candidate identity. Future corrections require a successor release; never silently alter an existing evidence file or move its release tag.
+The owner-sealed payload binds the candidate commit and tree, complete file inventory, public report snapshots, law registry, ontology, public guides and unchanged read-only audit composition. The subsequent release commit adds only the carried attestation. The signature does not hash its own containing file. Corrections require a successor release; prior evidence and tags remain immutable.
 
-The audit tool reuses selected read-only functions from the existing Receiz governance verifier and the published @receiz/sdk 126.0.0. It does not introduce a signing service, authority keyring or new proof scheme. The designated identity is pinned independently of the supplied attestation.
+The audit tool reuses the existing Receiz governance verifier and published `@receiz/sdk@127.0.0`. It introduces no signing service, new root or new proof scheme. The designated bjklock identity remains pinned independently of the supplied attestation. Private custody stays outside this public repo.
 
-Captured report scope, incomplete census scope and dependency qualification remain explicit. Neither an unsigned digest nor passing hosted reports prove a complete private application audit. No claim of institutional certification or independent priority adjudication is made.
+The previous v1.0.1 release bytes and signature are preserved under [history/v1.0.1](history/v1.0.1/README.md); the original v1.0.0 signature remains preserved as well. The historical preparation tree is unchanged. Current release entry points are this directory and the root README.
 
-Dependency qualification pins @receiz/sdk 126.0.0 and overrides its transitive Underscore dependency to 1.13.8 in the lockfile. SDK conformance passes with that patch; the dependency audit reports zero vulnerabilities at qualification time.
-
-## v1.0.1 correction successor
-
-This repository uses its own version: v1.0.1, compatible with Receiz v126.0.0. The previous public release v1.0.0 at commit `702af2c003d99e0c4611cef055fab58ed0a8e3a2` is preserved. Its attestation carried the earlier internal disclosure label; the original signed bytes remain in `history/v1.0.0-attestation.json`. This successor corrects the declared invariant count to the 55 actual entries and aligns package and attestation versions. No primitive or invariant was added or removed.
+The SDK dependency remains exactly pinned; the existing transitive Underscore override remains 1.13.8. Qualification records describe the actual installed bytes. Hosted report capture, SDK conformance, local audit tests and sealed inventory verification are separate evidence boundaries. No complete private application audit or institutional certification is claimed.

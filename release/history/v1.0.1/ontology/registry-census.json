@@ -1,6 +1,6 @@
 {
   "schema": "receiz.offline-registry-census.v1",
-  "releaseVersion": "127.0.0",
+  "releaseVersion": "126.0.0",
   "scope": "Complete current constitutional registry. Counts executable predicates, not all product invariants or primitive inventions.",
   "lawEntries": 133,
   "distinctPredicates": 132,
@@ -1262,7 +1262,7 @@
       "predicateDigest": "c88825c58d73e4fff42b702dee8cdf2008a48309ef22775e2013d043d597111d"
     },
     {
-      "id": "release.current-version.v127",
+      "id": "release.current-version.v126",
       "code": "STALE_CURRENT_RELEASE_VERSION",
       "phases": [
         "command",
@@ -1270,10 +1270,10 @@
         "admission",
         "migration"
       ],
-      "predicateDigest": "8e6e52b273d92b8fcb9e15a0e82f0bbea23e2590260fde8b2f6d3768eec52320"
+      "predicateDigest": "1ef8e8170f25ef388e7a8f7b3dd31cc718ce11b7ae90dae19eeb417003b6cd18"
     },
     {
-      "id": "release.coordinated-identity.v127",
+      "id": "release.coordinated-identity.v126",
       "code": "COORDINATED_RELEASE_IDENTITY_REQUIRED",
       "phases": [
         "command",

@@ -1,0 +1,15 @@
+{
+  "schema": "receiz.disclosure.source.v1",
+  "disclosureVersion": "1.1.0",
+  "compatibleProductVersion": "127.0.0",
+  "productHistory": {
+    "repository": "https://github.com/kojibai/receiz_offline_verifier",
+    "tag": "v127.0.0",
+    "commit": "ff9227ff93ba2510399967a5382341978d95e1ae"
+  },
+  "previousDisclosure": {
+    "version": "1.0.1",
+    "commit": "4a77b01b1b7ab2ff2c53726cc0bda13b3f93f688"
+  },
+  "scope": "Public disclosure inventory, captured endpoint evidence, selected public SDK documentation and existing read-only audit composition. Not a full private-code audit or exhaustive current primitive census."
+}

@@ -1,11 +1,11 @@
 
-> receiz-reality-grade-infrastructure@1.1.0 conformance:sdk
+> receiz-reality-grade-infrastructure@126.0.0 conformance:sdk
 > receiz conformance
 
 {
   "ok": true,
   "schema": "receiz.sdk.conformance_report.v1",
-  "sdkVersion": "127.0.0",
+  "sdkVersion": "126.0.0",
   "checks": [
     {
       "id": "browser_runtime",
@@ -89,8 +89,8 @@
       "id": "package_compatibility",
       "status": "pass",
       "evidence": {
-        "sdk": ">=127.0.0 <128.0.0",
-        "mcp": ">=127.0.0 <128.0.0",
+        "sdk": ">=126.0.0 <127.0.0",
+        "mcp": ">=126.0.0 <127.0.0",
         "workspaceDependencies": 0
       },
       "authorityBoundary": "qualification-evidence-beneath-sealed-receiz-proof-object-truth"
@@ -163,7 +163,7 @@
     "fixtures": 3,
     "proofMemoryEntries": 0
   },
-  "evidenceDigest": "9b68ce23e366c055966be7544ad12e57c6bfe1e9cf2ac1c5606644048f519070",
+  "evidenceDigest": "54e00fffb919dee06ee58e09fa4928fc355eca5bc044c89837e76b17361bed91",
   "authority": {
     "qualificationIsVerification": false,
     "strongerTruth": "sealed-receiz-proof-object",

@@ -1,0 +1,60 @@
+{
+  "schema": "receiz.release_package_publication_evidence.v1",
+  "releaseVersion": "127.0.0",
+  "observedAt": "2026-09-24T03:01:50.949Z",
+  "registry": "https://registry.npmjs.org",
+  "packages": [
+    {
+      "name": "@receiz/ai-skills",
+      "version": "127.0.0",
+      "publishedAt": "2026-09-24T02:35:13.090Z",
+      "distTagLatest": "127.0.0",
+      "tarball": "https://registry.npmjs.org/@receiz/ai-skills/-/ai-skills-127.0.0.tgz",
+      "integrity": "sha512-xU5w5QKtafrX4BPdtlwoU3ZHFlX/DAXRCZiMRJjhO7kpHnDcitBxxtrupIuCyUzMl07oqJ0uUJADXsplQP4pkg==",
+      "shasum": "b6505cd8864c88800c9cb8c02e6bfa0c49dca8a1",
+      "unpackedSize": 4056425,
+      "fileCount": 267,
+      "dependencies": {}
+    },
+    {
+      "name": "@receiz/sdk",
+      "version": "127.0.0",
+      "publishedAt": "2026-09-24T02:44:01.593Z",
+      "distTagLatest": "127.0.0",
+      "tarball": "https://registry.npmjs.org/@receiz/sdk/-/sdk-127.0.0.tgz",
+      "integrity": "sha512-2W9UrDb4pCVyjk82JItf2XFx3G11tCJJTHFFmV0QL3uojTEeGJqPZ0FOc14ZPa7JLAcuwyBFQCYD8P0a8OIiaA==",
+      "shasum": "4bdee5671372f714914f515c47072c2fd17e7892",
+      "unpackedSize": 8448000,
+      "fileCount": 704,
+      "dependencies": {
+        "fflate": "^0.8.3",
+        "snarkjs": "^0.7.6",
+        "hash-wasm": "^4.12.0",
+        "@noble/hashes": "^2.3.0",
+        "@receiz/ai-skills": "127.0.0"
+      }
+    },
+    {
+      "name": "@receiz/mcp-server",
+      "version": "127.0.0",
+      "publishedAt": "2026-09-24T02:41:31.833Z",
+      "distTagLatest": "127.0.0",
+      "tarball": "https://registry.npmjs.org/@receiz/mcp-server/-/mcp-server-127.0.0.tgz",
+      "integrity": "sha512-lXKr/XRMZ2pA/jXCTI+Dxk51JuMYjKUFugnlVFOBQaBEM0ZuLilgdfXl1O1CZi/FTiC+hE8mzTZ7KbZA6VJZ8Q==",
+      "shasum": "7f6da8b60eebbd1ea8d348f381247a653df03785",
+      "unpackedSize": 1024931,
+      "fileCount": 82,
+      "dependencies": {
+        "@receiz/sdk": "127.0.0",
+        "@receiz/ai-skills": "127.0.0"
+      }
+    }
+  ],
+  "claimBoundary": "Registry publication, integrity and clean external dependency resolution verified. MCP strict declaration portability requires the exact alias workaround documented in the migration guide. Deployment and attestation are separate checks.",
+  "cleanInstall": {
+    "command": "npm install --ignore-scripts --no-audit --no-fund @receiz/ai-skills@127.0.0 @receiz/sdk@127.0.0 @receiz/mcp-server@127.0.0",
+    "result": "pass",
+    "installedPackages": 41,
+    "workspaceDependencies": 0
+  }
+}

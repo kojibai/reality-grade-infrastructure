@@ -1,13 +1,13 @@
 {
-  "capturedAt": "2026-09-24T03:35:28.971Z",
-  "scope": "Public endpoint reports captured as returned; not a claim that this disclosure independently reran private application tests. Each report retains its own revision and historical schema.",
+  "capturedAt": "2026-09-08T20:58:25.251727+00:00",
+  "scope": "Public endpoint reports captured as returned; not a claim that this disclosure independently reran private application tests.",
   "reports": [
     {
       "suite": "economy",
       "url": "https://receiz.com/api/economy/conformance",
-      "sha256": "f16246eef903180c3ec644d00d5362cfa906ddafc62b9f495595ba193da2cd13",
+      "sha256": "996140af3d9ccbe6ac70f46829e67778337e8bc357b58d3f4dfee9d98b228f3a",
       "revision": {
-        "hash": "75507d5389b0e3136af7d4548c02e84dacb54205ab6caf5ace4c87f5b6f2d535",
+        "hash": "f4e8603d652326e53b730701283a6c0e617e622662111d7e7e3e808df923a3e2",
         "sourceDigestCount": 11
       },
       "summary": {
@@ -19,13 +19,12 @@
         "passChecks": 23,
         "warnChecks": 0,
         "failChecks": 0
-      },
-      "overallStatus": "pass"
+      }
     },
     {
       "suite": "identity",
       "url": "https://receiz.com/api/identity/conformance",
-      "sha256": "bd8cc45959de4fca7f3575214460a053f1775773076d3bf69e341e7b0a512246",
+      "sha256": "91b708b9f92d82a8137232b4d0c2feba81df9756092b3920e00b491ab696fa99",
       "revision": {
         "hash": "e5456ad1736a98f0be90119d29bf4ad48538bd7fa8044482275b00dc19f62032",
         "sourceDigestCount": 24
@@ -39,15 +38,14 @@
         "passChecks": 50,
         "warnChecks": 0,
         "failChecks": 0
-      },
-      "overallStatus": "pass"
+      }
     },
     {
       "suite": "interoperability",
       "url": "https://receiz.com/api/interoperability/conformance",
-      "sha256": "447c56156a8a088b59fc91d13373c811054dd7ddc697d6fcb7ff0935e6d056fe",
+      "sha256": "5a7db2a2d140c93b969a8e45979547a75b8dfb4828c81cb34a6b0b6434deb7c4",
       "revision": {
-        "hash": "751254166c33f14d444d5446d3594b9fb561ee5b40edae09e19d2c639b142190",
+        "hash": "13975b04608c078844741053e34a2a9ea094b58bae161ab82eb324b0d8a9a969",
         "sourceDigestCount": 10
       },
       "summary": {
@@ -59,13 +57,12 @@
         "passChecks": 29,
         "warnChecks": 0,
         "failChecks": 0
-      },
-      "overallStatus": "pass"
+      }
     },
     {
       "suite": "issuance",
       "url": "https://receiz.com/api/issuance/conformance",
-      "sha256": "369c5bf85820a4305c209d64aff3e490ad91622ec537db2f39f9e365adbeea86",
+      "sha256": "1d4f8b79ee2ed11b226e15c3fa5b250ac8dde346820bee1b5f91e3bb5ad8719a",
       "revision": {
         "hash": "e34ea69f29cd5a277bdc700acf36ed0f0cdeabfb8c873d8134e555aaade5246c",
         "sourceDigestCount": 22
@@ -79,15 +76,14 @@
         "passChecks": 47,
         "warnChecks": 0,
         "failChecks": 0
-      },
-      "overallStatus": "pass"
+      }
     },
     {
       "suite": "market",
       "url": "https://receiz.com/api/market/conformance",
-      "sha256": "7bdbb3afdbe26fb9cec091c3aec015f568c2eb9929f043fa42a635a22c4f663c",
+      "sha256": "040f524506e9fc8302cca86fbc535fc8a06def822af1d657c2d06c9a60707057",
       "revision": {
-        "hash": "70365f9103ebab416b9110f2ac4e113875713cbafdea990c61bdf482fe612878",
+        "hash": "d9db1383881fa2d710ff22c6ce212a83d93592d640531cae29b2a8b1feb3b081",
         "sourceDigestCount": 33
       },
       "summary": {
@@ -99,15 +95,14 @@
         "passChecks": 40,
         "warnChecks": 0,
         "failChecks": 0
-      },
-      "overallStatus": "pass"
+      }
     },
     {
       "suite": "signal-circuit",
       "url": "https://receiz.com/api/signal-circuit/conformance",
-      "sha256": "70426c08870e757cec5945c1fa081c273a7edea6592159c71a846c399af8ae79",
+      "sha256": "1e703d2c347d0ef0540547284fecf3e501727174a80249fb1c5957171f378334",
       "revision": {
-        "hash": "cbb15a640e05d0bd5684df0f29a4109f2a9f90b774aa9309a6e2490f017bfb4a",
+        "hash": "810b10cd7a644fd6241ebc235152c9fdb7db18fa64f9fb94cf525220d245826d",
         "sourceDigestCount": 79
       },
       "summary": {
@@ -119,15 +114,14 @@
         "passChecks": 40,
         "warnChecks": 0,
         "failChecks": 0
-      },
-      "overallStatus": "pass"
+      }
     },
     {
       "suite": "sports",
       "url": "https://receiz.com/api/game/sports/conformance",
-      "sha256": "5a7c3b9bd6ef841e8a8d9159a39f5cb9ed2c4b4dcf46dfc8519e6d70911b1e99",
+      "sha256": "67cd1c0d8e58f94d3222e006f3e53db32fa8c669325784b55f850aa70f75c18f",
       "revision": {
-        "hash": "f4b268afc4511b1bde0e050f253f4f072f8660171c2971d175a058fd0d264ba0",
+        "hash": "f85db1ba4f2dd9dc5d93077e04464c22dd75f4649eb555247ad4747a65d1ac60",
         "sourceDigestCount": 92
       },
       "summary": {
@@ -139,15 +133,14 @@
         "passChecks": 57,
         "warnChecks": 0,
         "failChecks": 0
-      },
-      "overallStatus": "pass"
+      }
     },
     {
       "suite": "temporal",
       "url": "https://receiz.com/api/temporal/conformance",
-      "sha256": "7bf9a66ef4ff7245475f6c329245b697f7c5b6353ab1660a5bae4d958fb81298",
+      "sha256": "7ad307e0dbd43ad5e47c42fb7fd9edeb61f7a2905ea641fb6ca4e14a7f915f57",
       "revision": {
-        "hash": "5b84a35faf6e6bbc381a47a3faecb1ebc9a82c8b1bd246677ea9631d84f42da5",
+        "hash": "cf27ede4fd8539dc28d9a3fd5fd94c1bb7d747d734833e24f6f040088528ead5",
         "sourceDigestCount": 0
       },
       "summary": {
@@ -159,13 +152,12 @@
         "passChecks": 11,
         "warnChecks": 0,
         "failChecks": 0
-      },
-      "overallStatus": "pass"
+      }
     },
     {
       "suite": "verification",
       "url": "https://receiz.com/api/verification/conformance",
-      "sha256": "60dd6daeb046732e3ed4eb9eed2223f6c48e49c3fa720c123d42123a6e874323",
+      "sha256": "38ef0386b3a88529e9ab78aaeabe0ea58b74e5d16312f4801fa6125b729503f1",
       "revision": {
         "hash": "8af967c0bf3ca5eccb922e0f7ac073d1bb53bb02f33ab7326d42da5fc90ddd5d",
         "sourceDigestCount": 9
@@ -179,13 +171,12 @@
         "passChecks": 36,
         "warnChecks": 0,
         "failChecks": 0
-      },
-      "overallStatus": "pass"
+      }
     },
     {
       "suite": "world",
       "url": "https://receiz.com/api/world/conformance",
-      "sha256": "a5051d4ac99af6a07560edec52a92742a0b1570adbb408270b4240c30e0fe944",
+      "sha256": "6faacd71b21f5b12898a1bc641858284b8ef810befb9509393148a1850d363f3",
       "revision": {
         "hash": "af644a4f61421351fb7ea2fcf704c947a8b2c26660992fb772368a1d2fce642b",
         "sourceDigestCount": 24
@@ -199,8 +190,7 @@
         "passChecks": 35,
         "warnChecks": 0,
         "failChecks": 0
-      },
-      "overallStatus": "pass"
+      }
     }
   ]
 }

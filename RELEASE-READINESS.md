@@ -1,9 +1,18 @@
-# Release gate
+# Disclosure v1.1.0 release gate
 
-The offline-verifier public main and v126.0.0 tag were verified at `31e8f065d49c1ec60ddbdcf4f4b60f3de4b6403e`.
+Compatible product release: Receiz127. The exact product-history source is recorded in [release/source.json](release/source.json). The prior signed v1.0.1 inventory passed verification before preparation of this successor.
 
-Ten captured public conformance reports pass. Published SDK conformance passes. Eight existing governance tests pass. The final disclosure gate requires the release attestation and exact inventory to pass `npm run verify:release`; without that artifact, this checkout is not publication-qualified.
+Required gates:
 
-The signer is the designated owner-held Receiz identity, not Git signing configuration. Private custody remains outside this repository. The original preparation verifier intentionally cannot authorize a release.
+```sh
+npm ci --ignore-scripts
+npm test
+npm run conformance:sdk
+npm run verify:release
+```
 
-Local disclosure qualification: seven public audit tests pass, including altered identity/source/purpose and inventory rejection. Public verification uses the published SDK with the lockfile above.
+The candidate is committed cleanly before signing. The designated bjklock Identity Seal remains in private custody outside this repository. The existing governance verifier checks the carried owner proof and exact inventory. Only the attestation is added in the following release commit. A candidate without a passing final attestation is not publication-qualified.
+
+Ten fresh hosted conformance reports are captured with byte digests in `release/evidence/index.json`. They are captured reports, not independently rerun private application tests. SDK conformance output is retained separately. The historical preparation tree and prior release remain intact.
+
+Candidate qualification: all 12 public audit and disclosure tests pass; all ten captured reports return pass; installed SDK127 conformance passes; the locked dependency audit reports zero vulnerabilities. These are the recorded results in `release/evidence/`. Final release admission still requires the generated owner-sealed inventory to pass `npm run verify:release`.
