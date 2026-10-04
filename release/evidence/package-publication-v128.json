@@ -1,0 +1,53 @@
+{
+  "schema": "receiz.release_package_publication_evidence.v1",
+  "releaseVersion": "128.0.0",
+  "observedAt": "2026-10-04T02:23:16.858939+00:00",
+  "registry": "https://registry.npmjs.org",
+  "packages": [
+    {
+      "name": "@receiz/ai-skills",
+      "version": "128.0.0",
+      "publishedAt": "2026-10-04T01:54:41.029Z",
+      "distTagLatest": "128.0.0",
+      "tarball": "https://registry.npmjs.org/@receiz/ai-skills/-/ai-skills-128.0.0.tgz",
+      "integrity": "sha512-6RJElcr5b1465DNt+64RwrIhjtzw4Af29qzuTnkN6bryihoOQ7pYINBQgV8d4MEk4weLrcwAf9F6FXX57CVyDA==",
+      "shasum": "056746d513d685c444a019be31ef54a8a64e2b4d",
+      "unpackedSize": 4069417,
+      "fileCount": 267,
+      "dependencies": {}
+    },
+    {
+      "name": "@receiz/sdk",
+      "version": "128.0.0",
+      "publishedAt": "2026-10-04T02:03:44.551Z",
+      "distTagLatest": "128.0.0",
+      "tarball": "https://registry.npmjs.org/@receiz/sdk/-/sdk-128.0.0.tgz",
+      "integrity": "sha512-kS2yyYN6KJm7qdKqwdydk8NWjeUd49b+tx8AY0eD09us1eNfTgpKc3Ldjuh22huL5fvX7yAWkLw2YHT7t9mv5A==",
+      "shasum": "1d0d45977f67860305c99cae7b3fcfe0188ddc91",
+      "unpackedSize": 8468026,
+      "fileCount": 707,
+      "dependencies": {
+        "fflate": "^0.8.3",
+        "snarkjs": "^0.7.6",
+        "hash-wasm": "^4.12.0",
+        "@noble/hashes": "^2.3.0",
+        "@receiz/ai-skills": "128.0.0"
+      }
+    },
+    {
+      "name": "@receiz/mcp-server",
+      "version": "128.0.0",
+      "publishedAt": "2026-10-04T02:08:28.268Z",
+      "distTagLatest": "128.0.0",
+      "tarball": "https://registry.npmjs.org/@receiz/mcp-server/-/mcp-server-128.0.0.tgz",
+      "integrity": "sha512-c+XmDYYhFaYlgoZ/eRzJHMwGu9kgKBMP3ZrArq+CJNNpyT2sBDT5FlGxt1RpmZEuHOvgBQFyleXoWYlKjAPpDA==",
+      "shasum": "61409b04a2ead29ec75f43c7792f00887c09ebfd",
+      "unpackedSize": 1414996,
+      "fileCount": 142,
+      "dependencies": {
+        "@receiz/sdk": "128.0.0",
+        "@receiz/ai-skills": "128.0.0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Receiz Disclosure and Audit License 1.0
+Copyright (c) 2026 Receiz. All rights reserved except as expressly granted below.
+
+Scope. This license covers the documentation, audit tools and release evidence added to this disclosure repository. Separately identified third-party materials and separately distributed Receiz SDK, MCP and offline-verifier packages retain their own licenses. This license does not change those grants.
+
+Permission. You may access, download, retain and reproduce these materials for inspection, verification, research, security review and developing integrations with separately licensed Receiz interfaces. You may execute and adapt the audit tools locally for those purposes. You may publish your audit findings and reasonable attributed excerpts, and redistribute unmodified copies of this disclosure with this license and all notices intact.
+
+Reserved rights. No permission is granted to sublicense these materials, distribute modified versions as an official Receiz release, incorporate the disclosed audit implementation into another distributed product, or use Receiz trademarks, logos or trade dress to imply affiliation, approval or certification. No license to undisclosed proprietary implementation or patent rights is granted. Other uses require prior written permission from the rights holder. Rights granted by applicable law remain unaffected.
+
+Integrity. Preserve attribution and source references. Identify independent findings as your own. Do not misrepresent modified evidence, a failed result, or an unsigned inventory as an authenticated Receiz release.
+
+Disclaimer. THE MATERIALS ARE PROVIDED AS IS, WITHOUT WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT. TO THE EXTENT PERMITTED BY LAW, THE RIGHTS HOLDERS ARE NOT LIABLE FOR DAMAGES ARISING FROM THEIR USE. This disclosure does not certify an integration or transfer operational responsibility for applications built with public interfaces.

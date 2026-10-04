@@ -1,0 +1,69 @@
+{
+  "schema": "receiz.disclosure-preparation.v1",
+  "status": "preparation",
+  "releaseIdentity": null,
+  "privateProjectionAttestationSha256": null,
+  "treeSha256": "fc8d2da90e01623bd5dd1b42d3a097dd30fabb701b0548224ef21583d7279f0a",
+  "files": [
+    {
+      "componentId": "preparation.audit-scope",
+      "destination": "AUDIT-SCOPE.md",
+      "bytes": 2466,
+      "sha256": "54822de40ea9453026427cb929724614d005a561d8b0b67e14d865af15b397ef"
+    },
+    {
+      "componentId": "preparation.building",
+      "destination": "BUILDING.md",
+      "bytes": 3610,
+      "sha256": "e357a5edea1f7b052aedfe81af59a2927d7bd3faf16a350e71fa52b510601d88"
+    },
+    {
+      "componentId": "preparation.contributing",
+      "destination": "CONTRIBUTING.md",
+      "bytes": 904,
+      "sha256": "4c6071be91ab0a3370027321fd8ec21e7a24cc8f136defd2bfdb0b6f198a8e42"
+    },
+    {
+      "componentId": "preparation.readme",
+      "destination": "README.md",
+      "bytes": 5371,
+      "sha256": "a8b5bba21d4056fd80e87f8a79ee1d5a777d3db1b234c60d99dd7b921cd4bb86"
+    },
+    {
+      "componentId": "preparation.reproducibility",
+      "destination": "REPRODUCIBILITY.md",
+      "bytes": 2273,
+      "sha256": "b1751b41c8c2ce88a02e9a4268cdf85cf69774b6eefee7af11e13b0c12f0dc9f"
+    },
+    {
+      "componentId": "preparation.security",
+      "destination": "SECURITY.md",
+      "bytes": 776,
+      "sha256": "e66a25434ec3da327227954d8dedf471620dd2c4dfa39dd57fac27189a7e519c"
+    },
+    {
+      "componentId": "preparation.package",
+      "destination": "package.json",
+      "bytes": 255,
+      "sha256": "68b58eed702805386276fffa92bb0b52c1ae9b189007ed5a55a5083a3a947ca4"
+    },
+    {
+      "componentId": "standard.authority-model",
+      "destination": "standard/authority-model.md",
+      "bytes": 954,
+      "sha256": "2342ee11caddfc59e3f4905d96e63295930e966b382558082016754e2db82fb3"
+    },
+    {
+      "componentId": "preparation.tools.check-sdk",
+      "destination": "tools/check-sdk.mjs",
+      "bytes": 793,
+      "sha256": "6b2c57412a43bee4aaabc4ec1064ecfc4e7be598b52315d38afa1382f50feec2"
+    },
+    {
+      "componentId": "tools.disclosure-integrity",
+      "destination": "tools/verify-disclosure.mjs",
+      "bytes": 4380,
+      "sha256": "b374ca1e00ae180d01cc115cd0f738cda17b0e56722cf798477b2e33274d0f3b"
+    }
+  ]
+}

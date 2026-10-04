@@ -1,0 +1,25 @@
+
+> receiz-reality-grade-infrastructure@1.2.0 test
+> node --test test/*.test.mjs
+
+✔ current registry, predecessor, census and catalog bind the installed SDK128 with inherited v127 registry (6.693458ms)
+✔ ten captured reports bind exact returned bytes and retain successful status (4.224792ms)
+✔ prior owner-sealed release and all archived release bytes verify offline (19.469959ms)
+✔ public source and coordinated package evidence preserve independent versions (0.748958ms)
+✔ v1.1.0 complete signed inventory remains byte-exact (30.912208ms)
+✔ published SDK verifies held governance with network forbidden (9.362458ms)
+✔ rejects substituted identity (0.754875ms)
+✔ rejects changed source digest (0.619291ms)
+✔ rejects changed signed date (0.282584ms)
+✔ rejects extra source field (0.145167ms)
+✔ rejects wrong purpose (0.296042ms)
+✔ inventory changes on altered or added bytes (2.013083ms)
+✔ foundation declaration equals its 55 numbered entries (0.463875ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 218.812208

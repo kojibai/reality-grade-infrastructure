@@ -1,0 +1,196 @@
+{
+  "capturedAt": "2026-09-08T20:58:25.251727+00:00",
+  "scope": "Public endpoint reports captured as returned; not a claim that this disclosure independently reran private application tests.",
+  "reports": [
+    {
+      "suite": "economy",
+      "url": "https://receiz.com/api/economy/conformance",
+      "sha256": "996140af3d9ccbe6ac70f46829e67778337e8bc357b58d3f4dfee9d98b228f3a",
+      "revision": {
+        "hash": "f4e8603d652326e53b730701283a6c0e617e622662111d7e7e3e808df923a3e2",
+        "sourceDigestCount": 11
+      },
+      "summary": {
+        "requirementCount": 28,
+        "checkCount": 23,
+        "passRequirements": 28,
+        "warnRequirements": 0,
+        "failRequirements": 0,
+        "passChecks": 23,
+        "warnChecks": 0,
+        "failChecks": 0
+      }
+    },
+    {
+      "suite": "identity",
+      "url": "https://receiz.com/api/identity/conformance",
+      "sha256": "91b708b9f92d82a8137232b4d0c2feba81df9756092b3920e00b491ab696fa99",
+      "revision": {
+        "hash": "e5456ad1736a98f0be90119d29bf4ad48538bd7fa8044482275b00dc19f62032",
+        "sourceDigestCount": 24
+      },
+      "summary": {
+        "requirementCount": 26,
+        "checkCount": 50,
+        "passRequirements": 26,
+        "warnRequirements": 0,
+        "failRequirements": 0,
+        "passChecks": 50,
+        "warnChecks": 0,
+        "failChecks": 0
+      }
+    },
+    {
+      "suite": "interoperability",
+      "url": "https://receiz.com/api/interoperability/conformance",
+      "sha256": "5a7db2a2d140c93b969a8e45979547a75b8dfb4828c81cb34a6b0b6434deb7c4",
+      "revision": {
+        "hash": "13975b04608c078844741053e34a2a9ea094b58bae161ab82eb324b0d8a9a969",
+        "sourceDigestCount": 10
+      },
+      "summary": {
+        "requirementCount": 23,
+        "checkCount": 29,
+        "passRequirements": 23,
+        "warnRequirements": 0,
+        "failRequirements": 0,
+        "passChecks": 29,
+        "warnChecks": 0,
+        "failChecks": 0
+      }
+    },
+    {
+      "suite": "issuance",
+      "url": "https://receiz.com/api/issuance/conformance",
+      "sha256": "1d4f8b79ee2ed11b226e15c3fa5b250ac8dde346820bee1b5f91e3bb5ad8719a",
+      "revision": {
+        "hash": "e34ea69f29cd5a277bdc700acf36ed0f0cdeabfb8c873d8134e555aaade5246c",
+        "sourceDigestCount": 22
+      },
+      "summary": {
+        "requirementCount": 28,
+        "checkCount": 47,
+        "passRequirements": 28,
+        "warnRequirements": 0,
+        "failRequirements": 0,
+        "passChecks": 47,
+        "warnChecks": 0,
+        "failChecks": 0
+      }
+    },
+    {
+      "suite": "market",
+      "url": "https://receiz.com/api/market/conformance",
+      "sha256": "040f524506e9fc8302cca86fbc535fc8a06def822af1d657c2d06c9a60707057",
+      "revision": {
+        "hash": "d9db1383881fa2d710ff22c6ce212a83d93592d640531cae29b2a8b1feb3b081",
+        "sourceDigestCount": 33
+      },
+      "summary": {
+        "requirementCount": 18,
+        "checkCount": 40,
+        "passRequirements": 18,
+        "warnRequirements": 0,
+        "failRequirements": 0,
+        "passChecks": 40,
+        "warnChecks": 0,
+        "failChecks": 0
+      }
+    },
+    {
+      "suite": "signal-circuit",
+      "url": "https://receiz.com/api/signal-circuit/conformance",
+      "sha256": "1e703d2c347d0ef0540547284fecf3e501727174a80249fb1c5957171f378334",
+      "revision": {
+        "hash": "810b10cd7a644fd6241ebc235152c9fdb7db18fa64f9fb94cf525220d245826d",
+        "sourceDigestCount": 79
+      },
+      "summary": {
+        "requirementCount": 13,
+        "checkCount": 40,
+        "passRequirements": 13,
+        "warnRequirements": 0,
+        "failRequirements": 0,
+        "passChecks": 40,
+        "warnChecks": 0,
+        "failChecks": 0
+      }
+    },
+    {
+      "suite": "sports",
+      "url": "https://receiz.com/api/game/sports/conformance",
+      "sha256": "67cd1c0d8e58f94d3222e006f3e53db32fa8c669325784b55f850aa70f75c18f",
+      "revision": {
+        "hash": "f85db1ba4f2dd9dc5d93077e04464c22dd75f4649eb555247ad4747a65d1ac60",
+        "sourceDigestCount": 92
+      },
+      "summary": {
+        "requirementCount": 24,
+        "checkCount": 57,
+        "passRequirements": 24,
+        "warnRequirements": 0,
+        "failRequirements": 0,
+        "passChecks": 57,
+        "warnChecks": 0,
+        "failChecks": 0
+      }
+    },
+    {
+      "suite": "temporal",
+      "url": "https://receiz.com/api/temporal/conformance",
+      "sha256": "7ad307e0dbd43ad5e47c42fb7fd9edeb61f7a2905ea641fb6ca4e14a7f915f57",
+      "revision": {
+        "hash": "cf27ede4fd8539dc28d9a3fd5fd94c1bb7d747d734833e24f6f040088528ead5",
+        "sourceDigestCount": 0
+      },
+      "summary": {
+        "requirementCount": 11,
+        "checkCount": 11,
+        "passRequirements": 11,
+        "warnRequirements": 0,
+        "failRequirements": 0,
+        "passChecks": 11,
+        "warnChecks": 0,
+        "failChecks": 0
+      }
+    },
+    {
+      "suite": "verification",
+      "url": "https://receiz.com/api/verification/conformance",
+      "sha256": "38ef0386b3a88529e9ab78aaeabe0ea58b74e5d16312f4801fa6125b729503f1",
+      "revision": {
+        "hash": "8af967c0bf3ca5eccb922e0f7ac073d1bb53bb02f33ab7326d42da5fc90ddd5d",
+        "sourceDigestCount": 9
+      },
+      "summary": {
+        "requirementCount": 26,
+        "checkCount": 36,
+        "passRequirements": 26,
+        "warnRequirements": 0,
+        "failRequirements": 0,
+        "passChecks": 36,
+        "warnChecks": 0,
+        "failChecks": 0
+      }
+    },
+    {
+      "suite": "world",
+      "url": "https://receiz.com/api/world/conformance",
+      "sha256": "6faacd71b21f5b12898a1bc641858284b8ef810befb9509393148a1850d363f3",
+      "revision": {
+        "hash": "af644a4f61421351fb7ea2fcf704c947a8b2c26660992fb772368a1d2fce642b",
+        "sourceDigestCount": 24
+      },
+      "summary": {
+        "requirementCount": 20,
+        "checkCount": 35,
+        "passRequirements": 20,
+        "warnRequirements": 0,
+        "failRequirements": 0,
+        "passChecks": 35,
+        "warnChecks": 0,
+        "failChecks": 0
+      }
+    }
+  ]
+}

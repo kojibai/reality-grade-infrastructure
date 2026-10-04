@@ -1,0 +1,9 @@
+{
+  "name": "reality-grade-infrastructure-preparation",
+  "version": "0.0.0-preparation",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": { "verify:disclosure": "node tools/verify-disclosure.mjs ." },
+  "dependencies": {}
+}

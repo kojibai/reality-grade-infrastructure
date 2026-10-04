@@ -1,0 +1,7440 @@
+{
+  "schema": "receiz.public-capability-catalog.v1",
+  "releaseVersion": "127.0.0",
+  "source": "Published SDK and MCP capability inventories",
+  "scope": "Public callable names; not credentials, private records, deployment configuration, or proof authority.",
+  "execution": "SDK exports and client methods are separate from MCP tools. An inventory entry does not grant access or create an MCP adapter. Each operation retains its proof, consent, custody, scope, and environment requirements.",
+  "links": {
+    "sdk": "/developers",
+    "mcp": "/developers/mcp",
+    "http": "/developers/openapi",
+    "status": "/status",
+    "conformance": "/conformance",
+    "release": "https://docs.receiz.com/releases/v127.0.0"
+  },
+  "entries": [
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-app-builder-skill",
+      "description": "Use when starting, integrating, upgrading, diagnosing, or repairing a TypeScript or Next.js repository that uses Receiz application contracts, SDK compiler commands, generated files, or MCP app tools."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-architecture",
+      "description": "Use when inspecting or changing Receiz domains, system boundaries, truth hierarchy, state machines, or constitutional architecture."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-attestation-lifecycle",
+      "description": "Use when building or verifying generic Receiz attestations, credentials, selective presentations, holder-presence ceremonies, subject coordination, or typed external execution."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-authority-security",
+      "description": "Use when work touches capabilities, identity, PBI, tenancy, ownership, settlement, secrets, delegated access, or authority escalation."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-autonomous-mandate",
+      "description": "Use when planning, activating, pausing, revoking, or explaining a digest-bound policy for bounded autonomous subject execution."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-bearer-ownership",
+      "description": "Use when claiming a qualifying Receiz bearer proof object from a complete verified artifact and returning its new native sealed artifact."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-build-production-system",
+      "description": "Use when building or materially changing a production Receiz application across multiple constitutional domains."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-builder-skill",
+      "description": "Use when an agent must build or modify Receiz-native apps, storefronts, marketplaces, proof pages, pack apps, profile vaults, claim flows, QR entry flows, templates, or custom domain apps with the Receiz SDK."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-causal-sync",
+      "description": "Use when implementing multi-device synchronization, partitions, causal ordering, conflicts, retries, merge, or regional convergence."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-command-builder",
+      "description": "Use when adding or changing Receiz commands, admitted events, transactions, receipts, or canonical mutation paths."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-commerce-skill",
+      "description": "Use when an agent must create, explain, inspect, or verify Receiz commerce surfaces, product proof objects, storefronts, no-database stores, checkout boundaries, buyer/seller language, product ownership, or receipt proof."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-constitutional-laws",
+      "description": "Use when defining, versioning, explaining, covering, or changing executable Receiz laws and rulesets."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-cross-app-state",
+      "description": "Use when carrying verified namespaced account state between Receiz applications without a shared app database or identity fork."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-deterministic-replay",
+      "description": "Use when implementing or diagnosing history replay, checkpoints, receipts, projections, equivalence, or deterministic simulation."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-distribution-skill",
+      "description": "Use when an agent must create, explain, or operate Receiz QR activation, Pack Derby, venue activation, restaurant or bar playbooks, affiliate boundaries, staff scripts, conversion language, or physical-to-proof distribution."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-domain-builder",
+      "description": "Use when creating or extending a Receiz domain, aggregate, event model, projection, schema, or generated domain scaffold."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-event-derived-memory",
+      "description": "Use when querying, projecting, citing, compacting, exporting, or rebuilding subject memory from admitted proof events."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-global-reconciliation",
+      "description": "Use when resolving a named Receiz coordination-domain head, reconciling independently verified offline history, handling structural divergence or contention, recovering an indeterminate attempt, or inspecting acceptance and effects without delaying known-artifact first paint."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-identity-profile",
+      "description": "Use when checking username availability or updating a Receiz profile through the authenticated same-account v120 operation."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-live-proof-character",
+      "description": "Use when streaming a proof-grounded character with low-latency speech, audio, visemes, gaze, emotion, gesture, and structured intentions."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-living-subject",
+      "description": "Use when creating, resolving, transferring, exporting, importing, or extending a proof-native creature, character, vehicle, agent, or collectible with immutable identity."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-mcp-agent-skill",
+      "description": "Use when an agent has or needs Receiz MCP tool access for verification routing, public reads, app-state actions, proof inspection, storefront operations, sports proof inspection, deterministic previews, or delegated writes."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-migrations",
+      "description": "Use when upgrading Receiz schemas, commands, events, projections, rulesets, registries, artifacts, or applications to the active v120 contract."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-multi-subject-transaction",
+      "description": "Use when a meeting, mutual relationship, battle, gift, or trade must modify two or more proof histories atomically."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-observability",
+      "description": "Use when adding or reviewing logs, traces, metrics, diagnostics, incident evidence, audit records, or privacy-safe telemetry."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-offline-command",
+      "description": "Use when durably queuing Receiz transport intent while preserving verified local truth and refusing to call queue settlement proof admission."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-offline-first",
+      "description": "Use when implementing offline creation, verified local truth, reconnect, outbox, first paint, or device continuity."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-offline-verifier-skill",
+      "description": "Use when an agent must verify, explain, debug, or build Receiz offline verification for local files, sealed artifacts, manifests, embedded proof, airplane-mode workflows, or artifact-over-server truth boundaries."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-performance",
+      "description": "Use when measuring or changing first paint, registry loading, admission latency, replay, bundles, memory, or mobile execution."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-portable-artifacts",
+      "description": "Use when creating, importing, exporting, inspecting, signing, or verifying portable Receiz proof objects and sealed files."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-portable-continuity",
+      "description": "Use when restoring Record, Seal, Key, or Vault account truth and carrying verified additions across devices without a weaker reconciliation authority."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-proof-authority",
+      "description": "Use when exchanging a verified Receiz proof object for narrow application authority without a website redirect."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-proof-media",
+      "description": "Use when creating native Receiz proof media, preserving its exact artifact bytes, or projecting its verified public URL onto the authenticated profile."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-proof-skill",
+      "description": "Use when an agent must verify, inspect, explain, or report on Receiz proof objects, cards, packs, products, posts, receipts, vaults, profiles, marketplace listings, live sports objects, or offline proof artifacts."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-receipt-admission",
+      "description": "Use when inspecting admission evidence while preserving the rule that receipts and heads are witnesses beneath the verified proof object."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-release",
+      "description": "Use when qualifying, locking, packaging, attesting, or preparing publication of a coordinated Receiz release."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-skill-bundle",
+      "description": "Use when an agent needs the complete Receiz skill router for choosing proof, builder, MCP agent, commerce, sports card, offline verifier, or distribution skills in one task."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-sports-card-skill",
+      "description": "Use when an agent must explain, verify, build, or operate Receiz sports card objects, card memory, live event appends, rarity language, MLB proof language, pack openings, card market surfaces, or game surfaces."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-subject-twin",
+      "description": "Use when grounding a subject-scoped Twin in the complete proof history at an exact Kai head and returning speech, cited memory, structured intentions, and provenance."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-testing",
+      "description": "Use when designing or running Receiz conformance, law, mutation, replay, compatibility, property, fuzz, chaos, or adapter tests."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-value-execution",
+      "description": "Use when deriving lawful-action Settlement from sealed proof or executing and recovering proof-native Phi movement through Settlement and Reserve."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-value-rails",
+      "description": "Use when planning, displaying, validating, or executing proof-native Phi value movement through the distinct Settlement and Reserve rails."
+    },
+    {
+      "kind": "AI skill",
+      "group": "@receiz/ai-skills",
+      "name": "receiz-world-event-runtime",
+      "description": "Use when turning AI or application intent into typed deterministic world commands, admitted events, receipts, replay checkpoints, and live additions."
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_action_ledger"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_app_apply"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_app_check"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_app_contract_create"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_app_explain"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_app_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_app_repair"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_app_state_by_creator"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_app_state_by_id"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_app_state_by_namespace"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_app_state_by_url"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_app_state_publish"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_app_state_resolve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_app_upgrade"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_architecture_inspect"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_artifact_admit"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_artifact_append_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_artifact_global_resolve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_artifact_reconcile_commit"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_artifact_reconcile_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_artifact_reconcile_stage"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_artifact_transition_commit"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_artifact_transition_seal_and_stage"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_artifact_verify"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_asset_by_id"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_asset_by_url"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_audit_append"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_audit_export"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_audit_query"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_authority_inspect"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_authorize_url"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_bearer_instrument_claim"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_bearer_instrument_inspect"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_bearer_instrument_issue"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_bearer_transfer_cancel"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_bearer_transfer_preview"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_bearer_transfer_status"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_bypass_scan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_capabilities"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_card_history"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_command_scaffold"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_command_simulate"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_access_passes_issue"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_access_passes_verify"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_discounts_create"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_discounts_redeem"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_fulfillment_update"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_gift_cards_issue"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_gift_cards_redeem"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_inventory_adjust"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_inventory_reserve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_one_click_checkout"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_payouts_create"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_payouts_status"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_refunds_create"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_shipping_quote"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_shipping_update"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_subscriptions_cancel"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_subscriptions_create"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_commerce_tax_quote"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_compliance_export_audit"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_compliance_export_customers"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_compliance_export_orders"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_compliance_export_payouts"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_compliance_export_taxes"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_conformance_run"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_conversation_epoch_grants_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_conversation_source_family_open"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_customers_assets"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_customers_bootstrap"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_customers_bootstrap_session"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_customers_orders"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_customers_portal"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_customers_rewards"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_customers_session"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_doctor"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_domain_scaffold"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_domains_reserve_subdomain"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_domains_status"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_domains_verify_custom_domain"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_ensure_tenant_session"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_events_ack"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_events_list"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_events_replay"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_events_subscribe"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_history_trace"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_inspect_offline_file"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_inspect_proof_object"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_jobs_cancel"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_jobs_enqueue"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_jobs_list"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_jobs_status"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_law_coverage"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_law_define"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_law_explain"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_living_subject_conformance"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_marketplace_template_generate"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_material_source_parts_open"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_material_url_open"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_mcp_append_event"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_mcp_commit_atomic_projection"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_mcp_execute_command"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_mcp_login"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_mcp_verify_receipt"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_merchants_capabilities"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_merchants_onboard"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_merchants_profile"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_merge_simulate"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_notifications_send"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_notifications_subscribe"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_notifications_templates"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_offline_kai_proof"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_offline_seal_enroll"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_offline_seal_file"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_offline_seal_status"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_offline_verify_file"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_pack_open_preview"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_permissions_check"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_permissions_grant"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_permissions_revoke"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_permissions_roles"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_pitch_proof_by_witness_id"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_portability_export_store"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_portability_import_store"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_project_inspect"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_proof_query"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_proof_trace"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_public_store_publish"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_public_store_resolve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_receipt_replay"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_release_qualify"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_release_verify"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_releases_check"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_releases_pin"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_releases_supported"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_required_scopes"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_risk_proof_activity"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_risk_score_account_recovery"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_risk_score_payment"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_risk_velocity"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_runtime_blueprint"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_sandbox_checkout"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_sandbox_seed_store"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_scope_explain"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_sealed_kai_moment"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_search_blog"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_search_customers"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_search_orders"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_search_pages"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_search_products"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_search_proof_objects"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_search_query"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_source_carried_replay_open"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_sports_conformance"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_additions"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_brain_head"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_brain_resolve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_brain_search"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_brain_stream"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_history"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_inventory"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_inventory_use"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_local_admit"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_local_runtime_status"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_local_snapshot_export"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_local_snapshot_import"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_mandate_activate"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_mandate_explain"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_mandate_get"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_mandate_pause"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_mandate_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_mandate_revoke"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_memory_citations"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_memory_compact"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_memory_project"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_memory_query"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_relationships"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_relationships_history"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_relationships_propose"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_relationships_respond"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_resolve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_runtime_cancel"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_runtime_catch_up"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_runtime_enqueue"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_runtime_status"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_state"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_subscribe"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_trades_execute"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_trades_preview"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_twin_memory_summary"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_twin_message"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_twin_mind_export"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_twin_mind_import_commit"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_twin_mind_import_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_twin_profile"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_twin_stream"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_twin_stream_performance"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_subject_verify"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_transfer_preview"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_transfer_requires_confirmation"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_twin_approval"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_twin_approve_market_intent"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_twin_approve_promotion"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_twin_create_market_intent"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_twin_import_mind_summary"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_twin_market_intents"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_twin_market_mandate"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_twin_save_market_mandate"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_mandate_issue"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_mandate_revoke"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_mandate_state"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_multi_world_execute"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_multi_world_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_subject_access_binding"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_subject_access_key_publish"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_subject_admit"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_subject_export_edge_bundle"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_subject_import_edge_bundle"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_subject_state"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_value_plan_reserve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_value_plan_settlement"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_world_additions"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_world_execute_transaction"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_world_execution"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_world_execution_by_idempotency"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_world_plan_private"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v122_world_validate_transaction"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v123_auth_granted_scopes"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v123_identity_exchange_proof_authority"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v123_subject_resolve_namespaces"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v123_value_execute_reserve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v123_value_execute_settlement"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v123_value_execution_by_idempotency"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v123_world_plan_command_v122"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v123_world_plan_transaction_v122"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_domain_replay_proof_object_export"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_domain_replay_proof_object_restore"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_domain_verified_additions"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_domain_verified_checkpoint"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_domain_verified_private_additions"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_domain_verified_replay"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_execution_cancel"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_execution_execute"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_execution_plan_atomic_operation"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_execution_resolve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_execution_resolve_by_idempotency"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_execution_stage"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_execution_stage_prepared"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_identity_public_recipient_resolve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_kai_now"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_proof_authority_challenge_create"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_runtime_authority_session_close"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_runtime_authority_session_open"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_runtime_authority_session_refresh"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_runtime_qualify"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_source_publish_sealed"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v124_subject_namespaces_resolve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_attestation_application_apply"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_attestation_application_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_attestation_approval_apply"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_attestation_approval_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_attestation_domain_resolve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_attestation_evaluation_apply"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_attestation_evaluation_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_attestation_evidence_apply"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_attestation_evidence_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_attestation_review_apply"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_attestation_review_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_attestation_workflow_apply"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_attestation_workflow_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_credential_currentness_resolve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_credential_issue_apply"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_credential_issue_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_credential_lifecycle_apply"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_credential_lifecycle_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_credential_presentation_create"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_credential_presentation_handoff_resolve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_credential_presentation_verify"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_edge_value_commit_set_prepare"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_edge_value_plan_inspect"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_edge_value_plan_reserve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_edge_value_plan_settlement"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_edge_value_recovery_create"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_edge_value_reserve_receive"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_edge_value_reserve_send_confirm"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_edge_value_settlement_receive"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_edge_value_settlement_send_confirm"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_edge_value_transition_set_verify"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_external_execution_execute"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_external_execution_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_external_execution_resolve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_external_execution_verify"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_lawful_action_admit"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_lawful_action_law_register"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_lawful_action_value_head_derive"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_pbi_ceremony_approve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_pbi_ceremony_challenge_create"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_pbi_ceremony_challenge_redeem"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_pbi_ceremony_receipt_issue"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_pbi_ceremony_receipt_verify"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_subject_discovery_resolve"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_subject_introduction_apply"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_subject_introduction_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_subject_message_apply"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_subject_message_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_subject_presence_apply"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_subject_presence_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_subject_relationship_apply"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_v125_subject_relationship_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_wallet_public_ledger"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_webhook_endpoints_delete"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_webhook_endpoints_list"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_webhook_endpoints_update"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_webhook_events_catalog"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_webhook_receiver_scaffold"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_webhook_register_endpoint"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_webhook_replay"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_webhook_rotate_secret"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_webhook_send_test_event"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_webhook_verify_payload"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_world_additions"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_world_command_execute"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_world_command_plan"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_world_command_validate"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_world_public_snapshot"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_world_receipt"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_world_replay"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_world_subscribe"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_world_transaction_execute"
+    },
+    {
+      "kind": "MCP tool",
+      "group": "@receiz/mcp-server",
+      "name": "receiz_world_transaction_plan"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "admission",
+      "name": "admission.browserStore"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "admission",
+      "name": "admission.createEngine"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.byCreator"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.byHost"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.byId"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.byNamespace"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.byUrl"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.createFeed"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.createPublicStoreRecord"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.createRecord"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.createTenantRecord"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.extractData"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.namespaceFromUrl"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.objectIdFromUrl"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.publish"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.publishRecord"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.resolve"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.restoreByHost"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.restoreById"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.restoreByUrl"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.restoreProjection"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "appState",
+      "name": "appState.urlFromHost"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "artifacts",
+      "name": "artifacts.admit"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "artifacts",
+      "name": "artifacts.admitAndRecover"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "artifacts",
+      "name": "artifacts.commitRecovery"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "artifacts",
+      "name": "artifacts.download"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "artifacts",
+      "name": "artifacts.planRecovery"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "artifacts",
+      "name": "artifacts.verifyAndOpen"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "assets",
+      "name": "assets.createProofObject"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "attestations",
+      "name": "attestations.applyEvent"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "attestations",
+      "name": "attestations.applyInitialSource"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "attestations",
+      "name": "attestations.createApplication"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "attestations",
+      "name": "attestations.createAuthority"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "attestations",
+      "name": "attestations.planEvent"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "attestations",
+      "name": "attestations.planInitialSource"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "attestations",
+      "name": "attestations.verifyHistory"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "audit",
+      "name": "audit.append"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "audit",
+      "name": "audit.export"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "audit",
+      "name": "audit.query"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "auth",
+      "name": "auth.canUseRails"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "auth",
+      "name": "auth.grantedScopes"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "auth",
+      "name": "auth.missingScopesForRails"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "auth",
+      "name": "auth.scopesForRails"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "bearer",
+      "name": "bearer.cancelTransfer"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "bearer",
+      "name": "bearer.claimInstrument"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "bearer",
+      "name": "bearer.inspectInstrument"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "bearer",
+      "name": "bearer.issueTransferInstrument"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "bearer",
+      "name": "bearer.previewTransfer"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "bearer",
+      "name": "bearer.transferStatus"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "capabilities",
+      "name": "capabilities"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "capabilities",
+      "name": "capabilities.describe"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "capabilities",
+      "name": "capabilities.probe"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.accessPasses.issue"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.accessPasses.verify"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.discounts.create"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.discounts.redeem"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.fulfillment.update"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.giftCards.issue"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.giftCards.redeem"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.inventory.adjust"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.inventory.reserve"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.oneClickCheckout"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.payouts.create"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.payouts.status"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.refunds.create"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.shipping.quote"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.shipping.update"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.subscriptions.cancel"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.subscriptions.create"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "commerce",
+      "name": "commerce.tax.quote"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "compliance",
+      "name": "compliance.exportAudit"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "compliance",
+      "name": "compliance.exportCustomers"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "compliance",
+      "name": "compliance.exportOrders"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "compliance",
+      "name": "compliance.exportPayouts"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "compliance",
+      "name": "compliance.exportTaxes"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "connect",
+      "name": "connect.checkout"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "connect",
+      "name": "connect.checkoutSession"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "connect",
+      "name": "connect.claimNote"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "connect",
+      "name": "connect.downloadNote"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "connect",
+      "name": "connect.mintNote"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "connect",
+      "name": "connect.record"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "connect",
+      "name": "connect.transfer"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "connect",
+      "name": "connect.verifyArtifact"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "connect",
+      "name": "connect.wallet"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "coordination",
+      "name": "coordination.remoteDomain"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "credentials",
+      "name": "credentials.applyInitialSource"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "credentials",
+      "name": "credentials.applyLifecycle"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "credentials",
+      "name": "credentials.issue"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "credentials",
+      "name": "credentials.planInitialSource"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "credentials",
+      "name": "credentials.planLifecycle"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "credentials",
+      "name": "credentials.resolveCurrentness"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "credentials",
+      "name": "credentials.verifyHistory"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "customers",
+      "name": "customers.assets"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "customers",
+      "name": "customers.bootstrap"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "customers",
+      "name": "customers.bootstrapSession"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "customers",
+      "name": "customers.orders"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "customers",
+      "name": "customers.portal"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "customers",
+      "name": "customers.rewards"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "customers",
+      "name": "customers.session"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "doctor",
+      "name": "doctor"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.exportVerifiedReplayProofObject"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.exportVerifiedReplayProofObjectV124"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.namespace"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.normalizeHost"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.objectId"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.reserveSubdomain"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.resolveTenant"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.restoreVerifiedReplayProofObject"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.restoreVerifiedReplayProofObjectV124"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.status"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.tenantUrl"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.verifiedAdditions"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.verifiedAdditionsV124"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.verifiedCheckpoint"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.verifiedCheckpointV124"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.verifiedPrivateAdditions"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.verifiedPrivateAdditionsV124"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.verifiedReplay"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.verifiedReplayV124"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "domains",
+      "name": "domains.verifyCustomDomain"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "events",
+      "name": "events.ack"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "events",
+      "name": "events.list"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "events",
+      "name": "events.replay"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "events",
+      "name": "events.subscribe"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "execution",
+      "name": "execution.cancel"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "execution",
+      "name": "execution.execute"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "execution",
+      "name": "execution.exportCommittedRecovery"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "execution",
+      "name": "execution.planAtomicMutation"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "execution",
+      "name": "execution.planAtomicOperationV124"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "execution",
+      "name": "execution.resolve"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "execution",
+      "name": "execution.resolveByIdempotencyKey"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "execution",
+      "name": "execution.stage"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "execution",
+      "name": "execution.stagePrepared"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "externalExecution",
+      "name": "externalExecution.createProfile"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "externalExecution",
+      "name": "externalExecution.createRuntime"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "externalExecution",
+      "name": "externalExecution.plan"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "externalExecution",
+      "name": "externalExecution.verifyOutcome"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "externalExecution",
+      "name": "externalExecution.verifyPlan"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.authorizeUrl"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.bootstrap"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.buildReceizIdContinueRequest"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.checkUsernameAvailability"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.continueReceizId"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.createReceizId"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.ensureTenantSession"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.exchangeProofAuthority"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.introspect"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.jwks"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.oauthAuthorizationServerMetadata"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.openIdConfiguration"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.projectAccount"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.readArtifact"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.resolvePublicRecipient"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.resolvePublicRecipientV124"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.revoke"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.signCapability"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.signLoginProof"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.token"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.updateProfile"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.userinfo"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "identity",
+      "name": "identity.verifyLoginProof"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "jobs",
+      "name": "jobs.cancel"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "jobs",
+      "name": "jobs.enqueue"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "jobs",
+      "name": "jobs.list"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "jobs",
+      "name": "jobs.status"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "localSubjects",
+      "name": "localSubjects.admit"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "localSubjects",
+      "name": "localSubjects.exportSnapshot"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "localSubjects",
+      "name": "localSubjects.importSnapshot"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "localSubjects",
+      "name": "localSubjects.state"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "manifests",
+      "name": "manifests.assertAsset"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "manifests",
+      "name": "manifests.assertSportsCard"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "manifests",
+      "name": "manifests.assertWebhookEvent"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "manifests",
+      "name": "manifests.isAsset"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "manifests",
+      "name": "manifests.isSportsCard"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "manifests",
+      "name": "manifests.isWebhookEvent"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "manifests",
+      "name": "manifests.projectAsset"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "manifests",
+      "name": "manifests.projectSportsCard"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "media",
+      "name": "media.objectUrl"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "media",
+      "name": "media.transform"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "media",
+      "name": "media.upload"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "merchants",
+      "name": "merchants.capabilities"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "merchants",
+      "name": "merchants.onboard"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "merchants",
+      "name": "merchants.profile"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "notifications",
+      "name": "notifications.send"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "notifications",
+      "name": "notifications.subscribe"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "notifications",
+      "name": "notifications.templates"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "offline",
+      "name": "offline.assertSnapshot"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "offline",
+      "name": "offline.createInMemoryStorage"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "offline",
+      "name": "offline.createLocalStorage"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "offline",
+      "name": "offline.createQueue"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "ownership",
+      "name": "ownership.claimBearerAsset"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "payments",
+      "name": "payments.embeddedCheckout"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "payments",
+      "name": "payments.embeddedNoteClaim"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "permissions",
+      "name": "permissions.check"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "permissions",
+      "name": "permissions.grant"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "permissions",
+      "name": "permissions.revoke"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "permissions",
+      "name": "permissions.roles"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "portability",
+      "name": "portability.exportStore"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "portability",
+      "name": "portability.importStore"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "presentations",
+      "name": "presentations.approveChallenge"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "presentations",
+      "name": "presentations.create"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "presentations",
+      "name": "presentations.createChallenge"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "presentations",
+      "name": "presentations.createContentUrl"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "presentations",
+      "name": "presentations.createNfcHandoff"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "presentations",
+      "name": "presentations.createQrHandoff"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "presentations",
+      "name": "presentations.createReplayGuard"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "presentations",
+      "name": "presentations.createSourceVerifier"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "presentations",
+      "name": "presentations.exportFile"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "presentations",
+      "name": "presentations.importFile"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "presentations",
+      "name": "presentations.issuePresenceReceipt"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "presentations",
+      "name": "presentations.readContentUrl"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "presentations",
+      "name": "presentations.verify"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "presentations",
+      "name": "presentations.verifyPresenceReceipt"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "profile",
+      "name": "profile.resolveLocalFirst"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "profile",
+      "name": "profile.update"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "projections",
+      "name": "projections.assetManifest"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "projections",
+      "name": "projections.sportsCardManifest"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "proof",
+      "name": "proof.query"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "proofMemory",
+      "name": "proofMemory.additionsQuery"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "proofMemory",
+      "name": "proofMemory.assertSnapshot"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "proofMemory",
+      "name": "proofMemory.createInMemoryStorage"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "proofMemory",
+      "name": "proofMemory.createLocalStorage"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "proofMemory",
+      "name": "proofMemory.createMemory"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "proofMemory",
+      "name": "proofMemory.createRegister"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "proofMemory",
+      "name": "proofMemory.syncAdditions"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "publicProof",
+      "name": "publicProof.byCreator"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "publicProof",
+      "name": "publicProof.byId"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "publicProof",
+      "name": "publicProof.byUrl"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "publicProof",
+      "name": "publicProof.observe"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "publicProof",
+      "name": "publicProof.registryFeed"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "publicStore",
+      "name": "publicStore.assertSignedPublishContract"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "publicStore",
+      "name": "publicStore.createRecord"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "publicStore",
+      "name": "publicStore.publish"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "publicStore",
+      "name": "publicStore.publishSigned"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "publicStore",
+      "name": "publicStore.publishWithIdentityProof"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "publicStore",
+      "name": "publicStore.resolve"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "publicStore",
+      "name": "publicStore.restoreLatest"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "publicStore",
+      "name": "publicStore.signPublish"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "releases",
+      "name": "releases.check"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "releases",
+      "name": "releases.pin"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "releases",
+      "name": "releases.supported"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "risk",
+      "name": "risk.proofActivity"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "risk",
+      "name": "risk.scoreAccountRecovery"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "risk",
+      "name": "risk.scorePayment"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "risk",
+      "name": "risk.velocity"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "runtime",
+      "name": "runtime.closeAuthoritySession"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "runtime",
+      "name": "runtime.closeAuthoritySessionV124"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "runtime",
+      "name": "runtime.localFirst"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "runtime",
+      "name": "runtime.openAuthoritySession"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "runtime",
+      "name": "runtime.openAuthoritySessionV124"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "runtime",
+      "name": "runtime.qualify"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "runtime",
+      "name": "runtime.qualifyV124"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "runtime",
+      "name": "runtime.refreshAuthoritySession"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "runtime",
+      "name": "runtime.refreshAuthoritySessionV124"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "sandbox",
+      "name": "sandbox.checkout"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "sandbox",
+      "name": "sandbox.seedStore"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "sandbox",
+      "name": "sandbox.wallet"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "search",
+      "name": "search.blog"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "search",
+      "name": "search.customers"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "search",
+      "name": "search.orders"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "search",
+      "name": "search.pages"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "search",
+      "name": "search.products"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "search",
+      "name": "search.proofObjects"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "search",
+      "name": "search.query"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "sources",
+      "name": "sources.publishSealedSource"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "sources",
+      "name": "sources.publishSealedSourceV124"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "sports",
+      "name": "sports.assertCardManifest"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "sports",
+      "name": "sports.badge"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "sports",
+      "name": "sports.conformance"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "sports",
+      "name": "sports.conformanceHistory"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "sports",
+      "name": "sports.conformanceRollups"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "sports",
+      "name": "sports.eventProofUrl"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "sports",
+      "name": "sports.resolveCardMemory"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "sports",
+      "name": "sports.resolvePitchDayProof"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.applyMessage"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.applyPresence"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.applyRelationship"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.createPresence"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.discover"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.planMessage"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.planPresence"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.planRelationship"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.prepareInitialTemporalSource"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.presenceBindingDigest"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.projectPresence"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.projectRelationship"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.projectThread"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.readRelationshipSource"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.readTemporalSource"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.relationshipBindingDigest"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.resolvePresenceCurrentness"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.sourceFamilies.create"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.sourceFamilies.open"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.sourceFamilies.readMember"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.threadSources.create"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.threadSources.open"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.threadSources.prepareInitial"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.threadSources.readMember"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjectCoordination",
+      "name": "subjectCoordination.verifyPresence"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.accessBinding"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.additions"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.admit"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.brain.head"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.brain.resolve"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.brain.search"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.brain.stream"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.createAccessKey"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.exportEdgeBundle"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.history"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.importEdgeBundle"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.inventory.list"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.inventory.use"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.legacyState"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.mandates.activate"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.mandates.explain"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.mandates.get"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.mandates.pause"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.mandates.plan"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.mandates.revoke"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.memory.citations"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.memory.compact"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.memory.project"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.memory.query"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.publishAccessKey"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.relationships.history"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.relationships.list"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.relationships.propose"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.relationships.respond"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.resolve"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.resolveNamespaces"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.resolveNamespacesV124"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.runtime.catchUp"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.runtime.enqueueTick"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.runtime.pause"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.runtime.status"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.state"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.subscribe"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.trades.execute"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.trades.preview"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.twin.exportMind"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.twin.importMind"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.twin.memorySummary"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.twin.message"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.twin.profile"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.twin.stream"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.twin.streamPerformance"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "subjects",
+      "name": "subjects.verify"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "twin",
+      "name": "twin.approval"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "twin",
+      "name": "twin.approveMarketIntent"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "twin",
+      "name": "twin.approvePromotion"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "twin",
+      "name": "twin.createMarketIntent"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "twin",
+      "name": "twin.exportMind"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "twin",
+      "name": "twin.importMind"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "twin",
+      "name": "twin.importMindSummary"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "twin",
+      "name": "twin.marketIntents"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "twin",
+      "name": "twin.marketMandate"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "twin",
+      "name": "twin.saveMarketMandate"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.edge.confirmReserveSend"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.edge.confirmSettlementSend"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.edge.createRecovery"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.edge.inspect"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.edge.planReserve"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.edge.planSettlement"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.edge.prepareCommitSet"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.edge.receiveReserve"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.edge.receiveSettlement"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.edge.verifyTransitionSet"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.executeReserve"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.executeSettlement"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.executionByIdempotencyKey"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.planReserve"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.planSettlement"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.quoteDisplayUsd"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.validateDisplayPrice"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "value",
+      "name": "value.validateIntent"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "verification",
+      "name": "verification.conformance"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "verification",
+      "name": "verification.verifyArtifact"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "wallet",
+      "name": "wallet.actionLedger"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "wallet",
+      "name": "wallet.publicLedger"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "wallet",
+      "name": "wallet.resolveLedger"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhookEndpoints",
+      "name": "webhookEndpoints.create"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhookEndpoints",
+      "name": "webhookEndpoints.delete"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhookEndpoints",
+      "name": "webhookEndpoints.list"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhookEndpoints",
+      "name": "webhookEndpoints.rotateSecret"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhookEndpoints",
+      "name": "webhookEndpoints.sendTest"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhookEndpoints",
+      "name": "webhookEndpoints.update"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhooks",
+      "name": "webhooks.assertEvent"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhooks",
+      "name": "webhooks.endpoints.create"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhooks",
+      "name": "webhooks.endpoints.delete"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhooks",
+      "name": "webhooks.endpoints.list"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhooks",
+      "name": "webhooks.endpoints.rotateSecret"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhooks",
+      "name": "webhooks.endpoints.sendTest"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhooks",
+      "name": "webhooks.endpoints.update"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhooks",
+      "name": "webhooks.parseRequest"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhooks",
+      "name": "webhooks.routeEvent"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhooks",
+      "name": "webhooks.sign"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhooks",
+      "name": "webhooks.signaturePayload"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhooks",
+      "name": "webhooks.verify"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "webhooks",
+      "name": "webhooks.verifySignature"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.additions"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.additionsV122"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.book"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.executeCommand"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.executeMultiWorldTransaction"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.executeTransaction"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.executeTransactionV122"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.execution"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.executionByIdempotencyKey"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.message"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.planAccessAppend"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.planCommand"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.planCommandV122"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.planMultiWorldTransaction"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.planPrivateCommand"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.planTransaction"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.planTransactionV122"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.profile"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.publicSnapshot"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.receipt"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.replay"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.streamProfile"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.subscribe"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.validateCommand"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.validateTransaction"
+    },
+    {
+      "kind": "SDK client method",
+      "group": "world",
+      "name": "world.welcome"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "admitAndRecoverReceizArtifact"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "admitReceizArtifact"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "admitReceizEconomyShowcaseSuccessorWithPredecessorContext"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "admitReceizEconomyShowcaseTransitionSuccessor"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "admitReceizKksV1ProofCoordinate"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "admitReceizLawfulActionV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "admitReceizLegacyProfileShowcaseMigrationWithInspectionContext"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "admitReceizProfileShowcaseCheckpointBundleV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "admitReceizProfileShowcaseCheckpointCarrierWithContextV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "admitReceizProfileShowcaseGenesisWithActorContext"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "admitReceizProfileShowcaseMergeWithExactParentContext"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "admitReceizProfileShowcaseMergeWithParentContext"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "admitReceizProfileShowcaseSuccessorWithExactPredecessorContext"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "admitReceizProfileShowcaseSuccessorWithPredecessorContext"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "admitReceizProfileShowcaseTransitionSuccessor"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "advanceReceizLawfulActionCustodyV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "appendQuery"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "appendReceizCarriedProofHistoryHeadV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "appendReceizCompositeMerkleLeaf"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "appendReceizIdentityArtifactTrailerToPng"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "appendReceizIdentityPortableState"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "appendReceizPbiProofObjectAuthorshipV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "appendReceizPortableAssetOwnership"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "applyReceizAttestationEventV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "applyReceizCredentialLifecycleEventV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "applyReceizInitialSourceV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "applyReceizSubjectMessageEventV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "applyReceizSubjectPresenceEventV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "applyReceizSubjectRelationshipEventV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "approveReceizPbiCeremonyV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizArtifactAppendPlanCustody"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizAssetManifest"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizBoundedProfileShowcaseCarriedHeadSemanticsV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizCompositeHeadBasis"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizCompositeMerkleState"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizConstitutionRegistryInterpretable"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizEconomyShowcaseCarriedHeadSemanticsV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizEconomyShowcaseHeadV114TransportContract"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizGlobalEconomyHeadV119TransportContract"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizGlobalProofChildReferenceV119"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizMaterialCompositeHeadUrl"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizOfflineProofQueueSnapshot"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizProfileShowcaseBoundedHeadV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizProfileShowcaseCarrierV114TransportContract"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizProfileShowcaseDescendantV114TransportContract"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizProfileShowcaseGenesisV114TransportContract"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizProfileShowcaseTransitionOperationsV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizProfileShowcaseV114TransportContract"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizProofBundle"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizProofRegisterSnapshot"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizProtocolMaximum"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizReconciliationAdditionBudget"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizRuntimeMaterializationAvailable"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizSportsCardManifest"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizSportsVaultCardHeadReferenceV119"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizSportsVaultRecursiveHeadV119"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizV125AuthorityFlowStep"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertReceizWebhookEvent"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "assertRuntimeCustodiedReceizArtifactVerification"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "attachReceizPortableProofHistory"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "attachReceizPortableProofHistoryBytes"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "attachReceizProfileShowcaseProofHistoryBytes"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "authorityFailure"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "bindReceizArtifactAppendRegistryAuthority"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "bindReceizCurrentArtifactAppendRegistryAuthority"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "bindReceizV114EconomyShowcaseRegistryAuthority"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "bindReceizV114ProfileShowcaseRegistryAuthority"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "buildReceizCompositeBoundedTree"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "buildReceizCompositeMerkleParent"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "buildReceizIdContinueRequest"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "buildReceizMaterialCompositeTransport"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "buildReceizMaterialProgressiveLedger"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "buildReceizPbiSignatureChunks"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "buildReceizPbiSignedOverlaySvg"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "buildReceizWebhookSignaturePayload"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "canonicalizeReceizConstitution"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "canonicalizeReceizProfileShowcaseTransitionOperationsV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "canonicalizeReceizTransportBindingV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "canonicalizeReceizV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "capabilitySigningBytes"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "classifyReceizReconciliationDivergence"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "classifyReceizVerificationResourceFailure"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "coerceReceizMaterialProgressiveCommitment"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "coerceReceizMaterialProgressiveLedger"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "commitArtifactTransition"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "commitReceizArtifactRecovery"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "compareReceizProfileShowcaseTransitionOperationsV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "composeReceizNamespaceReductionPayload"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "confirmReceizEdgeReserveSendV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "confirmReceizEdgeSettlementSendV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createEmptyReceizCompositeMerkleState"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createEmptyReceizProfileShowcasePersistentStateV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createPublicProofProjection"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizAdmissionEngine"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizAppStateFeed"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizAppStateRecord"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizArchiveVerificationGuard"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizArtifactAdmissionEngine"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizArtifactRecoveryCoordinator"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizArtifactTransitionProofHistoryAppendNode"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizAttestationApplicationV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizAttestationAuthorityV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizAttestationEventActorChallengeV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizBoundedProfileShowcaseCarrierV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizBrowserAdmissionStore"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCapabilityIssuerResolver"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCapabilityVerifier"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCapabilityVerifierWithSourceContext"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCarriedProofHistoryHeadV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCausalCheckpoint"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCausalHistory"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCausalRecord"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizClaimSetV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizClient"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizClosedMaterialPresentationUrl"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCompositeFibonacciState"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCompositeMaterialPresentationUrl"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCompositeSyntheticMerkleState"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizConversationEpochSecretV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizConversationEventV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizConversationEventV2"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCredentialClaimTreeV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCredentialLifecycleEventActorChallengeV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCredentialPresentationContentUrlV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCredentialPresentationNfcHandoffV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCredentialPresentationQrHandoffV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCredentialPresentationV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCredentialV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizCustomReducerBindingsV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizDomainAppendCommandsV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizDomainReplaySourceAuthorityV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizDomainReplaySourceIntentV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizEconomyShowcaseCarrierV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizEvidenceBundleV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizExternalExecutionProfileV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizExternalExecutionRuntimeV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizGlobalCoordinationHttpTransport"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizIdentityKeyFile"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizIdIdentity"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizInMemoryAdmissionStore"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizInMemoryOfflineProofQueueStorage"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizInMemoryProofMemoryStorage"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizKksV1LiveProofCoordinate"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizLawfulActionAdmissionStoreV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizLawfulActionLawV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizLivingSubjectRuntime"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizLivingSubjectTemporalExecution"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizLocalStorageOfflineProofQueueStorage"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizLocalStorageProofMemoryStorage"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizMaterialProgressiveCommitment"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizMaterialSourceFamily"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizNativeCaptureV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizOfflineNoteAttestedReceivingCustodyCommitment"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizOfflineNoteCustodyQualification"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizOfflineNoteDestination"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizOfflineNoteIrreversibleConsumptionReceipt"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizOfflineNotePlatformAttestationCertificate"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizOfflineNoteReceivingCustodyCommitment"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizOfflineNoteReceivingSeal"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizOfflineProofQueue"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizOfflineReserveFundingBinding"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizOwnershipHandoffAuthorityReceipt"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizPbiCeremonyChallengeV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizPbiCeremonyReplayGuardV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizPlayableMaterialObjectUrl"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizPortableAssetDocument"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizPortableExecutionAuthorityEventV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizPortableExecutionAuthorityIdentityChallengeV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizPortableExecutionTransitionRecoveryV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizProfileShowcaseCarrier"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizProfileShowcaseCheckpointBundleV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizProfileShowcaseCheckpointCarrierV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizProfileShowcaseCheckpointSegmentV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizProfileShowcasePersistentMemoryStoreV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizProfileShowcaseProofHistoryNode"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizProfileShowcaseSegmentMechanicsV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizProofAuthorityChallenge"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizProofAuthorityExchangeV123"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizProofHistoryNode"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizProofMemory"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizProofRegister"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizPublicRecipientLocatorReferenceV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizPublicStoreStateRecord"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizRawMaterialCapsuleBlobFromSourceParts"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizReconciliationCapabilityVerifier"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizReconciliationCommitConfirmation"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizRegistryArtifactVerifier"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizRemoteAdmissionStore"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizRemoteArtifactTransitionStore"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizRemoteDomain"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizRemotePredecessorFetchBudget"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizRemoteSubjectMandatesV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizRemoteSubjectsV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizRemoteValueExecutionV123"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizRemoteWorldV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizSemanticIdempotencyKey"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizSourceBoundCredentialPresentationVerifierV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizSourceBoundPbiAuthorshipVerifierV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizSubjectAccessKeyV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizSubjectMandateV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizSubjectPresenceEventBindingDigestV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizSubjectPresenceV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizSubjectPrimaryProofObjectV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizSubjectProofBrain"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizSubjectProofIndexSegmentV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizSubjectProofScaleCommitmentV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizSubjectRelationshipEventBindingDigestV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizSubjectSourceFamilyV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizSubjectThreadSourceFamilyV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizTenantAppStateRecord"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizTransportBindingV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizV119ReleaseAuthorityBoundary"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizV120ReleaseAuthorityBoundary"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizV121ReleaseAuthorityBoundary"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizV122ReleaseAuthorityBoundary"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizV123ReleaseAuthorityBoundary"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizV124Sources"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizV125LawfulActionClient"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizV125LawfulActionTransport"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizV125ReleaseAuthorityBoundary"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizV127SubjectRuntimeAdapter"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizWebhookSignature"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizWorldExecutionEventV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "createReceizWorldIdempotencyDigestV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "decodeReceizMaterialCapsule"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "decodeReceizMaterialCapsuleBytes"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "decodeReceizRawMaterialCapsuleBytes"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "decodeReceizSubjectNamespaceBytes"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "decryptReceizConversationMessageV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "decryptReceizIdentityPrivateSigningKey"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "decryptReceizPrivateWorldEnvelopeV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "defineReceizApp"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizEconomyShowcaseGenesisHeadV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizEconomyShowcaseMergeHeadV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizEconomyShowcaseSuccessorHeadV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizGlobalEconomyCheckpointHeadV119"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizGlobalEconomySuccessorHeadV119"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizGlobalEconomyUpgradeHeadV119"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizIdentityKeyIdFromPublicKeyRawB64u"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizLawfulActionGlobalChildReferenceV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizLawfulActionPhiMicroV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizLawfulActionValueHeadV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizLegacyProfileShowcaseCheckpointHeadV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizOfflineNoteAttestedCustodyOwnerId"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizOfflineNoteCustodyOwnerId"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizOfflineReserveFundingOwnerId"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizPbiBadgeIdentity"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizPortableOwnershipContinuity"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizProfileShowcaseBoundedGenesisHeadV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizProfileShowcaseBoundedMergeHeadV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizProfileShowcaseBoundedSuccessorHeadV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizProfileShowcaseHistoryBinding"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizProfileShowcaseNativeOperationDigestV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizProfileShowcasePersistentHeadDigestV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizProfileShowcasePersistentMembershipV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizProfileShowcasePersistentPlacementV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizProfileShowcasePersistentWindowV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizRegisteredOperationCasV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizSportsVaultCheckpointHeadV119"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizSportsVaultSuccessorHeadV119"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizSubjectIdV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "deriveReceizVerifiedProofHistoryFromAdmission"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "describeReceizCapabilities"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "describeReceizError"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "describeReceizSdkClientCapabilityInventory"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "detectReceizRecursiveArchiveFormat"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "diffReceizSourceCarriedReplayFamiliesV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "digestReceizAuthority"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "digestReceizCanonicalV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "digestReceizCompositeCanonical"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "digestReceizConstitution"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "digestReceizExecutionTransportRequestV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "digestReceizProfileShowcaseOperationLeafV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "discoverReceizRegistryLaw"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "discoverReceizSubjectsV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "encodeReceizAuthority"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "encodeReceizMaterialCapsule"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "encodeReceizMaterialCapsuleBytes"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "encodeReceizSubjectNamespaceBytes"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "encryptReceizConversationMessageV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "equalReceizExactHeadMaps"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "evaluateReceizHistoricalHandoffRevocation"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "evaluateReceizLawSet"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "exactVerifiedDescendantAdditions"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "exportReceizCommittedExecutionRecoveryV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "exportReceizCredentialPresentationFileV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "extractReceizAppStateData"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "extractReceizPortableAssetDocument"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "extractReceizPortableAssetPayload"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "finalizeReceizOfflineNoteWebAuthnActivationReceipt"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "finalizeReceizOfflineNoteWebAuthnConsumptionReceipt"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "finalizeReceizOfflineReserveWebAuthnConsumptionReceipt"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "importReceizCredentialPresentationFileV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "inspectReceizBoundedProfileShowcaseV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "inspectReceizEdgeValueTransferPlanV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "inspectReceizLegacyProfileShowcaseV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "invalidReceizArtifactAdmission"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isReceizAdmittedReceipt"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isReceizAssetManifest"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isReceizAuthorityFailure"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isReceizPortableStateSegmentComposite"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isReceizProofBundle"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isReceizSportsCardManifest"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isReceizVerifiedCapability"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isReceizVerifiedCausalCheckpoint"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isReceizVerifiedCheckpointV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isReceizVerifiedPortableExecutionAuthorityV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isReceizVerifiedPortableExecutionTransitionSetV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isReceizVerifiedReconciliationCapability"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isReceizVerifiedRegistryArtifact"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isReceizWebhookEvent"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isRuntimeVerifiedReceizProofHistory"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isSdkAdmittedReceizCapabilityIssuerKey"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isSdkInspectedLegacyProfileShowcaseV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isSdkIssuedReceizArtifactAdmission"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isSdkIssuedReceizArtifactAppendPlan"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isSdkIssuedReceizArtifactRecoveryPlan"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isSdkIssuedReceizCommittedArtifactTransition"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isSdkVerifiedProfileShowcaseCheckpointV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "isSegmentedReceizPortableStateRef"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "issueReceizPbiCeremonyReceiptV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "loadReceizCurrentRegistry"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "loadReceizOpenApi"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "loadReceizV114Registry"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "loadReceizV115Registry"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "loadReceizV116Registry"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "loadReceizV117Registry"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "loadReceizV118Registry"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "loadReceizV119Registry"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "loadReceizV120Registry"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "loadReceizV121Registry"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "loadReceizV122Registry"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "loadReceizV124Registry"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "loadReceizV125Registry"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "materializeReceizPortableStateRef"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "mergeReceizCarriedProofHistoryHeadsV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "mergeReceizCausalHistory"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "mergeReceizProofHistoryPrefix"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "mergeReceizSourceCarriedReplayFamiliesV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "mergeReceizVerifiedProofHistories"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "normalizeReceizHost"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "normalizeReceizNamespaceNamesV123"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "normalizeReceizProofAuthorityScopesV123"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "normalizeReceizProofHistory"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "normalizeReceizPublicRecipientAliasV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "openReceizConversationEpochGrantV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "openReceizConversationSourceFamilyV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "openReceizMaterialSourceParts"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "openReceizMaterialSourceRangeReader"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "openReceizSourceCarriedReplayFamilyV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "openReceizSubjectAccessPrivateKeyV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "openReceizSubjectSourceFamilyV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "openReceizSubjectThreadSourceFamilyV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "openVerifiedReceizMaterialUrl"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizAttestationDomainV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizBoundedProfileShowcaseCarrierV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizCarriedProofHistoryHeadV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizClaimedCommand"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizClaimSetV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizConversationEventV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizConversationEventV2"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizConversationParticipantBindingV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizEconomyShowcaseCarrierV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizEvidenceBundleV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizIdentityArtifactText"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizLawfulDeliveryV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizPortableAssetDocument"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizProfileShowcaseCarrier"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizProfileUpdateResult"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizPublishedGovernanceRegistryTrustHistory"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizUsernameAvailability"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "parseReceizWebhookRequest"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "persistReceizExactPlannedTransaction"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planArtifactAppend"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planAtomicOperationV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planLegacyProfileShowcaseCheckpointMigration"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizArtifactRecovery"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizAttestationEventV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizBoundedProfileShowcaseReconciliationV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizConversationEpochGrantBatchesV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizCredentialLifecycleEventV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizEconomyShowcaseAppend"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizEconomyShowcaseGenesis"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizEconomyShowcaseMerge"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizEdgeReserveTransferV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizEdgeSettlementTransferV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizExactKksArtifactAppend"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizExternalExecutionV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizInitialAttestationSourceV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizInitialCredentialSourceV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizLawfulActionProofV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizLawfulActionSettlementV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizLocatorBoundValueIntentV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizMultiWorldCompositeOperationV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizMultiWorldExecutionProjectionV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizMultiWorldTransactionV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizOfflineReconciliation"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizPrivateCommandV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizProfileShowcaseBoundedMerge"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizProfileShowcaseGenesis"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizReserveV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizSettlementV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizSubjectMessageEventV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizSubjectPresenceEventV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizSubjectRelationshipEventV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizValueIntentV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizWorldAccessAppendV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizWorldCommandV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizWorldCompositeOperationV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizWorldExecutionProjectionV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "planReceizWorldTransactionV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "prepareReceizDomainReplayCheckpointProofObjectCandidateV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "prepareReceizDomainReplaySegmentProofObjectCandidateV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "prepareReceizInitialTemporalConversationSourceV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "prepareReceizInitialTemporalSubjectSourceV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "prepareReceizOfflineNoteWebAuthnActivationChallenge"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "prepareReceizOfflineNoteWebAuthnConsumptionChallenge"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "prepareReceizOfflineReserveWebAuthnConsumptionChallenge"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "prepareReceizPortableExecutionTransitionCommitSetV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "prepareReceizSubjectSourceProofObjectCandidateV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "projectReceizAssetManifest"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "projectReceizAttestationApplicationV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "projectReceizIdentityAccount"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "projectReceizKksV1SealedProofCoordinate"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "projectReceizSourceCarriedReplayBranchesV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "projectReceizSportsCardManifest"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "projectReceizSubjectNamespacesV123"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "projectReceizSubjectPresenceV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "projectReceizSubjectRelationshipV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "projectReceizSubjectThreadV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "proofAuthorityChallengeBasisV123"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "publishReceizMaterialCompositeTransport"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "quoteReceizDisplayUsdV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizArtifactAppendDerivedEffects"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizArtifactAppendPlannedEvent"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizArtifactAppendPlannedHistoryParents"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizCredentialPresentationContentUrlV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizEconomyShowcaseGenesisHead"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizIdentityArtifact"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizIdentityPublicBinding"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizLegacyProfileShowcaseMigrationPlanCustody"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizLivingSubjectTemporalExecution"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizMaterialCapsuleFromUrl"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizMaterialCompositePackageDigest"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizProfileShowcaseGenesisBody"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizSignedTransportEnvelopeV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizSubjectRelationshipSourceV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizSubjectSourceFamilyMemberV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizSubjectThreadSourceMemberV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readReceizTemporalSubjectSourceV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "readSdkIssuedReceizCommittedArtifactTransitionCustody"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receiveReceizEdgeReserveV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receiveReceizEdgeSettlementV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizAppStateNamespaceFromUrl"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizAppStateObjectIdFromUrl"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizAppStateUrlFromHost"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizArtifactAppendCapabilityContext"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizBase64UrlDecode"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizBase64UrlEncode"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizCompositeFibonacciDistancesUpTo"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizCompositeMerkleRootFromFrontier"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizEconomyShowcaseGenesisCapabilityContext"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizInitialSourceCapabilityContextV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizKaiMomentFromSealedPulse"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizKaiNow"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizMaterialPresentedLinkForVerification"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizMaterialProgressiveSegmentRoot"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizOidcScopesForRails"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizPortableSegmentSignatureBytes"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizProfileShowcaseGenesisCapabilityContext"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizProofExplanation"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizProofMemoryAdditionsQuery"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "receizProtocolOperationalDenial"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "reconciliationCapabilitySigningBytes"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "reconstructReceizMaterialCompositeCapsule"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "recoverReceizCompositeMerkleRoot"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "recoverReceizPortableExecutionTransitionSetV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "rederiveReceizBoundedProfileShowcaseCarrierFromAdmission"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "rederiveReceizEconomyShowcaseCarrierFromAdmission"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "rederiveReceizProfileShowcaseCarrierFromAdmission"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "reduceReceizConversationEventsV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "reduceReceizConversationEventsV2"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "reduceReceizNamespace"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "reduceReceizProfileShowcasePersistentStateV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "reduceReceizWholeNoteCapacity"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "registerReceizLawfulActionLawV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "registryArtifactSigningBytes"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "replaceReceizPortableProofHistoryBytes"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "replayReceizCausalHistory"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "resolveReceizCredentialCurrentnessV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "resolveReceizMaterialCompositeFromSources"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "resolveReceizMaterialCompositeTransport"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "resolveReceizOfflineNoteDestination"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "resolveReceizSubjectPresenceCurrentnessV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "restoreReceizAppStateProjection"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "restoreReceizExactPlannedTransaction"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "restoreReceizSubjectProofBrain"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "routeReceizWebhookEvent"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "runReceizAdmissionStoreConformance"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "runReceizOfflineNoteCustodyConformance"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "runReceizOfflineNoteRollbackConformance"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "runReceizV125TemporalAuthorityConformance"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "sanitizeReceizErrorMessage"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "sealArtifactTransitionCandidate"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "sealReceizEconomyShowcaseGenesis"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "sealReceizProfileShowcaseGenesis"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "segmentedReceizPortableStateRef"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "segmentReceizPortableStateSnapshot"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "serializeReceizCompositeCanonical"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "serializeReceizIdentityArtifact"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "serializeReceizLawfulActionV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "serializeReceizPortableAssetDocument"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "serializeReceizProfileShowcaseCarrier"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "sha256ReceizBytes"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "signReceizAttestationRoleGrantV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "signReceizCapability"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "signReceizIdentityLoginProof"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "snapshotReceizArtifactInput"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "snapshotReceizNamespaceBodies"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "spoolReceizArtifactInput"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "transportReceizSealedArtifactV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "unknownReceizLawfulDeliveryV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "updateReceizCompositeFibonacciState"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizAppContract"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizCheckpointV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizConstitutionRegistry"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizDisplayPriceV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizDomainReplayV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizExactCommandBytes"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizExactTransactionBytes"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizExecutionReceiptV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizLawfulActionAdmissionV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizLawfulActionExecutionV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizLawfulActionLawV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizLawfulActionProofV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizLawfulActionValueHeadV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizLocatorBoundValueIntentV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizMandateUseV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizMultiWorldCompositeOperationV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizMultiWorldExecutionProjectionV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizNamespaceResolutionV123"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizOperationPlanV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizPrivateWorldEnvelopeV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizProofAuthorityV123"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizPublicRecipientLocatorReferenceV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizReplayV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizSealedSourcePublicationResultV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizSubjectAccessPublicBindingV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizSubjectAdmissionInputV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizSubjectAdmissionResultV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizTransactionV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizValueExecutionOutcomeV123"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizValueIntentV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizWorldAccessAppendV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizWorldCompositeOperationV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "validateReceizWorldExecutionProjectionV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyAndOpenReceizAttestationArtifactV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyAndOpenReceizCredentialArtifactV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizArtifact"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizArtifactAdmission"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizArtifactForReconciliation"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizArtifactTransitionCommitCandidate"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizAttestationActorAuthorizationV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizAttestationEvidenceBundleAuthorityV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizAttestationHistoryV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizAttestationIssuanceEvidenceV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizAttestationRoleGrantAuthorityV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizAuthenticatedSubjectStateV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizBoundedProfileShowcaseForReconciliationV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizCausalCheckpoint"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizCredentialHistoryV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizCredentialPresentationV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizEconomyShowcaseMergeV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizEconomyShowcaseSuccessorV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizExternalExecutionOutcomeV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizExternalExecutionPlanV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizGlobalEconomySuccessorV119"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizIdentityLoginProof"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizIdentityPortableStateProof"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizIdentityPublicKeyProjectionSignature"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizLawfulActionProofV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizMaterialCompositeManifest"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizNativeCaptureCommitmentV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizNativeCaptureV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizOfflineNoteAttestedReceivingCustodyCommitment"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizOfflineNoteCustodyQualification"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizOfflineNoteDestination"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizOfflineNoteIrreversibleConsumptionReceipt"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizOfflineNotePlatformAttestationCertificate"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizOfflineNoteReceivingCustodyCommitment"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizOfflineNoteReceivingSeal"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizOfflineNoteRollbackConformanceEvidence"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizOfflineNoteWebAuthnActivationReceipt"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizOfflineNoteWebAuthnAssertion"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizOfflineNoteWebAuthnConsumptionReceipt"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizOfflineReserveFundingBinding"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizOfflineReserveWebAuthnConsumptionReceipt"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizOwnershipHandoffSequence"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizPbiCeremonyReceiptV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizPbiProofObjectAuthorshipChainV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizPortableExecutionAuthorityEvidenceV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizPortableExecutionTransitionSetV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizProfileShowcaseBoundedMergeV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizProfileShowcaseBoundedSuccessorV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizProfileShowcaseCheckpointBundleV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizProfileShowcaseCheckpointSnapshotV114"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizProofHistory"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizReconciliationCommitAuthorization"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizRegistryArtifactPayloadDigest"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizSportsVaultSuccessorV119"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizSubjectArtifactV1"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizSubjectEdgeBundleV122"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizSubjectPresenceV125"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizTransportBindingV124"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizWebhookRequest"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk",
+      "name": "verifyReceizWebhookSignature"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "applyReceizIntegrationPreview"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "applyV105MigrationPlan"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "buildV105MigrationPlan"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "checkReceizIntegration"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "compileReceizAppContract"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "compileReceizDomain"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "createReceizIntegrationPreview"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "defineReceizApp"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "describeReceizCapabilities"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "describeReceizError"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "explainReceizIntegrationFinding"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "generateFrameworkNeutralFiles"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "generateNextjsAppRouterFiles"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "generateReceizFrameworkFiles"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "inspectReceizProject"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "planReceizIntegration"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "planReceizUpgrade"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "qualifyReceizApp"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "receizCompilerImportMigrations"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "receizCompilerImportUpgradeAction"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "receizOidcScopesForRails"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "receizPackageUpgradeAction"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "runReceizAppConformance"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "sanitizeReceizErrorMessage"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "validateReceizAppContract"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/compiler",
+      "name": "verifyV105Migration"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/offline",
+      "name": "createReceizIndexedDbSealStore"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/offline",
+      "name": "createReceizMemorySealStore"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/offline",
+      "name": "createReceizOfflineSealer"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/offline",
+      "name": "verifyReceizOfflineSealedFile"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/offline/kai",
+      "name": "createReceizOfflineKaiProofFactory"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/offline/kai/node",
+      "name": "createReceizNodeOfflineKaiProofFactory"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/offline/node",
+      "name": "createReceizFileSealStore"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/offline/node",
+      "name": "createReceizNodeOfflineSealer"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/react",
+      "name": "ReceizCheckoutButton"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/react",
+      "name": "ReceizDomainConnector"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/react",
+      "name": "ReceizIdentityButton"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/react",
+      "name": "ReceizMediaUploader"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/react",
+      "name": "ReceizTwinWriter"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/react",
+      "name": "ReceizWalletBalance"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/react",
+      "name": "useReceizAppState"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/react",
+      "name": "useReceizCheckout"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/react",
+      "name": "useReceizIdentity"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/react",
+      "name": "useReceizMedia"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/subjects/node",
+      "name": "createReceizV127SubjectRuntimeFileStore"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/subjects/node",
+      "name": "openReceizV127SubjectRuntimeFromFiles"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/subjects/node",
+      "name": "readReceizV127SubjectRuntimeSourceFile"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/testing",
+      "name": "createReceizArtifactTransitionCommitUnitFixture"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/testing",
+      "name": "createReceizBrowserAdmissionStoreForTesting"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/testing",
+      "name": "createReceizEmulator"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/testing",
+      "name": "createReceizInMemoryArtifactTransitionStoreFixture"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/testing",
+      "name": "createReceizLivingSubjectEmulator"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/testing",
+      "name": "createReceizRegistryDiscoveryFixture"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/testing",
+      "name": "createReceizVerifiedArtifactTransitionCandidateFixture"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/testing",
+      "name": "describeReceizCapabilities"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/testing",
+      "name": "describeReceizError"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/testing",
+      "name": "readReceizArtifactTransitionHistoryIssuanceCount"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/testing",
+      "name": "receizOidcScopesForRails"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/testing",
+      "name": "runReceizArtifactTransitionStoreConformance"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/testing",
+      "name": "runReceizConformance"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/testing",
+      "name": "runReceizLivingSubjectConformanceV120"
+    },
+    {
+      "kind": "SDK export",
+      "group": "@receiz/sdk/testing",
+      "name": "sanitizeReceizErrorMessage"
+    }
+  ]
+}

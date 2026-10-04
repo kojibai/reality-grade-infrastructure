@@ -2,7 +2,7 @@
 
 `@receiz/sdk/offline` packages the existing canonical Receiz file sealer, Signature V4 and document Groth16 proof generation. `@receiz/sdk/offline/node` supplies private local file custody and loads the proof resources shipped in the package. No server is consulted during sealing or verification.
 
-Install `@receiz/sdk@127.0.0`. In Node 24:
+Install `@receiz/sdk@128.0.0`. In Node 24:
 
 ```js
 import { readFile, writeFile } from "node:fs/promises";

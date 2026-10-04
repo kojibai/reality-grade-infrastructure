@@ -7,7 +7,7 @@ import {verifyProofNativeReleaseAttestation,GOVERNANCE_OWNER,LEGACY_GOVERNANCE_M
 const read=path=>readFile(new URL('../'+path,import.meta.url));
 const json=async path=>JSON.parse(await read(path));
 const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
-test('current registry, predecessor, census and catalog bind the installed SDK127',async()=>{
+test('current registry, predecessor, census and catalog bind the installed SDK128 with inherited v127 registry',async()=>{
  const registry=await json('release/laws/v127.0.0-constitution-registry.json');
  const digest=(await read('release/laws/v127.0.0-constitution-registry.digest')).toString().trim();
  assert.equal(registry.version,'127.0.0');assert.equal(sha(canonicalizeReceizConstitution(registry)),digest);assert.equal(digest,RECEIZ_CURRENT_REGISTRY_DIGEST);
@@ -26,6 +26,13 @@ test('prior owner-sealed release and all archived release bytes verify offline',
  }finally{globalThis.fetch=previous;}
 });
 test('public source and coordinated package evidence preserve independent versions',async()=>{
- const source=await json('release/source.json');assert.equal(source.disclosureVersion,'1.1.0');assert.equal(source.compatibleProductVersion,'127.0.0');assert.equal(source.productHistory.tag,'v127.0.0');
- const packages=await json('release/evidence/package-publication-v127.json');assert.equal(packages.packages.length,3);for(const p of packages.packages){assert.equal(p.version,'127.0.0');assert.match(p.integrity,/^sha512-/);}
+ const source=await json('release/source.json');assert.equal(source.disclosureVersion,'1.2.0');assert.equal(source.compatibleProductVersion,'128.0.0');assert.equal(source.productHistory.tag,'v128.0.0');
+ const packages=await json('release/evidence/package-publication-v128.json');assert.equal(packages.packages.length,3);for(const p of packages.packages){assert.equal(p.version,'128.0.0');assert.match(p.integrity,/^sha512-/);}
+});
+
+test('v1.1.0 complete signed inventory remains byte-exact',async()=>{
+ const prior=await json('release/history/v1.1.0/release/attestation.json');
+ const payload=await verifyProofNativeReleaseAttestation(prior,GOVERNANCE_OWNER,LEGACY_GOVERNANCE_MANIFEST_SHA256);
+ assert.equal(payload.release,'v1.1.0');
+ for(const item of payload.files){const bytes=await read('release/history/v1.1.0/'+item.path);assert.equal(sha(bytes),item.sha256);assert.equal(bytes.length,item.bytes);}
 });

@@ -1,0 +1,179 @@
+
+> receiz-reality-grade-infrastructure@126.0.0 conformance:sdk
+> receiz conformance
+
+{
+  "ok": true,
+  "schema": "receiz.sdk.conformance_report.v1",
+  "sdkVersion": "126.0.0",
+  "checks": [
+    {
+      "id": "browser_runtime",
+      "status": "pass",
+      "evidence": {
+        "entrypoint": "@receiz/sdk",
+        "nodeBuiltins": 0
+      },
+      "authorityBoundary": "qualification-evidence-beneath-sealed-receiz-proof-object-truth"
+    },
+    {
+      "id": "react_runtime",
+      "status": "pass",
+      "evidence": {
+        "entrypoint": "@receiz/sdk/react",
+        "nodeBuiltins": 0
+      },
+      "authorityBoundary": "qualification-evidence-beneath-sealed-receiz-proof-object-truth"
+    },
+    {
+      "id": "compiler_node",
+      "status": "pass",
+      "evidence": {
+        "entrypoint": "@receiz/sdk/compiler",
+        "environment": "node"
+      },
+      "authorityBoundary": "qualification-evidence-beneath-sealed-receiz-proof-object-truth"
+    },
+    {
+      "id": "artifact_continuity",
+      "status": "pass",
+      "evidence": {
+        "continuityBeforeSeal": true,
+        "ownerBound": true,
+        "namespaceBound": true,
+        "priorHeadReference": null,
+        "sandboxVerified": true
+      },
+      "authorityBoundary": "qualification-evidence-beneath-sealed-receiz-proof-object-truth"
+    },
+    {
+      "id": "record_before_seal",
+      "status": "pass",
+      "evidence": {
+        "continuityBeforeSeal": true,
+        "ownerBound": true,
+        "namespaceBound": true,
+        "priorHeadReference": null,
+        "sandboxVerified": true
+      },
+      "authorityBoundary": "qualification-evidence-beneath-sealed-receiz-proof-object-truth"
+    },
+    {
+      "id": "webhook_security",
+      "status": "pass",
+      "evidence": {
+        "tamperRejected": true,
+        "signatureCarrier": "sandbox-envelope"
+      },
+      "authorityBoundary": "qualification-evidence-beneath-sealed-receiz-proof-object-truth"
+    },
+    {
+      "id": "idempotency",
+      "status": "pass",
+      "evidence": {
+        "duplicateAdmitted": true,
+        "checkoutCount": 1
+      },
+      "authorityBoundary": "qualification-evidence-beneath-sealed-receiz-proof-object-truth"
+    },
+    {
+      "id": "proof_memory_recovery",
+      "status": "pass",
+      "evidence": {
+        "interruptionRejected": true,
+        "reopenedEntries": 1
+      },
+      "authorityBoundary": "qualification-evidence-beneath-sealed-receiz-proof-object-truth"
+    },
+    {
+      "id": "package_compatibility",
+      "status": "pass",
+      "evidence": {
+        "sdk": ">=126.0.0 <127.0.0",
+        "mcp": ">=126.0.0 <127.0.0",
+        "workspaceDependencies": 0
+      },
+      "authorityBoundary": "qualification-evidence-beneath-sealed-receiz-proof-object-truth"
+    },
+    {
+      "id": "mcp_parity",
+      "status": "pass",
+      "evidence": {
+        "capabilitySchema": "receiz.sdk.capability_descriptor.v1",
+        "compilerEntrypoint": "@receiz/sdk/compiler"
+      },
+      "authorityBoundary": "qualification-evidence-beneath-sealed-receiz-proof-object-truth"
+    },
+    {
+      "id": "generated_project_compile",
+      "status": "pass",
+      "evidence": {
+        "generatedContract": "receiz.generated-files.v1",
+        "protectedExtensions": true
+      },
+      "authorityBoundary": "qualification-evidence-beneath-sealed-receiz-proof-object-truth"
+    },
+    {
+      "id": "emulator_determinism",
+      "status": "pass",
+      "evidence": {
+        "equalSnapshots": true,
+        "verdict": "sandbox-only"
+      },
+      "authorityBoundary": "qualification-evidence-beneath-sealed-receiz-proof-object-truth"
+    },
+    {
+      "id": "cold_start_restoration",
+      "status": "pass",
+      "evidence": {
+        "coldRestore": true,
+        "networkCalls": 0
+      },
+      "authorityBoundary": "qualification-evidence-beneath-sealed-receiz-proof-object-truth"
+    },
+    {
+      "id": "artifact_admission_recovery",
+      "status": "pass",
+      "evidence": {
+        "exactVerdicts": 5,
+        "zeroNetwork": true,
+        "zeroWrites": true,
+        "bearerAuthorityEscalationPrevented": true,
+        "atomicRollback": true
+      },
+      "authorityBoundary": "qualification-evidence-beneath-sealed-receiz-proof-object-truth"
+    },
+    {
+      "id": "multi_application_convergence",
+      "status": "pass",
+      "evidence": {
+        "applications": 3,
+        "deterministicHead": true,
+        "provenancePreserved": true,
+        "offlineRestore": true
+      },
+      "authorityBoundary": "qualification-evidence-beneath-sealed-receiz-proof-object-truth"
+    }
+  ],
+  "summary": {
+    "passed": 15,
+    "failed": 0,
+    "networkCalls": 0,
+    "dbCalls": 0,
+    "fixtures": 3,
+    "proofMemoryEntries": 0
+  },
+  "evidenceDigest": "54e00fffb919dee06ee58e09fa4928fc355eca5bc044c89837e76b17361bed91",
+  "authority": {
+    "qualificationIsVerification": false,
+    "strongerTruth": "sealed-receiz-proof-object",
+    "emulatorVerdict": "sandbox-only"
+  },
+  "knownHead": {
+    "afterEntryId": null,
+    "afterKaiUpulse": null,
+    "afterCreatedAt": null,
+    "limit": 100
+  },
+  "failures": []
+}
