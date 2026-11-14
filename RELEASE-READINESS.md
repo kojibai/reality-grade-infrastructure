@@ -1,20 +1,18 @@
-# Disclosure v1.2.0 release gate
+# Disclosure v1.3.0 release qualification
 
-Compatible product release: Receiz128. The exact product-history source is recorded in [release/source.json](release/source.json). The prior signed v1.0.1 inventory passed verification before preparation of this successor.
+Disclosure 1.3.0 accompanies product 129.5.0. `release/source.json` identifies the canonical Receiz tag and its exact commit/tree, the standalone verifier commit, and the complete 16 tagged release-family files captured in `release/evidence/receiz-v129.5.0-source.json`. The product-history tag field is the product release label required by the existing disclosure schema; it does not assert a Git tag in the standalone repository.
 
-Required gates:
+The complete previous owner-sealed 1.2.0 repository tree is retained under `release/history/v1.2.0`, including every file in its signed inventory. Earlier disclosure proofs and their exact bytes remain available. The inherited v127 law registry, census, catalog and captured endpoint evidence keep their original scope.
 
-```sh
-npm ci --ignore-scripts
-npm test
-npm run conformance:sdk
-npm run verify:release
-```
+## Qualification and signing sequence
 
-The candidate is committed cleanly before signing. The designated bjklock Identity Seal remains in private custody outside this repository. The existing governance verifier checks the carried owner proof and exact inventory. Only the attestation is added in the following release commit. A candidate without a passing final attestation is not publication-qualified.
+1. Install the locked published SDK with `npm ci --ignore-scripts`.
+2. Run `npm test` and `npm run conformance:sdk`. The tests verify historical owner proofs, source inventories, current release coordinates and refusal controls. The captured current SDK result is `release/evidence/sdk-conformance-v129.5.0.json`.
+3. Commit the disclosure candidate cleanly. The existing designated-owner signer binds that candidate commit/tree and every inventory file; it uses the already-held local governance Identity Seal. No signing service, new root or replacement owner is introduced.
+4. Add the resulting `release/attestation.json` in an attestation-only successor commit. Run `npm run verify:release` to verify the current owner proof, source chain and exact disclosure inventory offline. A missing, changed or invalid proof is a refusal, not a qualified release.
 
-Ten historical hosted conformance reports are captured with byte digests in `release/evidence/index.json`. They are captured reports, not independently rerun private application tests. SDK conformance output is retained separately. The historical preparation tree and prior release remain intact.
+The attestation is the release evidence. This document describes the sequence and cannot substitute for proof verification. Private identity bytes and passphrases are excluded from the public inventory. Existing `GOVERNANCE_IDENTITY_FILE` and optional `GOVERNANCE_IDENTITY_PASSPHRASE_FILE` select local signing custody; no credential value belongs in this repository.
 
-Candidate qualification: all 13 public audit and disclosure tests pass; all ten captured reports return pass; installed SDK128 conformance passes; the locked dependency audit reports zero vulnerabilities. These are the recorded results in `release/evidence/`. Final release admission still requires the generated owner-sealed inventory to pass `npm run verify:release`.
+## Evidence boundary
 
-Current qualification uses SDK128. Captured endpoint reports, v127 registry/census and catalog retain their original historical binding. Prior v1.1.0 complete signed inventory is preserved under `release/history/v1.1.0/`.
+The imported canonical release book retains both successful scoped checks and the original failed umbrella invocation. This disclosure does not claim a new complete application release-freeze pass, browser sign-in qualification, production deployment, full Crystal cutover, exhaustive private-code audit or current capability census. See `release/qualification.json` and the imported conformance record for exact scopes.

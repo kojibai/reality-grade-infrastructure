@@ -1,0 +1,15 @@
+{
+  "schema": "receiz.disclosure.qualification.v1",
+  "disclosureVersion": "1.3.0",
+  "compatibleProductVersion": "129.5.0",
+  "receizSourceCommit": "3267b36b88060987b509b27fec6763683ee10e98",
+  "standaloneSourceCommit": "31fc5d4366f9264910698c173784349ba1c791d7",
+  "sourceInventory": "release/evidence/receiz-v129.5.0-source.json",
+  "packagePublication": "release/evidence/package-publication-v129.5.0.json",
+  "sdkConsumerReport": "release/evidence/sdk-conformance-v129.5.0.json",
+  "releaseProof": "release/attestation.json",
+  "releaseProofRequirement": "Verify the existing designated-owner proof and exact current inventory with npm run verify:release. This document is not signature authority.",
+  "historical12Inventory": "release/history-index/v1.2.0.json",
+  "deployment": "not-performed",
+  "hostedCutover": "not-qualified"
+}

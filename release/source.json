@@ -1,15 +1,25 @@
 {
   "schema": "receiz.disclosure.source.v1",
-  "disclosureVersion": "1.2.0",
-  "compatibleProductVersion": "128.0.0",
+  "disclosureVersion": "1.3.0",
+  "compatibleProductVersion": "129.5.0",
   "productHistory": {
     "repository": "https://github.com/kojibai/receiz_offline_verifier",
-    "tag": "v128.0.0",
-    "commit": "3833811ff65fe7e14d682b1039394df96a44024a"
+    "tag": "v129.5.0",
+    "commit": "31fc5d4366f9264910698c173784349ba1c791d7",
+    "tagMeaning": "product release identifier required by release.v1; no standalone Git ref is asserted",
+    "standaloneGitTag": null,
+    "canonicalProductRepository": "https://github.com/kojibai/receiz"
   },
   "previousDisclosure": {
-    "version": "1.1.0",
-    "commit": "4cf7b6cc6f2edd71d5c642b5d09c6e0c6a1950bd"
+    "version": "1.2.0",
+    "commit": "7d11c8438fd7d757a3f510ef7a9585e2322ea98b"
   },
-  "scope": "Public disclosure inventory, captured endpoint evidence, selected public SDK documentation and existing read-only audit composition. Not a full private-code audit or exhaustive current primitive census."
+  "scope": "Public disclosure inventory, captured endpoint evidence, selected public SDK documentation and existing read-only audit composition. Not a full private-code audit or exhaustive current primitive census.",
+  "receizSource": {
+    "repository": "https://github.com/kojibai/receiz",
+    "tag": "v129.5.0",
+    "commit": "3267b36b88060987b509b27fec6763683ee10e98",
+    "tree": "8f2ae0269ca75c68512a495884f0652c2530892b",
+    "inventory": "release/evidence/receiz-v129.5.0-source.json"
+  }
 }

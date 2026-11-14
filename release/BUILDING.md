@@ -1,32 +1,9 @@
-# Build with Receiz v128
+# Building with Receiz129.5
 
-Install the coordinated public packages at exact version 128.0.0:
+Install the exact public `@receiz/sdk@129.5.0` dependency through `npm ci --ignore-scripts`. The lock retains the published archive integrity and Underscore1.13.8 override; no file/link/workspace substitute is used. SDK/MCP/AI publication receipts are preserved in `evidence/package-publication-v129.5.0.json`.
 
-```sh
-npm install @receiz/sdk@128.0.0 @receiz/mcp-server@128.0.0 @receiz/ai-skills@128.0.0
-```
+Run `npm test`, `npm run conformance:sdk` and `npm run verify:release` with Node24. Current SDK conformance is captured in `evidence/sdk-conformance-v129.5.0.json`; old reports remain at their original coordinates. The full tagged release book supplies the integration, compatibility, migration, product-truth, process and conformance details.
 
-Use the published package's own license and supported entry points. This disclosure does not redistribute the private application runtime.
+SDK artifact verification, sealed ownership, carried history, local intelligence and Kai are implemented primitives. Package installation and a matching Source hash do not authorize custody, Settlement or release approval. Verify the enclosing Receiz proof first, then project its carried payload.
 
-- [Offline file sealing and local KaiSigil proving](guides/offline-sealing.md): Node/browser setup, one-time file-signer enrollment, private local custody, installed canonical proof resources, saved-byte verification and MCP tools.
-- [Durable local subject runtime](guides/local-subject-runtime.md): admitted identity, enclosing sealed source, exact historical protocol, causal KaiSigil transitions, restart, portable export and sealed import.
-- [Historical HTTP boundaries](guides/historical-http.md): explicit compatibility-host requirements; local sealing and local subject execution require no historical HTTP host.
-
-The guides are the selected public SDK128 documentation, copied without changing its execution requirements. Missing file-signer enrollment fails explicitly. Local KaiSigil generation does not require that enrollment. Cloud AI inference still needs connectivity; local tools and local inference can run locally.
-
-## Strict MCP TypeScript declarations
-
-The published MCP128 declarations contain three inferred imports of `@/packages/receiz-sdk/dist/v125KaiAuthority.js`. Strict consumers checking all package declarations need the exact installed-SDK mapping below. This documents an existing package limitation; it does not disable library checking or modify published package bytes.
-
-```json
-{
-  "compilerOptions": {
-    "skipLibCheck": false,
-    "paths": {
-      "@/packages/receiz-sdk/dist/v125KaiAuthority.js": ["./node_modules/@receiz/sdk/dist/v125KaiAuthority.d.ts"]
-    }
-  }
-}
-```
-
-The app's signed-release attestation and this repository's disclosure attestation are separate artifacts. A verified disclosure inventory does not certify an integration's permissions, payment completion, ownership transitions or private runtime.
+This public disclosure adds no application first-paint work, network authority, signing service or runtime dependency to Receiz. Current Source and read-only audit evidence do not imply hosted deployment, complete private-code audit or full cutover.

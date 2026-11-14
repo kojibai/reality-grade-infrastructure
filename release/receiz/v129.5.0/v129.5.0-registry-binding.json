@@ -1,0 +1,10 @@
+{
+  "schema": "receiz.release.registry-binding.v1",
+  "releaseVersion": "129.5.0",
+  "registryVersion": "127.0.0",
+  "inheritedFromRelease": "127.0.0",
+  "inheritance": "byte-identical",
+  "registrySourcePath": "docs/releases/v127.0.0-constitution-registry.json",
+  "digestSourcePath": "docs/releases/v127.0.0-constitution-registry.digest",
+  "registryDigest": "8d0b5b839d02d9efbd4306cc99410595a183705c2670b76d2567eaaaade99065"
+}

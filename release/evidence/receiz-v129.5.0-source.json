@@ -1,0 +1,106 @@
+{
+  "schema": "receiz.disclosure.release-source-inventory.v1",
+  "repository": "https://github.com/kojibai/receiz",
+  "tag": "v129.5.0",
+  "sourceCommit": "3267b36b88060987b509b27fec6763683ee10e98",
+  "sourceTree": "8f2ae0269ca75c68512a495884f0652c2530892b",
+  "sourceBookSha256": "f58428b1f34515e7404063071fdc11d23305c88efc3bf3e3eaa0716bd822d564",
+  "files": [
+    {
+      "source": "docs/releases/v129.5.0-checklist.md",
+      "path": "release/receiz/v129.5.0/v129.5.0-checklist.md",
+      "bytes": 9674,
+      "sha256": "bfe3b440fd7da275ec463f3d79ec3b092b7757aedd85c51cd2b178e9f899f2d5"
+    },
+    {
+      "source": "docs/releases/v129.5.0-commit-history.md",
+      "path": "release/receiz/v129.5.0/v129.5.0-commit-history.md",
+      "bytes": 94599,
+      "sha256": "1986664790937e26c045e0f1c52a3151494d69975416950214aa31a26134d26f"
+    },
+    {
+      "source": "docs/releases/v129.5.0-compatibility.md",
+      "path": "release/receiz/v129.5.0/v129.5.0-compatibility.md",
+      "bytes": 6163,
+      "sha256": "2b4d78dcbd2040d2ff97bce8bdb729ae032f311ce46204d5bc75a38ee3583379"
+    },
+    {
+      "source": "docs/releases/v129.5.0-conformance.md",
+      "path": "release/receiz/v129.5.0/v129.5.0-conformance.md",
+      "bytes": 28458,
+      "sha256": "1337293c0267b31343bc42c5593daa15706886ba212bfd76557a6e0d314a7fc9"
+    },
+    {
+      "source": "docs/releases/v129.5.0-forward-source-inventory.json",
+      "path": "release/receiz/v129.5.0/v129.5.0-forward-source-inventory.json",
+      "bytes": 32674,
+      "sha256": "a1bc7c5730ccb0f8b02cd99db2893cd16e7db18d0af1c92a2bee158ac842a7d4"
+    },
+    {
+      "source": "docs/releases/v129.5.0-governance.md",
+      "path": "release/receiz/v129.5.0/v129.5.0-governance.md",
+      "bytes": 4325,
+      "sha256": "daf26edd2d0de75c7cb2ece3e65628aeb7cf613d1c4f7ea50ec0a6e0aac285b8"
+    },
+    {
+      "source": "docs/releases/v129.5.0-integration.md",
+      "path": "release/receiz/v129.5.0/v129.5.0-integration.md",
+      "bytes": 5830,
+      "sha256": "7a10282d4e649012345a1e100e9ad16d72ebcd79b9abc404b8e980027ab3758d"
+    },
+    {
+      "source": "docs/releases/v129.5.0-migration.md",
+      "path": "release/receiz/v129.5.0/v129.5.0-migration.md",
+      "bytes": 15052,
+      "sha256": "c16287c03d4d41bf4bd5e12fabf6e73fe11699b86003d104416be7424e7d9ba1"
+    },
+    {
+      "source": "docs/releases/v129.5.0-package-candidates.json",
+      "path": "release/receiz/v129.5.0/v129.5.0-package-candidates.json",
+      "bytes": 1552,
+      "sha256": "189624d0094adc581490ff723b91865f8a97bece3cae40ce6853264850f5c0f0"
+    },
+    {
+      "source": "docs/releases/v129.5.0-package-publication-evidence.json",
+      "path": "release/receiz/v129.5.0/v129.5.0-package-publication-evidence.json",
+      "bytes": 2832,
+      "sha256": "108c2c60ef0e4af12ad140708e073e3a8429ef2a449fc505e1e8afba288781bb"
+    },
+    {
+      "source": "docs/releases/v129.5.0-process.md",
+      "path": "release/receiz/v129.5.0/v129.5.0-process.md",
+      "bytes": 16496,
+      "sha256": "22396e8b723371ae084d0781661197031205d8fd297783a5a3248d31fa76bdeb"
+    },
+    {
+      "source": "docs/releases/v129.5.0-product-truth.md",
+      "path": "release/receiz/v129.5.0/v129.5.0-product-truth.md",
+      "bytes": 11650,
+      "sha256": "e0b2eaf669e5f443a131badafd601d657c8004b40fabd14b31e4aa024ee36553"
+    },
+    {
+      "source": "docs/releases/v129.5.0-registry-binding.json",
+      "path": "release/receiz/v129.5.0/v129.5.0-registry-binding.json",
+      "bytes": 430,
+      "sha256": "6fee39202a5cf7bfcca92d050de5380a1e59268371980c0f9eec0887ea0cec51"
+    },
+    {
+      "source": "docs/releases/v129.5.0-regression-lessons.md",
+      "path": "release/receiz/v129.5.0/v129.5.0-regression-lessons.md",
+      "bytes": 8871,
+      "sha256": "be96fc14faf6dc406c1c62b4f2f3d0efef4bd2c2b8c38c8e0a03940c3ae3c0de"
+    },
+    {
+      "source": "docs/releases/v129.5.0-source-history.json",
+      "path": "release/receiz/v129.5.0/v129.5.0-source-history.json",
+      "bytes": 522564,
+      "sha256": "aa9f4bc6a39df6cb6ab8b7dfbff8054b8cc5007efbe21af2427915e46563d9fc"
+    },
+    {
+      "source": "docs/releases/v129.5.0.md",
+      "path": "release/receiz/v129.5.0/v129.5.0.md",
+      "bytes": 21876,
+      "sha256": "7f9b600a53e59c8e834f94933ac78a3fd59c685c9b38ca5b3fcf7229970a07c8"
+    }
+  ]
+}

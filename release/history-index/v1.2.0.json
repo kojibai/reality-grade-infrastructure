@@ -1,0 +1,849 @@
+{
+  "schema": "receiz.disclosure.historical-inventory.v1",
+  "release": "1.2.0",
+  "sourceCommit": "7d11c8438fd7d757a3f510ef7a9585e2322ea98b",
+  "archiveRoot": "release/history/v1.2.0",
+  "authority": "byte-preservation inventory; existing enclosing owner attestation remains authority",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 66,
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 36,
+      "sha256": "336b77b1a2eb03de8b6235d8a8ca15e74480f48532ec744deedc2ad1446dd04d"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1972,
+      "sha256": "4ace5220c701ff5c63658d52eec1ca23da98c9a1a8d8d3430316c12743f73b8d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4107,
+      "sha256": "a971a2d7aeeeecb6611068ad6fa0f9fc4aa94d89c7d6157487252f754c37daf6"
+    },
+    {
+      "path": "RELEASE-READINESS.md",
+      "bytes": 1624,
+      "sha256": "ba0e31f66ca4108d2038bb4dbb20ce2f6e6e84320f08f24184e9b96461716c98"
+    },
+    {
+      "path": "disclosure/AUDIT-SCOPE.md",
+      "bytes": 2466,
+      "sha256": "54822de40ea9453026427cb929724614d005a561d8b0b67e14d865af15b397ef"
+    },
+    {
+      "path": "disclosure/BUILDING.md",
+      "bytes": 3610,
+      "sha256": "e357a5edea1f7b052aedfe81af59a2927d7bd3faf16a350e71fa52b510601d88"
+    },
+    {
+      "path": "disclosure/CONTRIBUTING.md",
+      "bytes": 904,
+      "sha256": "4c6071be91ab0a3370027321fd8ec21e7a24cc8f136defd2bfdb0b6f198a8e42"
+    },
+    {
+      "path": "disclosure/README.md",
+      "bytes": 5371,
+      "sha256": "a8b5bba21d4056fd80e87f8a79ee1d5a777d3db1b234c60d99dd7b921cd4bb86"
+    },
+    {
+      "path": "disclosure/REPRODUCIBILITY.md",
+      "bytes": 2273,
+      "sha256": "b1751b41c8c2ce88a02e9a4268cdf85cf69774b6eefee7af11e13b0c12f0dc9f"
+    },
+    {
+      "path": "disclosure/SECURITY.md",
+      "bytes": 776,
+      "sha256": "e66a25434ec3da327227954d8dedf471620dd2c4dfa39dd57fac27189a7e519c"
+    },
+    {
+      "path": "disclosure/package.json",
+      "bytes": 255,
+      "sha256": "68b58eed702805386276fffa92bb0b52c1ae9b189007ed5a55a5083a3a947ca4"
+    },
+    {
+      "path": "disclosure/provenance/disclosure-manifest.json",
+      "bytes": 2308,
+      "sha256": "962bfaab24660f695817ba54c0428fdd03bd99e864bc876d9fb1e623fe35939f"
+    },
+    {
+      "path": "disclosure/standard/authority-model.md",
+      "bytes": 954,
+      "sha256": "2342ee11caddfc59e3f4905d96e63295930e966b382558082016754e2db82fb3"
+    },
+    {
+      "path": "disclosure/tools/check-sdk.mjs",
+      "bytes": 793,
+      "sha256": "6b2c57412a43bee4aaabc4ec1064ecfc4e7be598b52315d38afa1382f50feec2"
+    },
+    {
+      "path": "disclosure/tools/verify-disclosure.mjs",
+      "bytes": 4380,
+      "sha256": "b374ca1e00ae180d01cc115cd0f738cda17b0e56722cf798477b2e33274d0f3b"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 15743,
+      "sha256": "052585650d58bb33dbe180a4465d8932b323f03a3e745b4c5c15e55945ca3c1b"
+    },
+    {
+      "path": "package.json",
+      "bytes": 417,
+      "sha256": "7b9b95e103ee628eedfb41d5daee40dd856d40ed4f6560cc14d43850fc882e23"
+    },
+    {
+      "path": "release/BUILDING.md",
+      "bytes": 2088,
+      "sha256": "8994cf596a18df3ab47726418af1d53169db5570a4fe4c87a95a2833275e9235"
+    },
+    {
+      "path": "release/ONTOLOGY.md",
+      "bytes": 1259,
+      "sha256": "10140691a555215f680e2b2ba443fa7a5d6f25030470ba1e75b3ca9085138ad6"
+    },
+    {
+      "path": "release/README.md",
+      "bytes": 1747,
+      "sha256": "30a9ccb553f0bfebf032b27237135244860d3ef3e652c581d06132b05d0830f7"
+    },
+    {
+      "path": "release/RELEASE-NOTES.md",
+      "bytes": 1313,
+      "sha256": "6877c1a28d34f76a9520320a7cefd8ce855d197f4550a146a5e541da608b51ce"
+    },
+    {
+      "path": "release/attestation.json",
+      "bytes": 295322,
+      "sha256": "364526354c9fb8c394de22dc36af702f037100366e5a7de389a5679995b0f6e2"
+    },
+    {
+      "path": "release/audit-selection.json",
+      "bytes": 746,
+      "sha256": "28f030fbc327939b6a9552808194e3ed854b332b988180eec0b79acb954598dd"
+    },
+    {
+      "path": "release/evidence/dependency-audit-v128.json",
+      "bytes": 360,
+      "sha256": "8c011f304fd18843315af3908a98adcc8c6963e396078c0e70f0771d11a7d9cf"
+    },
+    {
+      "path": "release/evidence/dependency-audit.json",
+      "bytes": 360,
+      "sha256": "8c011f304fd18843315af3908a98adcc8c6963e396078c0e70f0771d11a7d9cf"
+    },
+    {
+      "path": "release/evidence/disclosure-tests.txt",
+      "bytes": 992,
+      "sha256": "95ae994226ef07a67b5fc8efad3c504cdcc201c596ff120118624a01eaa6625e"
+    },
+    {
+      "path": "release/evidence/disclosure-v128-tests.txt",
+      "bytes": 1100,
+      "sha256": "51cabed812a5a0e286fbc9e5f757541ae9cb426e6f7f30ff9dd43d399a449be6"
+    },
+    {
+      "path": "release/evidence/economy.json",
+      "bytes": 16503,
+      "sha256": "f16246eef903180c3ec644d00d5362cfa906ddafc62b9f495595ba193da2cd13"
+    },
+    {
+      "path": "release/evidence/identity.json",
+      "bytes": 22156,
+      "sha256": "bd8cc45959de4fca7f3575214460a053f1775773076d3bf69e341e7b0a512246"
+    },
+    {
+      "path": "release/evidence/index.json",
+      "bytes": 6429,
+      "sha256": "084b405a21fd538b550ab40f9db12ccf251130224fd379127743b4a84cb5d8b6"
+    },
+    {
+      "path": "release/evidence/interoperability.json",
+      "bytes": 14058,
+      "sha256": "447c56156a8a088b59fc91d13373c811054dd7ddc697d6fcb7ff0935e6d056fe"
+    },
+    {
+      "path": "release/evidence/issuance.json",
+      "bytes": 22796,
+      "sha256": "369c5bf85820a4305c209d64aff3e490ad91622ec537db2f39f9e365adbeea86"
+    },
+    {
+      "path": "release/evidence/market.json",
+      "bytes": 26308,
+      "sha256": "7bdbb3afdbe26fb9cec091c3aec015f568c2eb9929f043fa42a635a22c4f663c"
+    },
+    {
+      "path": "release/evidence/package-publication-v127.json",
+      "bytes": 2463,
+      "sha256": "3e0831b9d3198a2a7222ddbab90ae2a386be8dca81f580d22f812dd11af7602b"
+    },
+    {
+      "path": "release/evidence/package-publication-v128.json",
+      "bytes": 1965,
+      "sha256": "ec76410af034c1caa3f12d609c82d048e589ffa4b3004f9a97b1bc45660df0bd"
+    },
+    {
+      "path": "release/evidence/published-sdk-conformance.txt",
+      "bytes": 5111,
+      "sha256": "f0a2c22a5efe7c67061d53eafaa169070ca90d2c5d3ccae61c5758ced210b96c"
+    },
+    {
+      "path": "release/evidence/published-sdk128-conformance.txt",
+      "bytes": 5111,
+      "sha256": "d2b0551fa7ca36aeefca51a4119431bda67b03039c5016b38866559c6a5eae16"
+    },
+    {
+      "path": "release/evidence/signal-circuit.json",
+      "bytes": 33250,
+      "sha256": "70426c08870e757cec5945c1fa081c273a7edea6592159c71a846c399af8ae79"
+    },
+    {
+      "path": "release/evidence/sports.json",
+      "bytes": 69319,
+      "sha256": "5a7c3b9bd6ef841e8a8d9159a39f5cb9ed2c4b4dcf46dfc8519e6d70911b1e99"
+    },
+    {
+      "path": "release/evidence/temporal.json",
+      "bytes": 8721,
+      "sha256": "7bf9a66ef4ff7245475f6c329245b697f7c5b6353ab1660a5bae4d958fb81298"
+    },
+    {
+      "path": "release/evidence/verification.json",
+      "bytes": 20461,
+      "sha256": "60dd6daeb046732e3ed4eb9eed2223f6c48e49c3fa720c123d42123a6e874323"
+    },
+    {
+      "path": "release/evidence/world.json",
+      "bytes": 20334,
+      "sha256": "a5051d4ac99af6a07560edec52a92742a0b1570adbb408270b4240c30e0fe944"
+    },
+    {
+      "path": "release/guides/historical-http.md",
+      "bytes": 2688,
+      "sha256": "33043e49ec349bb011c9904252566e4f0420ac9d15e8588007ffcac3b07257a6"
+    },
+    {
+      "path": "release/guides/local-subject-runtime.md",
+      "bytes": 8203,
+      "sha256": "2a8c35dcd6957f790b60d9996195ff9b0d17797edfcf6e153fdb29164edace7f"
+    },
+    {
+      "path": "release/guides/offline-sealing.md",
+      "bytes": 7471,
+      "sha256": "83c66dca2c3de11ab6fa9f01b94a49731dc3b42b91ae2e8aa9b5420bf46bee87"
+    },
+    {
+      "path": "release/history/v1.0.0-attestation.json",
+      "bytes": 91894,
+      "sha256": "ccedd1c8a650de45390f54622d2f8ac525bd57c90087f046b24fd23b3ff4fbb4"
+    },
+    {
+      "path": "release/history/v1.0.1/ONTOLOGY.md",
+      "bytes": 1259,
+      "sha256": "3465bb5e336550d799b33090d77a74e836369bb3b2bc7dfc0f11e0a5004e7188"
+    },
+    {
+      "path": "release/history/v1.0.1/README.md",
+      "bytes": 1952,
+      "sha256": "dc1aa2f158521ac47b27e9a3b27424738e1778ca8c73cbdef2fb24093b4d69b1"
+    },
+    {
+      "path": "release/history/v1.0.1/ROOT-README.md",
+      "bytes": 2812,
+      "sha256": "1d19bf133e0313e35dfdd88d1a8e69daffad26c7d42b337a3556f78f7e2a7f46"
+    },
+    {
+      "path": "release/history/v1.0.1/attestation.json",
+      "bytes": 92222,
+      "sha256": "cd6531bd5960a4051680d6991a6de6c715ed255b62d75018e3ad029e9f599a6d"
+    },
+    {
+      "path": "release/history/v1.0.1/audit-selection.json",
+      "bytes": 746,
+      "sha256": "28f030fbc327939b6a9552808194e3ed854b332b988180eec0b79acb954598dd"
+    },
+    {
+      "path": "release/history/v1.0.1/evidence/economy.json",
+      "bytes": 16503,
+      "sha256": "996140af3d9ccbe6ac70f46829e67778337e8bc357b58d3f4dfee9d98b228f3a"
+    },
+    {
+      "path": "release/history/v1.0.1/evidence/governance-tests.txt",
+      "bytes": 864,
+      "sha256": "4f62e25eaee6aaf7ff512aeb086d6a010c2cd295e9ddc2e3d9d30292f59fdf7e"
+    },
+    {
+      "path": "release/history/v1.0.1/evidence/identity.json",
+      "bytes": 22156,
+      "sha256": "91b708b9f92d82a8137232b4d0c2feba81df9756092b3920e00b491ab696fa99"
+    },
+    {
+      "path": "release/history/v1.0.1/evidence/index.json",
+      "bytes": 6067,
+      "sha256": "141e7fcb509c6b78537c34ba8b3d6de46a95214f5795af248242fb341f567572"
+    },
+    {
+      "path": "release/history/v1.0.1/evidence/interoperability.json",
+      "bytes": 14058,
+      "sha256": "5a7db2a2d140c93b969a8e45979547a75b8dfb4828c81cb34a6b0b6434deb7c4"
+    },
+    {
+      "path": "release/history/v1.0.1/evidence/issuance.json",
+      "bytes": 22796,
+      "sha256": "1d4f8b79ee2ed11b226e15c3fa5b250ac8dde346820bee1b5f91e3bb5ad8719a"
+    },
+    {
+      "path": "release/history/v1.0.1/evidence/market.json",
+      "bytes": 26308,
+      "sha256": "040f524506e9fc8302cca86fbc535fc8a06def822af1d657c2d06c9a60707057"
+    },
+    {
+      "path": "release/history/v1.0.1/evidence/preparation-tests.txt",
+      "bytes": 778,
+      "sha256": "3921ff515d170b1fb463bd4f88e451af85e5d7ce45c64a32a36e8efe6bb0ac17"
+    },
+    {
+      "path": "release/history/v1.0.1/evidence/published-sdk-conformance.txt",
+      "bytes": 5113,
+      "sha256": "162c9733b3258de6c7aa972819c65cbd899150beacd2f40d8687f6bc321d4d28"
+    },
+    {
+      "path": "release/history/v1.0.1/evidence/signal-circuit.json",
+      "bytes": 33250,
+      "sha256": "1e703d2c347d0ef0540547284fecf3e501727174a80249fb1c5957171f378334"
+    },
+    {
+      "path": "release/history/v1.0.1/evidence/sports.json",
+      "bytes": 69319,
+      "sha256": "67cd1c0d8e58f94d3222e006f3e53db32fa8c669325784b55f850aa70f75c18f"
+    },
+    {
+      "path": "release/history/v1.0.1/evidence/temporal.json",
+      "bytes": 8720,
+      "sha256": "7ad307e0dbd43ad5e47c42fb7fd9edeb61f7a2905ea641fb6ca4e14a7f915f57"
+    },
+    {
+      "path": "release/history/v1.0.1/evidence/verification.json",
+      "bytes": 20461,
+      "sha256": "38ef0386b3a88529e9ab78aaeabe0ea58b74e5d16312f4801fa6125b729503f1"
+    },
+    {
+      "path": "release/history/v1.0.1/evidence/world.json",
+      "bytes": 20334,
+      "sha256": "6faacd71b21f5b12898a1bc641858284b8ef810befb9509393148a1850d363f3"
+    },
+    {
+      "path": "release/history/v1.0.1/history/v1.0.0-attestation.json",
+      "bytes": 91894,
+      "sha256": "ccedd1c8a650de45390f54622d2f8ac525bd57c90087f046b24fd23b3ff4fbb4"
+    },
+    {
+      "path": "release/history/v1.0.1/laws/v126.0.0-constitution-registry.digest",
+      "bytes": 65,
+      "sha256": "840e0426dbe62533fefff191aeeb50e959ef1573779e1f603f0d777cdc6b0376"
+    },
+    {
+      "path": "release/history/v1.0.1/laws/v126.0.0-constitution-registry.json",
+      "bytes": 198754,
+      "sha256": "a72871708540d6f649244b03a10ba21d6cf5cb30d223ccd5a3e581f535f85019"
+    },
+    {
+      "path": "release/history/v1.0.1/ontology/foundation-register.json",
+      "bytes": 6124,
+      "sha256": "8fca9e874c297c4b82ee33f326110917d1c34319860bb9e7b8a1fe359c628133"
+    },
+    {
+      "path": "release/history/v1.0.1/ontology/registry-census.json",
+      "bytes": 40450,
+      "sha256": "2ebb473d8b550fa2d8e0841e9407d997cb7f4632d30227039a7c67faa7b07235"
+    },
+    {
+      "path": "release/history/v1.0.1/package-lock.json",
+      "bytes": 15743,
+      "sha256": "4d04154222ae41e0b44e2163560d0b557fab77fcaee543273e0992f4ea6d2f72"
+    },
+    {
+      "path": "release/history/v1.0.1/package.json",
+      "bytes": 417,
+      "sha256": "63e7a211ac10aefe98f7165809c8d3372361595a3b42b5183eeea78ac9df2749"
+    },
+    {
+      "path": "release/history/v1.1.0/.gitattributes",
+      "bytes": 66,
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b"
+    },
+    {
+      "path": "release/history/v1.1.0/.gitignore",
+      "bytes": 36,
+      "sha256": "336b77b1a2eb03de8b6235d8a8ca15e74480f48532ec744deedc2ad1446dd04d"
+    },
+    {
+      "path": "release/history/v1.1.0/LICENSE",
+      "bytes": 1972,
+      "sha256": "4ace5220c701ff5c63658d52eec1ca23da98c9a1a8d8d3430316c12743f73b8d"
+    },
+    {
+      "path": "release/history/v1.1.0/README.md",
+      "bytes": 3518,
+      "sha256": "8ba22b81f6883f2cb65fe41032fe74e727ec510c415bc0b45c0a9fc5b8f31e96"
+    },
+    {
+      "path": "release/history/v1.1.0/RELEASE-READINESS.md",
+      "bytes": 1396,
+      "sha256": "592c88da1d258ac1148033ce47293b9bab3cd944ad899a19fb0df18bbc40b2cb"
+    },
+    {
+      "path": "release/history/v1.1.0/disclosure/AUDIT-SCOPE.md",
+      "bytes": 2466,
+      "sha256": "54822de40ea9453026427cb929724614d005a561d8b0b67e14d865af15b397ef"
+    },
+    {
+      "path": "release/history/v1.1.0/disclosure/BUILDING.md",
+      "bytes": 3610,
+      "sha256": "e357a5edea1f7b052aedfe81af59a2927d7bd3faf16a350e71fa52b510601d88"
+    },
+    {
+      "path": "release/history/v1.1.0/disclosure/CONTRIBUTING.md",
+      "bytes": 904,
+      "sha256": "4c6071be91ab0a3370027321fd8ec21e7a24cc8f136defd2bfdb0b6f198a8e42"
+    },
+    {
+      "path": "release/history/v1.1.0/disclosure/README.md",
+      "bytes": 5371,
+      "sha256": "a8b5bba21d4056fd80e87f8a79ee1d5a777d3db1b234c60d99dd7b921cd4bb86"
+    },
+    {
+      "path": "release/history/v1.1.0/disclosure/REPRODUCIBILITY.md",
+      "bytes": 2273,
+      "sha256": "b1751b41c8c2ce88a02e9a4268cdf85cf69774b6eefee7af11e13b0c12f0dc9f"
+    },
+    {
+      "path": "release/history/v1.1.0/disclosure/SECURITY.md",
+      "bytes": 776,
+      "sha256": "e66a25434ec3da327227954d8dedf471620dd2c4dfa39dd57fac27189a7e519c"
+    },
+    {
+      "path": "release/history/v1.1.0/disclosure/package.json",
+      "bytes": 255,
+      "sha256": "68b58eed702805386276fffa92bb0b52c1ae9b189007ed5a55a5083a3a947ca4"
+    },
+    {
+      "path": "release/history/v1.1.0/disclosure/provenance/disclosure-manifest.json",
+      "bytes": 2308,
+      "sha256": "962bfaab24660f695817ba54c0428fdd03bd99e864bc876d9fb1e623fe35939f"
+    },
+    {
+      "path": "release/history/v1.1.0/disclosure/standard/authority-model.md",
+      "bytes": 954,
+      "sha256": "2342ee11caddfc59e3f4905d96e63295930e966b382558082016754e2db82fb3"
+    },
+    {
+      "path": "release/history/v1.1.0/disclosure/tools/check-sdk.mjs",
+      "bytes": 793,
+      "sha256": "6b2c57412a43bee4aaabc4ec1064ecfc4e7be598b52315d38afa1382f50feec2"
+    },
+    {
+      "path": "release/history/v1.1.0/disclosure/tools/verify-disclosure.mjs",
+      "bytes": 4380,
+      "sha256": "b374ca1e00ae180d01cc115cd0f738cda17b0e56722cf798477b2e33274d0f3b"
+    },
+    {
+      "path": "release/history/v1.1.0/package-lock.json",
+      "bytes": 15743,
+      "sha256": "c9c24c0c0d82a723879202319a44eb545b7ef502cd8d7b46249e8b4523bf1897"
+    },
+    {
+      "path": "release/history/v1.1.0/package.json",
+      "bytes": 417,
+      "sha256": "790167d865b172e813515d71892c94aebc975cae59e937059d67821cf391c8e5"
+    },
+    {
+      "path": "release/history/v1.1.0/release/BUILDING.md",
+      "bytes": 2088,
+      "sha256": "977a19937e14990ceb595b27d0c3aa8fa6cbf4a78629c836b9f3237e203fde54"
+    },
+    {
+      "path": "release/history/v1.1.0/release/ONTOLOGY.md",
+      "bytes": 1259,
+      "sha256": "10140691a555215f680e2b2ba443fa7a5d6f25030470ba1e75b3ca9085138ad6"
+    },
+    {
+      "path": "release/history/v1.1.0/release/README.md",
+      "bytes": 1524,
+      "sha256": "1f93a13dcabfcb3fe40ee50caa7c3685fae8ff6aa58c0f5fcaa42abef8d95327"
+    },
+    {
+      "path": "release/history/v1.1.0/release/RELEASE-NOTES.md",
+      "bytes": 2911,
+      "sha256": "4fb5dd14c11fd4512125dd14269ae5f9ca0820f1e030eeb28ce420fd37c0c920"
+    },
+    {
+      "path": "release/history/v1.1.0/release/attestation.json",
+      "bytes": 178486,
+      "sha256": "850a22785f8a25feed3f8bd6e1cb6c955058e27663164a626c796f0102bf2f6e"
+    },
+    {
+      "path": "release/history/v1.1.0/release/audit-selection.json",
+      "bytes": 746,
+      "sha256": "28f030fbc327939b6a9552808194e3ed854b332b988180eec0b79acb954598dd"
+    },
+    {
+      "path": "release/history/v1.1.0/release/evidence/dependency-audit.json",
+      "bytes": 360,
+      "sha256": "8c011f304fd18843315af3908a98adcc8c6963e396078c0e70f0771d11a7d9cf"
+    },
+    {
+      "path": "release/history/v1.1.0/release/evidence/disclosure-tests.txt",
+      "bytes": 992,
+      "sha256": "95ae994226ef07a67b5fc8efad3c504cdcc201c596ff120118624a01eaa6625e"
+    },
+    {
+      "path": "release/history/v1.1.0/release/evidence/economy.json",
+      "bytes": 16503,
+      "sha256": "f16246eef903180c3ec644d00d5362cfa906ddafc62b9f495595ba193da2cd13"
+    },
+    {
+      "path": "release/history/v1.1.0/release/evidence/identity.json",
+      "bytes": 22156,
+      "sha256": "bd8cc45959de4fca7f3575214460a053f1775773076d3bf69e341e7b0a512246"
+    },
+    {
+      "path": "release/history/v1.1.0/release/evidence/index.json",
+      "bytes": 6429,
+      "sha256": "084b405a21fd538b550ab40f9db12ccf251130224fd379127743b4a84cb5d8b6"
+    },
+    {
+      "path": "release/history/v1.1.0/release/evidence/interoperability.json",
+      "bytes": 14058,
+      "sha256": "447c56156a8a088b59fc91d13373c811054dd7ddc697d6fcb7ff0935e6d056fe"
+    },
+    {
+      "path": "release/history/v1.1.0/release/evidence/issuance.json",
+      "bytes": 22796,
+      "sha256": "369c5bf85820a4305c209d64aff3e490ad91622ec537db2f39f9e365adbeea86"
+    },
+    {
+      "path": "release/history/v1.1.0/release/evidence/market.json",
+      "bytes": 26308,
+      "sha256": "7bdbb3afdbe26fb9cec091c3aec015f568c2eb9929f043fa42a635a22c4f663c"
+    },
+    {
+      "path": "release/history/v1.1.0/release/evidence/package-publication-v127.json",
+      "bytes": 2463,
+      "sha256": "3e0831b9d3198a2a7222ddbab90ae2a386be8dca81f580d22f812dd11af7602b"
+    },
+    {
+      "path": "release/history/v1.1.0/release/evidence/published-sdk-conformance.txt",
+      "bytes": 5111,
+      "sha256": "f0a2c22a5efe7c67061d53eafaa169070ca90d2c5d3ccae61c5758ced210b96c"
+    },
+    {
+      "path": "release/history/v1.1.0/release/evidence/signal-circuit.json",
+      "bytes": 33250,
+      "sha256": "70426c08870e757cec5945c1fa081c273a7edea6592159c71a846c399af8ae79"
+    },
+    {
+      "path": "release/history/v1.1.0/release/evidence/sports.json",
+      "bytes": 69319,
+      "sha256": "5a7c3b9bd6ef841e8a8d9159a39f5cb9ed2c4b4dcf46dfc8519e6d70911b1e99"
+    },
+    {
+      "path": "release/history/v1.1.0/release/evidence/temporal.json",
+      "bytes": 8721,
+      "sha256": "7bf9a66ef4ff7245475f6c329245b697f7c5b6353ab1660a5bae4d958fb81298"
+    },
+    {
+      "path": "release/history/v1.1.0/release/evidence/verification.json",
+      "bytes": 20461,
+      "sha256": "60dd6daeb046732e3ed4eb9eed2223f6c48e49c3fa720c123d42123a6e874323"
+    },
+    {
+      "path": "release/history/v1.1.0/release/evidence/world.json",
+      "bytes": 20334,
+      "sha256": "a5051d4ac99af6a07560edec52a92742a0b1570adbb408270b4240c30e0fe944"
+    },
+    {
+      "path": "release/history/v1.1.0/release/guides/historical-http.md",
+      "bytes": 2688,
+      "sha256": "33043e49ec349bb011c9904252566e4f0420ac9d15e8588007ffcac3b07257a6"
+    },
+    {
+      "path": "release/history/v1.1.0/release/guides/local-subject-runtime.md",
+      "bytes": 8203,
+      "sha256": "2a8c35dcd6957f790b60d9996195ff9b0d17797edfcf6e153fdb29164edace7f"
+    },
+    {
+      "path": "release/history/v1.1.0/release/guides/offline-sealing.md",
+      "bytes": 7471,
+      "sha256": "aa319e03c0c469b45ab2a8386fd5b0ee9d0c452d56c64e14170d17fb3a693f62"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.0-attestation.json",
+      "bytes": 91894,
+      "sha256": "ccedd1c8a650de45390f54622d2f8ac525bd57c90087f046b24fd23b3ff4fbb4"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/ONTOLOGY.md",
+      "bytes": 1259,
+      "sha256": "3465bb5e336550d799b33090d77a74e836369bb3b2bc7dfc0f11e0a5004e7188"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/README.md",
+      "bytes": 1952,
+      "sha256": "dc1aa2f158521ac47b27e9a3b27424738e1778ca8c73cbdef2fb24093b4d69b1"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/ROOT-README.md",
+      "bytes": 2812,
+      "sha256": "1d19bf133e0313e35dfdd88d1a8e69daffad26c7d42b337a3556f78f7e2a7f46"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/attestation.json",
+      "bytes": 92222,
+      "sha256": "cd6531bd5960a4051680d6991a6de6c715ed255b62d75018e3ad029e9f599a6d"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/audit-selection.json",
+      "bytes": 746,
+      "sha256": "28f030fbc327939b6a9552808194e3ed854b332b988180eec0b79acb954598dd"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/evidence/economy.json",
+      "bytes": 16503,
+      "sha256": "996140af3d9ccbe6ac70f46829e67778337e8bc357b58d3f4dfee9d98b228f3a"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/evidence/governance-tests.txt",
+      "bytes": 864,
+      "sha256": "4f62e25eaee6aaf7ff512aeb086d6a010c2cd295e9ddc2e3d9d30292f59fdf7e"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/evidence/identity.json",
+      "bytes": 22156,
+      "sha256": "91b708b9f92d82a8137232b4d0c2feba81df9756092b3920e00b491ab696fa99"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/evidence/index.json",
+      "bytes": 6067,
+      "sha256": "141e7fcb509c6b78537c34ba8b3d6de46a95214f5795af248242fb341f567572"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/evidence/interoperability.json",
+      "bytes": 14058,
+      "sha256": "5a7db2a2d140c93b969a8e45979547a75b8dfb4828c81cb34a6b0b6434deb7c4"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/evidence/issuance.json",
+      "bytes": 22796,
+      "sha256": "1d4f8b79ee2ed11b226e15c3fa5b250ac8dde346820bee1b5f91e3bb5ad8719a"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/evidence/market.json",
+      "bytes": 26308,
+      "sha256": "040f524506e9fc8302cca86fbc535fc8a06def822af1d657c2d06c9a60707057"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/evidence/preparation-tests.txt",
+      "bytes": 778,
+      "sha256": "3921ff515d170b1fb463bd4f88e451af85e5d7ce45c64a32a36e8efe6bb0ac17"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/evidence/published-sdk-conformance.txt",
+      "bytes": 5113,
+      "sha256": "162c9733b3258de6c7aa972819c65cbd899150beacd2f40d8687f6bc321d4d28"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/evidence/signal-circuit.json",
+      "bytes": 33250,
+      "sha256": "1e703d2c347d0ef0540547284fecf3e501727174a80249fb1c5957171f378334"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/evidence/sports.json",
+      "bytes": 69319,
+      "sha256": "67cd1c0d8e58f94d3222e006f3e53db32fa8c669325784b55f850aa70f75c18f"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/evidence/temporal.json",
+      "bytes": 8720,
+      "sha256": "7ad307e0dbd43ad5e47c42fb7fd9edeb61f7a2905ea641fb6ca4e14a7f915f57"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/evidence/verification.json",
+      "bytes": 20461,
+      "sha256": "38ef0386b3a88529e9ab78aaeabe0ea58b74e5d16312f4801fa6125b729503f1"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/evidence/world.json",
+      "bytes": 20334,
+      "sha256": "6faacd71b21f5b12898a1bc641858284b8ef810befb9509393148a1850d363f3"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/history/v1.0.0-attestation.json",
+      "bytes": 91894,
+      "sha256": "ccedd1c8a650de45390f54622d2f8ac525bd57c90087f046b24fd23b3ff4fbb4"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/laws/v126.0.0-constitution-registry.digest",
+      "bytes": 65,
+      "sha256": "840e0426dbe62533fefff191aeeb50e959ef1573779e1f603f0d777cdc6b0376"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/laws/v126.0.0-constitution-registry.json",
+      "bytes": 198754,
+      "sha256": "a72871708540d6f649244b03a10ba21d6cf5cb30d223ccd5a3e581f535f85019"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/ontology/foundation-register.json",
+      "bytes": 6124,
+      "sha256": "8fca9e874c297c4b82ee33f326110917d1c34319860bb9e7b8a1fe359c628133"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/ontology/registry-census.json",
+      "bytes": 40450,
+      "sha256": "2ebb473d8b550fa2d8e0841e9407d997cb7f4632d30227039a7c67faa7b07235"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/package-lock.json",
+      "bytes": 15743,
+      "sha256": "4d04154222ae41e0b44e2163560d0b557fab77fcaee543273e0992f4ea6d2f72"
+    },
+    {
+      "path": "release/history/v1.1.0/release/history/v1.0.1/package.json",
+      "bytes": 417,
+      "sha256": "63e7a211ac10aefe98f7165809c8d3372361595a3b42b5183eeea78ac9df2749"
+    },
+    {
+      "path": "release/history/v1.1.0/release/laws/v126.0.0-constitution-registry.digest",
+      "bytes": 65,
+      "sha256": "840e0426dbe62533fefff191aeeb50e959ef1573779e1f603f0d777cdc6b0376"
+    },
+    {
+      "path": "release/history/v1.1.0/release/laws/v126.0.0-constitution-registry.json",
+      "bytes": 198754,
+      "sha256": "a72871708540d6f649244b03a10ba21d6cf5cb30d223ccd5a3e581f535f85019"
+    },
+    {
+      "path": "release/history/v1.1.0/release/laws/v127.0.0-constitution-registry.digest",
+      "bytes": 65,
+      "sha256": "a8766e68d55394499fd7a92bb9b418c89730f375c84bc678757bdbd8a977db2e"
+    },
+    {
+      "path": "release/history/v1.1.0/release/laws/v127.0.0-constitution-registry.json",
+      "bytes": 198754,
+      "sha256": "f9f713c7a4d75ab4ffccc4551cdaeaa6e9268978222d7f8cbbc13e3683155c8a"
+    },
+    {
+      "path": "release/history/v1.1.0/release/ontology/foundation-register.json",
+      "bytes": 6124,
+      "sha256": "8fca9e874c297c4b82ee33f326110917d1c34319860bb9e7b8a1fe359c628133"
+    },
+    {
+      "path": "release/history/v1.1.0/release/ontology/public-capability-catalog.json",
+      "bytes": 187451,
+      "sha256": "d9c2fdf4bc6d316decdd77d46688d655138b1cb1c38b33bed24fd9add8a5d5a2"
+    },
+    {
+      "path": "release/history/v1.1.0/release/ontology/registry-census.json",
+      "bytes": 40450,
+      "sha256": "5ce58ff0a4a735dc4221f45281cf68c72a92ad54102264fc127d5bbf19361d80"
+    },
+    {
+      "path": "release/history/v1.1.0/release/source.json",
+      "bytes": 627,
+      "sha256": "170b8d7bd924eafe7ea03af7ca9f28ed577346d238702289703620696cd1036a"
+    },
+    {
+      "path": "release/history/v1.1.0/test/disclosure-v127.test.mjs",
+      "bytes": 3411,
+      "sha256": "6372c441f3fff00b8c34edb5c876f023e62c3afd74c7b02071daf7b2e93adf82"
+    },
+    {
+      "path": "release/history/v1.1.0/test/governance-audit.test.mjs",
+      "bytes": 2265,
+      "sha256": "e71d321063e46fb77ad01cd9b9388ade0c9aba4ddea7ad0105f0103dda809d90"
+    },
+    {
+      "path": "release/history/v1.1.0/test/governance-source.json",
+      "bytes": 54743,
+      "sha256": "baf9cbcc4f805ceb2da9760c856883b3911db254593b7afa39cb4dedfe79c69f"
+    },
+    {
+      "path": "release/history/v1.1.0/tools/governance-audit.mjs",
+      "bytes": 10710,
+      "sha256": "a4e6c29bbc1b6a652e72247bb9a95fa493dad5328c2ab231a2021c74010a6d6b"
+    },
+    {
+      "path": "release/history/v1.1.0/tools/verify-release.mjs",
+      "bytes": 2412,
+      "sha256": "3285d3a2c0f46fdd6c35ce5f353850c0c002a4a82b2c8459ce54e4e27bc94374"
+    },
+    {
+      "path": "release/laws/v126.0.0-constitution-registry.digest",
+      "bytes": 65,
+      "sha256": "840e0426dbe62533fefff191aeeb50e959ef1573779e1f603f0d777cdc6b0376"
+    },
+    {
+      "path": "release/laws/v126.0.0-constitution-registry.json",
+      "bytes": 198754,
+      "sha256": "a72871708540d6f649244b03a10ba21d6cf5cb30d223ccd5a3e581f535f85019"
+    },
+    {
+      "path": "release/laws/v127.0.0-constitution-registry.digest",
+      "bytes": 65,
+      "sha256": "a8766e68d55394499fd7a92bb9b418c89730f375c84bc678757bdbd8a977db2e"
+    },
+    {
+      "path": "release/laws/v127.0.0-constitution-registry.json",
+      "bytes": 198754,
+      "sha256": "f9f713c7a4d75ab4ffccc4551cdaeaa6e9268978222d7f8cbbc13e3683155c8a"
+    },
+    {
+      "path": "release/ontology/foundation-register.json",
+      "bytes": 6124,
+      "sha256": "8fca9e874c297c4b82ee33f326110917d1c34319860bb9e7b8a1fe359c628133"
+    },
+    {
+      "path": "release/ontology/public-capability-catalog.json",
+      "bytes": 187451,
+      "sha256": "d9c2fdf4bc6d316decdd77d46688d655138b1cb1c38b33bed24fd9add8a5d5a2"
+    },
+    {
+      "path": "release/ontology/registry-census.json",
+      "bytes": 40450,
+      "sha256": "5ce58ff0a4a735dc4221f45281cf68c72a92ad54102264fc127d5bbf19361d80"
+    },
+    {
+      "path": "release/source.json",
+      "bytes": 627,
+      "sha256": "c5e977803cd8363950c1e0f29c599831bbbac3f9c39587e90e3937b07b43f3cd"
+    },
+    {
+      "path": "test/disclosure-v127.test.mjs",
+      "bytes": 3919,
+      "sha256": "78dd750c24025e8450483f35b1094626cf8860b2fd9b216c7efcdd7174ca91f5"
+    },
+    {
+      "path": "test/governance-audit.test.mjs",
+      "bytes": 2265,
+      "sha256": "e71d321063e46fb77ad01cd9b9388ade0c9aba4ddea7ad0105f0103dda809d90"
+    },
+    {
+      "path": "test/governance-source.json",
+      "bytes": 54743,
+      "sha256": "baf9cbcc4f805ceb2da9760c856883b3911db254593b7afa39cb4dedfe79c69f"
+    },
+    {
+      "path": "tools/governance-audit.mjs",
+      "bytes": 10710,
+      "sha256": "a4e6c29bbc1b6a652e72247bb9a95fa493dad5328c2ab231a2021c74010a6d6b"
+    },
+    {
+      "path": "tools/verify-release.mjs",
+      "bytes": 2412,
+      "sha256": "3285d3a2c0f46fdd6c35ce5f353850c0c002a4a82b2c8459ce54e4e27bc94374"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "receiz.release-package-candidates.v1",
+  "release": "129.5.0",
+  "published": false,
+  "source": "Historical preparation-stage record: exact archives built and qualified before owner publication. Current confirmed publication is recorded separately in v129.5.0-package-publication-evidence.json.",
+  "publicationRequirement": "The owner published these exact qualified archive bytes; independently fetched registry integrity is recorded separately. Do not rebuild or republish129.5.0.",
+  "packages": [
+    {
+      "name": "@receiz/ai-skills",
+      "version": "129.5.0",
+      "file": "receiz-ai-skills-129.5.0.tgz",
+      "bytes": 614722,
+      "integrity": "sha512-Ne7fdTmw3nnEXlH+jVl9w9cTnFSNENjVpobzuIZu5m+oOhUgkiXypMg4bDAHgggW2sAkZUklAdOzBI1hHy7r1Q==",
+      "sha256": "a65f79d271cc4e81908082dbaeeb48bcfba103fbbe4b10f1ea9502d01cdc469d"
+    },
+    {
+      "name": "@receiz/sdk",
+      "version": "129.5.0",
+      "file": "receiz-sdk-129.5.0.tgz",
+      "bytes": 1527587,
+      "integrity": "sha512-pGjC3fP2zZ2c+YmhbrUGm8tRXZHg0s5FuQGevap+9AB1dC5e1dd8hloDfeMf4B40OLvOx92Mhwgu6XMCxOv3WA==",
+      "sha256": "3c19a390fd9916643b8e5c00cdba1b77b0cbec6e2f29775fb41e7ba26e26b04a"
+    },
+    {
+      "name": "@receiz/mcp-server",
+      "version": "129.5.0",
+      "file": "receiz-mcp-server-129.5.0.tgz",
+      "bytes": 297969,
+      "integrity": "sha512-eT+rMow8xepsKoB3u1LiUi2PeC6RP0BifJkrcB8EnCsYV1SejNqmHhdGrRn82Q02hWycHvrM/+2lQsLFjv+VEw==",
+      "sha256": "ccba36b904cf36a9e0aa6c8e5cc240077798da74aa123371472ee436423a16b5"
+    }
+  ]
+}

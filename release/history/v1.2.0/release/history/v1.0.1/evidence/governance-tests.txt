@@ -1,0 +1,16 @@
+✔ held governance source opens offline and excludes private identity/account contents (11.496042ms)
+✔ wrong identity cannot create or admit a governance source (5.658417ms)
+✔ sealed-source tampering, wrong domain, and added private fields fail before projection (3.382083ms)
+✔ exact seven artifacts and both register anchors survive sealed-source projection (13.653709ms)
+✔ duplicate, omitted, extra, and altered artifact bytes are rejected (2.961375ms)
+✔ successor requires held predecessor, increasing sequence and Kai (21.849667ms)
+✔ release attestation binds its evidence to held governance and cannot accept a changed projection (11.713583ms)
+✔ current release verification cannot fall back to a legacy signature (105.380459ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 356.103042

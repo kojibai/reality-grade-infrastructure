@@ -1,0 +1,25 @@
+{
+  "sdkVersion": "129.5.0",
+  "sdkArchiveSha256": "3c19a390fd9916643b8e5c00cdba1b77b0cbec6e2f29775fb41e7ba26e26b04a",
+  "selection": "same existing public guide filenames only; exact published package bytes",
+  "files": [
+    {
+      "destination": "release/guides/historical-http.md",
+      "publishedSource": "package/docs/historical-http.md",
+      "bytes": 2984,
+      "sha256": "44251b65b34aa479cfe9e13ac6c9eaf418adef2db46f9835d55eb4d0ba4ec467"
+    },
+    {
+      "destination": "release/guides/local-subject-runtime.md",
+      "publishedSource": "package/docs/local-subject-runtime.md",
+      "bytes": 8203,
+      "sha256": "2a8c35dcd6957f790b60d9996195ff9b0d17797edfcf6e153fdb29164edace7f"
+    },
+    {
+      "destination": "release/guides/offline-sealing.md",
+      "publishedSource": "package/docs/offline-sealing.md",
+      "bytes": 7471,
+      "sha256": "4abeb4856ac7efbdaadbb385a13462d93c5774fa0085aaeb382429a67b926693"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "scripts/governance_identity_source.ts": [
+    "sha256",
+    "sourceDigest",
+    "exactKeys",
+    "openGovernanceIdentitySource"
+  ],
+  "scripts/governance_proof.ts": [
+    "GOVERNANCE_REGISTER_PATHS",
+    "GOVERNANCE_SOURCE_FILE_PATHS",
+    "buildGovernancePayload",
+    "verifyGovernancePayload",
+    "verifyGovernanceChain"
+  ],
+  "scripts/governance_release_source.ts": [
+    "verifyCarriedGovernance",
+    "verifyProofNativeReleaseAttestation"
+  ],
+  "scripts/governance_owner.ts": [
+    "GOVERNANCE_OWNER",
+    "LEGACY_GOVERNANCE_MANIFEST_SHA256"
+  ],
+  "scripts/governance_artifact_contract.ts": [
+    "GOVERNANCE_SIGNED_ARTIFACT_PATHS",
+    "GOVERNANCE_ARTIFACT_MANIFEST_SCHEMA",
+    "GOVERNANCE_ARTIFACT_SIGNATURE_STANDARD_ID"
+  ]
+}

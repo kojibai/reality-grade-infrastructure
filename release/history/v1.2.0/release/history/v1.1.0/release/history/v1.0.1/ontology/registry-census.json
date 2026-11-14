@@ -1,0 +1,1386 @@
+{
+  "schema": "receiz.offline-registry-census.v1",
+  "releaseVersion": "126.0.0",
+  "scope": "Complete current constitutional registry. Counts executable predicates, not all product invariants or primitive inventions.",
+  "lawEntries": 133,
+  "distinctPredicates": 132,
+  "denialWitnessesPassed": 133,
+  "networkAttempts": 0,
+  "duplicates": [
+    [
+      "ARTIFACT-004",
+      "artifact.verify-before-extract"
+    ]
+  ],
+  "laws": [
+    {
+      "id": "wilds.retirement.irreversible",
+      "code": "RETIREMENT_IS_FINAL",
+      "phases": [
+        "command",
+        "merge",
+        "migration"
+      ],
+      "predicateDigest": "91390cced93c7cb723f679df504ae3457561c680503ad362ea786f4cfe2c40ff"
+    },
+    {
+      "id": "authority.tenant.explicit",
+      "code": "TENANT_REQUIRED",
+      "phases": [
+        "command",
+        "admission"
+      ],
+      "predicateDigest": "51b216c528fff4e45a50e6017273a6a3ee4961aa10662725da4a23be2b645552"
+    },
+    {
+      "id": "receiz.command-only-mutation",
+      "code": "DIRECT_STATE_WRITE_FORBIDDEN",
+      "phases": [
+        "command",
+        "event",
+        "merge",
+        "migration",
+        "admission"
+      ],
+      "predicateDigest": "2ece24698e931cad6b1c5b2e42d61efa94dd0f52e17ca0aa5d0b48db2015be69"
+    },
+    {
+      "id": "authority.proof-object-first",
+      "code": "PROOF_OBJECT_AUTHORITY_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "merge",
+        "migration",
+        "admission"
+      ],
+      "predicateDigest": "efe5d2086d323ced04a55a3204695ec6a4f2d09eb0a4f29dd6a73e5ee7e70353"
+    },
+    {
+      "id": "identity.rename.same-account-uid",
+      "code": "PROFILE_ACCOUNT_UID_CHANGE_FORBIDDEN",
+      "phases": [
+        "command",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "4246bd644e08fba1840874f6efc4524bb2070c1c40b5b63f7be5abb824fdcee0"
+    },
+    {
+      "id": "profile.first-party-no-developer-prerequisite",
+      "code": "FIRST_PARTY_PROFILE_PREREQUISITE_FORBIDDEN",
+      "phases": [
+        "command",
+        "admission"
+      ],
+      "predicateDigest": "d0553243d23ef8a4d2b34db58cdbf4ea6c4a8a8fc5d9390e9e88ed25a6bb5d10"
+    },
+    {
+      "id": "identity.projection-cannot-authorize-profile",
+      "code": "IDENTITY_PROJECTION_AUTHORITY_FORBIDDEN",
+      "phases": [
+        "command",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "fa2b808cf3d0d231d8a9e030554b30ab1dfd867c68b7c01ad8dc146e967bf83d"
+    },
+    {
+      "id": "identity.mismatch-requires-explicit-contradiction",
+      "code": "IDENTITY_MISMATCH_UNPROVEN",
+      "phases": [
+        "command",
+        "admission"
+      ],
+      "predicateDigest": "6cdbd02cfb9e93409f232e5ae671ed39c4aa43d6066f65818f7574481f3acf60"
+    },
+    {
+      "id": "portable-state.verifier-required",
+      "code": "PORTABLE_STATE_VERIFICATION_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "merge",
+        "migration",
+        "admission"
+      ],
+      "predicateDigest": "f4ac05652ce22977ba77fa5cd27a5a2bfbbe91f2dcb272260591e8ef38081bb7"
+    },
+    {
+      "id": "developer-evidence.additive-only",
+      "code": "DEVELOPER_EVIDENCE_MUST_BE_ADDITIVE",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "d101af30b4ae7e2f6a4d43f7973bc6a1e470e6c271f2ca9d031c927528b46a0d"
+    },
+    {
+      "id": "ARTIFACT-001",
+      "code": "ARTIFACT_BYTES_ARE_INDIVISIBLE",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "00ad9ed6de91f63be1ae05f8b4844f5b58278ad113362714db7b5522126b9c8d"
+    },
+    {
+      "id": "ARTIFACT-002",
+      "code": "DOWNLOADED_ARTIFACT_BYTES_MUST_MATCH",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "11f9bc681aa24beacc308818fe487690714e55097d4a96e34e89d7eaff1fffd2"
+    },
+    {
+      "id": "ARTIFACT-003",
+      "code": "SEAL_FAILURE_ISSUES_NO_ARTIFACT",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "1921cdc20a9843ff85e69e31781adfaa278c084cc2d4684c45202c284e776f8c"
+    },
+    {
+      "id": "ARTIFACT-004",
+      "code": "VERIFY_BEFORE_PAYLOAD_EXTRACTION",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "f8a7af237757999f0fc0e310a62c7896f92a418144db2293f4032257a2737b28"
+    },
+    {
+      "id": "ARTIFACT-005",
+      "code": "DOMAIN_PARSER_REQUIRES_VERIFIED_PAYLOAD",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "638eb9ad5d86fe0b48a1cc55c0138645d9b3fc7e93a93d24298c237891011e72"
+    },
+    {
+      "id": "ARTIFACT-006",
+      "code": "OWNER_CLAIM_SIGNATURE_V4_MUST_AGREE",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "4c80afcfcf7754bdb3e5b5e96c78b28e50989daf12db321e7105a92624a1311e"
+    },
+    {
+      "id": "ARTIFACT-007",
+      "code": "LEGACY_ARTIFACT_EMISSION_FORBIDDEN",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "8a01cf805cad8dc46a02f9e5d79d6255e5af59be22c9396b57e245d1dcfac27b"
+    },
+    {
+      "id": "ARTIFACT-008",
+      "code": "UNKNOWN_NAMESPACES_MUST_BE_PRESERVED",
+      "phases": [
+        "command",
+        "event",
+        "migration",
+        "admission"
+      ],
+      "predicateDigest": "79e3fafb7c2b60653819a1aa65b7a3f8c140d3030b9748a053daa6c920b3dde3"
+    },
+    {
+      "id": "ARTIFACT-009",
+      "code": "REEXPORT_MUST_APPEND_CONTINUITY",
+      "phases": [
+        "command",
+        "event",
+        "migration",
+        "admission"
+      ],
+      "predicateDigest": "d2003637d625011e06024ce8a50051e70dcff785f1f0cf7ccc4fc96e49a2395f"
+    },
+    {
+      "id": "ARTIFACT-010",
+      "code": "PAYLOAD_CANNOT_BE_RELABELED_AS_ARTIFACT",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "1fa687c00790bc67c2bff17b53033fadd6d8f5ef163436408cbcc6a0b9b72ca3"
+    },
+    {
+      "id": "artifact.complete-object-custody",
+      "code": "COMPLETE_ARTIFACT_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "5bb0febfe86ae49c45db31917e63352bfe474c52d82c63e225e37800494ea33e"
+    },
+    {
+      "id": "artifact.verify-before-extract",
+      "code": "VERIFY_ENCLOSING_ARTIFACT_FIRST",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "f8a7af237757999f0fc0e310a62c7896f92a418144db2293f4032257a2737b28"
+    },
+    {
+      "id": "artifact.exact-byte-round-trip",
+      "code": "ARTIFACT_ROUND_TRIP_MISMATCH",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "dacbed20bc4b04d08a06a9176ccf82623102464599b14c26d54b7b73eb0d7ff1"
+    },
+    {
+      "id": "artifact.sdk-custody-unforgeable",
+      "code": "SDK_ARTIFACT_CUSTODY_FORGERY_FORBIDDEN",
+      "phases": [
+        "command",
+        "admission"
+      ],
+      "predicateDigest": "a8effc86eb103007930773327f30d154ac291a6c63b2086e27bd16c14e6b20ac"
+    },
+    {
+      "id": "developer.conformance-direction",
+      "code": "DEVELOPER_CONFORMANCE_DIRECTION_INVALID",
+      "phases": [
+        "command",
+        "migration",
+        "admission"
+      ],
+      "predicateDigest": "9f69ba78abf9fdd87b5eb5a9b537b5e93c0738e0b8b14f88c64894d8cf1eab8e"
+    },
+    {
+      "id": "identity.username.commit-time-uniqueness",
+      "code": "USERNAME_COMMIT_ORDER_INVALID",
+      "phases": [
+        "command",
+        "admission"
+      ],
+      "predicateDigest": "7132b81ba2f49328cb85ab691896f6a2cec8f966acb435b48b7faa2857822487"
+    },
+    {
+      "id": "ownership.enclosing-artifact-first",
+      "code": "ENCLOSING_ARTIFACT_PROOF_REQUIRED",
+      "phases": [
+        "command",
+        "admission"
+      ],
+      "predicateDigest": "3fc34689c466ae6ff72268b16032b5e3cf8d17ba4b23f20c6e6c491ecca86687"
+    },
+    {
+      "id": "ownership.authenticated-native-reseal-continuity",
+      "code": "OWNERSHIP_NATIVE_CONTINUITY_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "16f4f850fd79152b1e88be87c44a0fa56ea6930533baeb6fd204cb18d2039c6f"
+    },
+    {
+      "id": "ownership.cross-platform-proof-object-continuity",
+      "code": "CROSS_PLATFORM_PROOF_OBJECT_CONTINUITY_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "merge",
+        "migration",
+        "admission"
+      ],
+      "predicateDigest": "53711626caab6dce65ef3357fba40e5c4160b47a4d0bfb60c58df9dc27913454"
+    },
+    {
+      "id": "offline.queued-not-committed",
+      "code": "QUEUED_COMMAND_NOT_COMMITTED",
+      "phases": [
+        "command",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "52fa0072c2228c58d88fe488a10002f0a7f10a28a38aff8e2c718cea3079d57e"
+    },
+    {
+      "id": "migration.witnessed-history-immutable",
+      "code": "WITNESSED_HISTORY_REWRITE_FORBIDDEN",
+      "phases": [
+        "migration"
+      ],
+      "predicateDigest": "efc171a7f1ddda2c6cc97e70b70c105a764c5a54b9926ac3ef9288f85e99c62e"
+    },
+    {
+      "id": "migration.never-applied-v107-sql-nondeployable",
+      "code": "NEVER_APPLIED_V107_SQL_NONDEPLOYABLE",
+      "phases": [
+        "migration"
+      ],
+      "predicateDigest": "71654404012cf7c84149894c086db6ed09dd3a4b26095d205b33f2a8ea0924c0"
+    },
+    {
+      "id": "ARTIFACT-011",
+      "code": "LOCAL_ARTIFACT_VERIFICATION_MUST_NOT_REQUIRE_WEAKER_STATE",
+      "phases": [
+        "command",
+        "admission",
+        "merge"
+      ],
+      "predicateDigest": "bff47f4e7a07e7b84e73fcbcd210604cbc013ce1a622748a105c0bad08e8cc49"
+    },
+    {
+      "id": "ARTIFACT-012",
+      "code": "COMPLETE_ARTIFACT_ADMISSION_REQUIRED",
+      "phases": [
+        "admission"
+      ],
+      "predicateDigest": "8cc16f45e4450ba9bf8e2d13818fa6ec1db52f661029acb39ec261dcb568bcb9"
+    },
+    {
+      "id": "ARTIFACT-013",
+      "code": "BEARER_AUTHORITY_ESCALATION_FORBIDDEN",
+      "phases": [
+        "command",
+        "admission"
+      ],
+      "predicateDigest": "d03a9e2baf60b4e1b0dff2e46a7eaf10ff18858360f66ca2ac36e39685e5f97d"
+    },
+    {
+      "id": "ARTIFACT-014",
+      "code": "ATOMIC_CAPABILITY_RECOVERY_COMMIT_REQUIRED",
+      "phases": [
+        "command",
+        "admission"
+      ],
+      "predicateDigest": "eb0a9b19c91a1c4fe37fced5f8e53a9aeb7cd211dc6e1dce67b48284e4320d5f"
+    },
+    {
+      "id": "ARTIFACT-015",
+      "code": "PROOF_EXPLANATION_NOT_AUTHORITY",
+      "phases": [
+        "command",
+        "admission",
+        "merge"
+      ],
+      "predicateDigest": "2bac7ac7ca28876b74d805935ba4660b1502f85ca5e30c38e754d70deb3b30f8"
+    },
+    {
+      "id": "ARTIFACT-016",
+      "code": "STRUCTURAL_ADMISSION_AUTHORITY_FORBIDDEN",
+      "phases": [
+        "admission",
+        "command"
+      ],
+      "predicateDigest": "e2e4f6a2932b7fb05e1a22c77e84662909f5c95f4b649db32daf58e0f343b017"
+    },
+    {
+      "id": "ARTIFACT-017",
+      "code": "VERIFIED_HISTORY_EVIDENCE_REQUIRED",
+      "phases": [
+        "admission",
+        "merge",
+        "command"
+      ],
+      "predicateDigest": "ce7a8920d54bf73413c686c33f5042b5ead6f959d86a490d1043fc42fa1a00f3"
+    },
+    {
+      "id": "ARTIFACT-018",
+      "code": "COMPLETE_CANONICAL_IDENTITY_BINDING_REQUIRED",
+      "phases": [
+        "admission",
+        "command"
+      ],
+      "predicateDigest": "e692820e4665a54013002962dd4cc25c9faa5c27a5132a9cbe6985b038f4aa71"
+    },
+    {
+      "id": "ARTIFACT-019",
+      "code": "STALE_OPERATIONAL_RELEASE_AUTHORITY",
+      "phases": [
+        "admission",
+        "command",
+        "merge",
+        "migration"
+      ],
+      "predicateDigest": "1fdb36ad2b6be7a7f5bd934a82e0bb691e6fa99d72e563374e28132638a26ed5"
+    },
+    {
+      "id": "ARTIFACT-020",
+      "code": "FRESH_MCP_ATTEMPT_IDENTITY_REQUIRED",
+      "phases": [
+        "command"
+      ],
+      "predicateDigest": "8f293a186dfd0c09124aa3569021849fe9e02dbcd5df89dc5bd020d7309be739"
+    },
+    {
+      "id": "ARTIFACT-021",
+      "code": "PROFILE_ADMISSION_IS_NOT_OPERATION_AUTHORITY",
+      "phases": [
+        "admission",
+        "command"
+      ],
+      "predicateDigest": "93ac874c9c021913d9da4b6df8fb28f88f872f9908033cb103828cc3dbdfc836"
+    },
+    {
+      "id": "ARTIFACT-022",
+      "code": "TYPED_PORTABLE_TRANSITION_DIGEST_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "26bf0b707a28e783a0956ee45f2116d99ecd18dde348522a572896c49aa73508"
+    },
+    {
+      "id": "ARTIFACT-023",
+      "code": "VERIFIED_ACTOR_PLAN_CAPABILITY_REQUIRED",
+      "phases": [
+        "command",
+        "admission"
+      ],
+      "predicateDigest": "2d2c8b487159710bcb2377194dbabea066246fb834985e329aa6728caa2c4433"
+    },
+    {
+      "id": "artifact.append.effects-derived",
+      "code": "ARTIFACT_APPEND_EFFECTS_MUST_BE_REGISTRY_DERIVED",
+      "phases": [
+        "command",
+        "admission"
+      ],
+      "predicateDigest": "a70f41fdd607b467eca42167a34fe25b169cf0d7d8b00f2234a47e598141d491"
+    },
+    {
+      "id": "receiz.namespace.provenance-append.v112@1",
+      "code": "PROVENANCE_NAMESPACE_LAW_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "6ad3c6ec78ed0edf4a110e29f234775e5fc211b51fb5baf754804ac9275bde42"
+    },
+    {
+      "id": "receiz.namespace.provenance-append.reducer.v1",
+      "code": "PROVENANCE_NAMESPACE_REDUCER_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "a0898c8c330acf754ca245797d8ac47b3bff5d7f2af52fa96eb23f4986785a04"
+    },
+    {
+      "id": "ARTIFACT-024",
+      "code": "VERIFIED_TRANSITION_HISTORY_REQUIRED",
+      "phases": [
+        "command",
+        "admission",
+        "merge"
+      ],
+      "predicateDigest": "f3d06d6935263cdbf6477e28be3ecf38e7e6c6f504b86887f5af9214b1cbc2c6"
+    },
+    {
+      "id": "ARTIFACT-025",
+      "code": "DURABLE_STAGING_AND_INDEPENDENT_RESOLUTION_REQUIRED",
+      "phases": [
+        "command",
+        "admission"
+      ],
+      "predicateDigest": "640f394a3a4e00af1ef268a3b9df9f2624a4b620525e321bbdfafb672aa4e400"
+    },
+    {
+      "id": "ARTIFACT-026",
+      "code": "NAMED_DOMAIN_ATOMIC_ACCEPTANCE_REQUIRED",
+      "phases": [
+        "command",
+        "admission"
+      ],
+      "predicateDigest": "e34f968722c796f2d6b408798c6687c73545e80b9bbddedfff14e0887dcc920e"
+    },
+    {
+      "id": "ARTIFACT-027",
+      "code": "COMMIT_DOMAIN_MISMATCH",
+      "phases": [
+        "command",
+        "admission"
+      ],
+      "predicateDigest": "9b128e735724e2ea06f0f588ec008305f39565498ebffc16e8f40a45058657df"
+    },
+    {
+      "id": "ARTIFACT-028",
+      "code": "IDEMPOTENCY_CONFLICT",
+      "phases": [
+        "command",
+        "admission"
+      ],
+      "predicateDigest": "1ea8612caf834dea78ed6345af6964cb3b68aad164561341e67401cdf0e344dd"
+    },
+    {
+      "id": "ARTIFACT-029",
+      "code": "APPEND_RECEIPT_REPORT_ONLY",
+      "phases": [
+        "command",
+        "admission"
+      ],
+      "predicateDigest": "904e527a63526f36219ef57894c173588ac02e0ac10ffd766292efe54baa1844"
+    },
+    {
+      "id": "ARTIFACT-030",
+      "code": "FRESH_RUNTIME_CUSTODY_AND_PROCESS_READMISSION_REQUIRED",
+      "phases": [
+        "command",
+        "admission",
+        "merge"
+      ],
+      "predicateDigest": "00f8a27f263946d98a3cc533a5a6aaf54db64fb2a4e6e2f54bed68a24a65d719"
+    },
+    {
+      "id": "browser.admission-ledger.beneath-artifact-truth",
+      "code": "BROWSER_ADMISSION_TRUTH_DOWNGRADE_FORBIDDEN",
+      "phases": [
+        "command",
+        "admission"
+      ],
+      "predicateDigest": "33c8989abe579bf036e65e6e14c7bd530013c95780b0b6e14118d20d10fdcdf0"
+    },
+    {
+      "id": "receiz.profile-showcase.carrier.v114@1",
+      "code": "PROFILE_SHOWCASE_CARRIER_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "765671eec48e6e1bde3e1cc6bc834d3804c4bac0b5ebd5f5320d6e051ce159ff"
+    },
+    {
+      "id": "receiz.namespace.profile-showcase-append.v114@1",
+      "code": "PROFILE_SHOWCASE_NAMESPACE_LAW_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "13fd754d9ed07c26342da1112db57b802e2483fa5e6546dfe00d63fba9c4d63f"
+    },
+    {
+      "id": "receiz.namespace.profile-showcase.reducer.v1",
+      "code": "PROFILE_SHOWCASE_REDUCER_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "cb35f79e8467c89f08738db8f5c8c88a26a2695a597c1593f2d230d06804528e"
+    },
+    {
+      "id": "profile-showcase.genesis.effects-derived",
+      "code": "PROFILE_SHOWCASE_GENESIS_EFFECTS_MUST_BE_DERIVED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "4fbc08b6589e0e643aac3c6da11453691d13aea9b8f7222409333d9b8c43946c"
+    },
+    {
+      "id": "profile-showcase.append.effects-derived",
+      "code": "PROFILE_SHOWCASE_APPEND_EFFECTS_MUST_BE_DERIVED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "5f5112d761c54f3f45a7712b971f51317462813a823f9e09bb354eba9cfc462a"
+    },
+    {
+      "id": "profile-showcase.literal-stable-identity",
+      "code": "PROFILE_SHOWCASE_IDENTITY_CHANGE_FORBIDDEN",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "5b455a3ff444199dc8b70128835bce12f68c96fd05b9262773b1d1116e8e8783"
+    },
+    {
+      "id": "profile-showcase.carried-history-required",
+      "code": "PROFILE_SHOWCASE_CARRIED_HISTORY_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "3bf75c540ffffd216a0c698dd0d51b85ce9d64f60bcc96baf903b943b6413864"
+    },
+    {
+      "id": "receiz.economy-showcase.carrier.v114@1",
+      "code": "ECONOMY_SHOWCASE_CARRIER_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "f2340447d56c5424440a0022477ce9a24e34f6402dbe56582b20e03499865ea6"
+    },
+    {
+      "id": "receiz.namespace.economy-showcase-append.v114@1",
+      "code": "ECONOMY_SHOWCASE_NAMESPACE_LAW_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "5a01a61ef433d11611136f538e3a61ffbc9d4ac2dd5c173c14db2100936b37db"
+    },
+    {
+      "id": "receiz.namespace.economy-showcase.reducer.v1",
+      "code": "ECONOMY_SHOWCASE_REDUCER_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "86ac82c06707b137fb859ba292918d74353d2d9b7d8095257b87012d9f46fcd4"
+    },
+    {
+      "id": "economy-showcase.genesis.effects-derived",
+      "code": "ECONOMY_SHOWCASE_GENESIS_EFFECTS_MUST_BE_DERIVED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "861403e390fed5479189b75dbc014f025a30e6c847a881cc12ebc9da678d80a8"
+    },
+    {
+      "id": "economy-showcase.append.effects-derived",
+      "code": "ECONOMY_SHOWCASE_APPEND_EFFECTS_MUST_BE_DERIVED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "2ed64f111d7bab63bc9dd3c8a50e3dceac58c6e94e52562aa996acd07adcd4f3"
+    },
+    {
+      "id": "economy-showcase.merge.effects-derived",
+      "code": "ECONOMY_SHOWCASE_MERGE_EFFECTS_MUST_BE_DERIVED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "8db899ef92f8aa4f8454bda6fcdc3175839012c40b1f416911f64caf3b09ec27"
+    },
+    {
+      "id": "economy-showcase.literal-stable-identity",
+      "code": "ECONOMY_SHOWCASE_IDENTITY_CHANGE_FORBIDDEN",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "71c1b868b19ccad6181417fea37911af5ce61b65ce66067085be58d237415cb9"
+    },
+    {
+      "id": "economy-showcase.carried-history-head-required",
+      "code": "ECONOMY_SHOWCASE_CARRIED_HISTORY_HEAD_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "e5a802df3cf090896add5e7603aa68b1367e458e0e0acc6776d7973df1b68778"
+    },
+    {
+      "id": "receiz.native-capture.schema.v115@1",
+      "code": "NATIVE_CAPTURE_SCHEMA_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "e16aa469110f5f7cc30734c27de2ea7f3a6fc2dc8b7f0eeeba30ef5fc81a3875"
+    },
+    {
+      "id": "receiz.native-capture.camera-ceremony.v115@1",
+      "code": "NATIVE_CAPTURE_CAMERA_CEREMONY_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "f27e407ba584fc975f5f72eba90920420987b9ee16f00260b8d526328698015a"
+    },
+    {
+      "id": "receiz.pbi-proof-object-authorship.schema.v115@1",
+      "code": "PBI_PROOF_OBJECT_AUTHORSHIP_SCHEMA_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "29c5bf5a567818c0e5f5c3cbede5f7cd97354741c38d1d4582151b1d5d8de4c9"
+    },
+    {
+      "id": "receiz.pbi-proof-object-authorship.canonical-predecessor.v115@1",
+      "code": "CANONICAL_PREDECESSOR_VERIFICATION_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "9555442f7fc946e0e2cdc713e1535ffac53c75978163f24a9c3d5202d02c7e22"
+    },
+    {
+      "id": "receiz.pbi-proof-object-authorship.media-preserved.v115@1",
+      "code": "PBI_AUTHORSHIP_MEDIA_CHANGE_FORBIDDEN",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "8416ae7adad664fc18cd730a65632ecd4af46cf143f4e97b7631ea5d431b4e78"
+    },
+    {
+      "id": "receiz.pbi-proof-object-authorship.ownership-non-transfer.v115@1",
+      "code": "PBI_AUTHORSHIP_OWNERSHIP_TRANSFER_FORBIDDEN",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "e9b7e5aba03225791d9813569a4f115c9728c839983da7c405a616fff2c6e16f"
+    },
+    {
+      "id": "receiz.pbi-proof-object-authorship.ordered-append.v115@1",
+      "code": "PBI_AUTHORSHIP_ORDER_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission"
+      ],
+      "predicateDigest": "42b482c1f608e2a40001cacbdceafbb9687fcc18bd6dee37311b8d487495b9bf"
+    },
+    {
+      "id": "receiz.recursive-continuity.head-selection.v119",
+      "code": "HIGHEST_VALID_KAI_HEAD_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "merge",
+        "migration",
+        "admission"
+      ],
+      "predicateDigest": "2bc7ee083496cc077dc7ec0e8431f5a7b5c6d7eb213725004be23307a3f1d1d7"
+    },
+    {
+      "id": "receiz.recursive-continuity.roles.v119",
+      "code": "RECURSIVE_PROOF_ROLES_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "merge",
+        "migration",
+        "admission"
+      ],
+      "predicateDigest": "1dd8529951f3e7a039a37045ff9691a78bfbc900e166ddf0082127465aa34f0b"
+    },
+    {
+      "id": "receiz.sports-card-proof-object.admission.v119",
+      "code": "VERIFIED_SPORTS_CARD_PROOF_REQUIRED",
+      "phases": [
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "1172fbe9c05fc14312e11b4602df60b0db35a30e256afb731fa8433495f82c5e"
+    },
+    {
+      "id": "receiz.global-economy.recursive-append.v119",
+      "code": "VERIFIED_CHILD_ADMISSION_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "merge",
+        "admission"
+      ],
+      "predicateDigest": "ef7b186b1c84039cfea93ff42b7cd5f1d79553b559c46283c6873828eff41b3e"
+    },
+    {
+      "id": "receiz.subject.identity-immutable.v120",
+      "code": "SUBJECT_IDENTITY_CONTINUITY_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "8e0847a352d301140ddac4194d2da7b8fc6bb3753e53a7f8dd7e2b6a9f9762a5"
+    },
+    {
+      "id": "receiz.subject.namespace-byte-preservation.v120",
+      "code": "SUBJECT_NAMESPACE_BYTE_PRESERVATION_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "9df191b6c08b02c4b73ed0dda82b541435f982d45843f7828c6633fc1627362e"
+    },
+    {
+      "id": "receiz.subject.complete-proof-brain.v120",
+      "code": "SUBJECT_PRIMARY_PROOF_RESOLUTION_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "2434451ca3f25c3959ab69d1b6cd8c6187e4beba5bb68efe9cbe81224f8f8e40"
+    },
+    {
+      "id": "receiz.subject.model-output-non-authority.v120",
+      "code": "MODEL_OUTPUT_CANNOT_CREATE_WORLD_EVENT",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "89d208d2909d95419e21c7976e70f8b7b9211b6478d74a2ac89867d5cb574c1f"
+    },
+    {
+      "id": "receiz.world.command-only-event-admission.v120",
+      "code": "WORLD_COMMAND_ADMISSION_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "eb20bd5b04e2755a2e0971f4fb825fa56ebc2fa0ec00d02aa7656b2c5773c50f"
+    },
+    {
+      "id": "receiz.world.zero-write-failure.v120",
+      "code": "FAILED_DECISION_MUST_WRITE_ZERO",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "c157908c259318437409ca411e140f5ebd193c12e5be6e6835a21e10bf71f493"
+    },
+    {
+      "id": "receiz.world.multi-subject-atomicity.v120",
+      "code": "MULTI_SUBJECT_ATOMIC_TRANSACTION_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "4501a1075ab0e726ef24d5f33dfc041c8aaf1ef41c1d72beecb8b5e581772749"
+    },
+    {
+      "id": "receiz.subject.mandate-runtime-reverification.v120",
+      "code": "ACTIVE_BOUNDED_MANDATE_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "8431426aa11f8ad9d63cde184f86d812abce12f51bac91f6290a0bd1942cabc8"
+    },
+    {
+      "id": "receiz.subject.event-derived-memory.v120",
+      "code": "FACTUAL_MEMORY_EVENT_CITATIONS_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "b02f443e5e633309b0e6bef06b29c2206940cbd40caa0aaed6567da26c335a7a"
+    },
+    {
+      "id": "receiz.bearer.atomic-subject-transfer.v120",
+      "code": "ATOMIC_SUBJECT_OWNERSHIP_TRANSITION_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "fe606a2e52284de192f594ce6c32a245a6dd128931c4e677ad7f417b783f9d89"
+    },
+    {
+      "id": "receiz.bearer.former-owner-revocation.v120",
+      "code": "FORMER_OWNER_AUTHORITY_REVOCATION_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "135f9859792ad0a513cf5851d1dcca8f76b5698a84081357176a5a46a5ce3c0d"
+    },
+    {
+      "id": "receiz.subject.portable-mind-complete-history.v120",
+      "code": "PORTABLE_SUBJECT_HISTORY_BINDING_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "a0b162369847b3329f59b9044c87de68419329b85fc5c812167115484006b9a5"
+    },
+    {
+      "id": "receiz.subject.performance-noncanonical.v120",
+      "code": "PERFORMANCE_EVENT_CANNOT_MUTATE_CANONICAL_STATE",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "78159cff9cf2149e8aa65067b66c87ab0268301e3f4be33cb7148f20cb22fad4"
+    },
+    {
+      "id": "receiz.proof-publication.source-before-representation.v121",
+      "code": "SEALED_PROOF_OBJECT_AUTHORITY_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "cb47e2a6c747b04ea4c4fecd25642bb9fb2640356649e6e40b19d130a88ce492"
+    },
+    {
+      "id": "receiz.proof-publication.global-append.v121",
+      "code": "VERIFIED_GLOBAL_APPEND_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "4c968699777b1aa02c5cfd788242144cc7ce5ab05ee379b123c16f85b3947af1"
+    },
+    {
+      "id": "receiz.proof-publication.no-settled-remount.v121",
+      "code": "SETTLED_SURFACE_REMOUNT_FORBIDDEN",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "ce33bcd9532c185affb70802e07d2f6d522319c967dae812e702f29920e54e47"
+    },
+    {
+      "id": "receiz.proof-media.byte-commitment-preserved.v121",
+      "code": "PROOF_MEDIA_COMMITMENT_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "3c6ef41066a9f153a8e91b1d9bc1854de0966ad66414e7299456b79b6c34f37d"
+    },
+    {
+      "id": "receiz.proof-projection.strong-fields-preserved.v121",
+      "code": "STRONGER_PROOF_FIELD_DOWNGRADE_FORBIDDEN",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "8e96f819276d0efa374bad4b098e62afbb66f5cdd310193b53cb726f84964562"
+    },
+    {
+      "id": "receiz.profile-hydration.durable-cold-head.v121",
+      "code": "VERIFIED_HYDRATION_DURABILITY_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "fa87e3bf635a72bcd93ea72c1bbdfbf3558c6e23a9ecdc8cd3373646b47c656f"
+    },
+    {
+      "id": "receiz.settlement.known-truth-first-paint.v121",
+      "code": "KNOWN_SETTLEMENT_FIRST_PAINT_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "c33ae2eb12cf8a25bf811664dd5b51bcadec637907c721221675c0cb18a80fbe"
+    },
+    {
+      "id": "receiz.identity.accepted-proof-full-session.v121",
+      "code": "ACCEPTED_IDENTITY_HALF_SESSION_FORBIDDEN",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "0675a2404263e9af54287f287eb1077342c519efe5d0208d00f3d02948f338f3"
+    },
+    {
+      "id": "receiz.subject.remote-admission.object-authority.v122",
+      "code": "ENCLOSING_PROOF_OBJECT_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "fbb290487078bf37611d439b4ecb6d595dc7c66f8903e8e23d925c10f5d746c3"
+    },
+    {
+      "id": "receiz.world.private-envelope.edge-encryption.v122",
+      "code": "PRIVATE_PLAINTEXT_GLOBAL_DISTRIBUTION_FORBIDDEN",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "1fe5cca6cc7588887dc8ee88ac377b5dc65ab396bb1a86bfcd00545c9f259a54"
+    },
+    {
+      "id": "receiz.world.execution.exact-outcome.v122",
+      "code": "EXACT_EXECUTION_OUTCOME_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "f0acf9eb01d8d62b0006cdb1c688eecc549bb03a82bc8b8e920164533e15d7c7"
+    },
+    {
+      "id": "receiz.value.phi-two-rails.v122",
+      "code": "PHI_EXPLICIT_RAIL_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "1d7247d9a2cc7fc8b49d808af63b7a50b3ffb0d918370296c3fb2fe9e5a315f4"
+    },
+    {
+      "id": "receiz.identity.proof-authority.object-first.v123",
+      "code": "ENCLOSING_PROOF_OBJECT_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "e0549b4f8b995fb4a2268d1e879571a05d1056be931553bebec1154a158604ea"
+    },
+    {
+      "id": "receiz.identity.proof-authority.explicit-consent.v123",
+      "code": "EXPLICIT_APPLICATION_CONSENT_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "c4715a8c793581012e07010d975d564ea47286f035524f6f893d83aa5fe76d4f"
+    },
+    {
+      "id": "receiz.value.live-execution.exact-outcome.v123",
+      "code": "EXACT_VALUE_EXECUTION_OUTCOME_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "8a64af1bec2fb9608226c482592905e79b50ccbbd5fbb8cdd8c65c187048b617"
+    },
+    {
+      "id": "receiz.value.live-execution.phi-explicit-rail.v123",
+      "code": "PHI_EXPLICIT_RAIL_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "0a0bada69458805f8415f1cd3bb60fb39348fa45026de440123c546804485036"
+    },
+    {
+      "id": "receiz.subject.namespace.exact-head.v123",
+      "code": "EXACT_SUBJECT_HEAD_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "976673a9f7416931f1f14101d31c1d1548f65eaa34b1f7df81ec96d6a86a2e73"
+    },
+    {
+      "id": "receiz.world.public-planner.sdk-canonical.v123",
+      "code": "SDK_CANONICAL_PLANNER_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "ae6bac9927cc64a1979b26ac1fcbd91c075389d765e36a288ed072708b198bea"
+    },
+    {
+      "id": "receiz.runtime.proof-object-storage-authority.v124",
+      "code": "SEALED_PROOF_OBJECT_STORAGE_AUTHORITY_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "5741f734ab0dfe1ede1f1e4a01904b37e5e53f8a69dd81a2a48de8040c4f31e1"
+    },
+    {
+      "id": "receiz.time.live-kai-genesis-phi-bridge.v124",
+      "code": "CANONICAL_KAI_BRIDGE_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "5991d77d69fdb6824ae26a91068e67f3f9bc0bf894d4dcf07bf1736de175804a"
+    },
+    {
+      "id": "receiz.runtime.authenticated-request-bound-response.v124",
+      "code": "AUTHENTICATED_REQUEST_BOUND_RESPONSE_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "e230602e3b45404cf3d87e00c23e4c4daf3d2861a761ca5cd3afe69d25380731"
+    },
+    {
+      "id": "receiz.execution.exactly-once-recovery.v124",
+      "code": "EXACTLY_ONCE_RECOVERY_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "fb373fa51a44cb5cab71e379e3f4e54a698901f5a965124e08df4f9b4aaba860"
+    },
+    {
+      "id": "receiz.domain.verified-replay-closed-shape.v124",
+      "code": "VERIFIED_REPLAY_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "e960a9dbb5b5e994fee36e67e52d658ecd8419f3de1c6190f67e15387b70104c"
+    },
+    {
+      "id": "receiz.domain.private-additions-filter-before-response.v124",
+      "code": "PRIVATE_COORDINATE_DISCLOSURE_FORBIDDEN",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "3d6f48c85f90020a447b75ea09d63ccc7ac1ff9ec0a29f6fc472ef2fd8898052"
+    },
+    {
+      "id": "receiz.execution.atomic-multi-domain-zero-write.v124",
+      "code": "ATOMIC_MULTI_DOMAIN_EXECUTION_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "27299f1d75cd3350b15186673e1e2f8d98435096f0009a89069c8a1100b6e732"
+    },
+    {
+      "id": "receiz.identity.public-recipient-privacy.v124",
+      "code": "PUBLIC_RECIPIENT_PRIVACY_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "49922cedf3cb0bbb2921b36abcb41980f9e003d4dd576138e2367263354b40ae"
+    },
+    {
+      "id": "receiz.runtime.operational-capability-evidence.v124",
+      "code": "OPERATIONAL_DEPENDENCY_EVIDENCE_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "c88825c58d73e4fff42b702dee8cdf2008a48309ef22775e2013d043d597111d"
+    },
+    {
+      "id": "release.current-version.v126",
+      "code": "STALE_CURRENT_RELEASE_VERSION",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "1ef8e8170f25ef388e7a8f7b3dd31cc718ce11b7ae90dae19eeb417003b6cd18"
+    },
+    {
+      "id": "release.coordinated-identity.v126",
+      "code": "COORDINATED_RELEASE_IDENTITY_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "d59fdcebe0b5bdb9934a955edc851a7ff04f3c050b86ac80852b3c54d8d813c0"
+    },
+    {
+      "id": "receiz.action.enclosing-proof-first.v125",
+      "code": "ENCLOSING_PROOF_FIRST_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "76952ec7f27936312ed4a7034168810cfa2a42dea7bed0520c8307a796d51bfa"
+    },
+    {
+      "id": "receiz.action.current-registry-law.v125",
+      "code": "CURRENT_ACTION_LAW_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "6cb0866d6626be45bc524d4202648f34e50a84ed4d9abfd630f1f0f02f850877"
+    },
+    {
+      "id": "receiz.action.causal-completion-witness.v125",
+      "code": "CAUSAL_COMPLETION_WITNESS_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "01cc568a3c180e187a2f0679d1242b7984d5cc2abdb1f618fd885b0fff6257f1"
+    },
+    {
+      "id": "receiz.action.replay-duplicate-zero-write.v125",
+      "code": "ACTION_REPLAY_ZERO_WRITE_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "cfadd07cef0db3edfb24f02ddc1c47c32ee61f4c5661d0024ad4600f1f781611"
+    },
+    {
+      "id": "receiz.value.universal-deterministic-kai.v125",
+      "code": "UNIVERSAL_KAI_VALUE_LAW_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "21f92a97bb787763895b42b106d2bbc0a842bb4fde88d8ae10e9dc2c5633b93f"
+    },
+    {
+      "id": "receiz.value.one-spendable-membership.v125",
+      "code": "ONE_SPENDABLE_MEMBERSHIP_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "5d39f38fc4306e8777e9999027ad708df74cd82146100ac4521830e76d884e21"
+    },
+    {
+      "id": "receiz.value.explicit-settlement-execution.v125",
+      "code": "EXPLICIT_SETTLEMENT_EXECUTION_REQUIRED",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "0cac380dd973815e442346a0c0c2a5a27d4057761cae1f0299f8c6bde3ae28ad"
+    },
+    {
+      "id": "receiz.action.institution-non-exemption.v125",
+      "code": "INSTITUTION_PROOF_EXEMPTION_FORBIDDEN",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "a054ce6788f99137493e8add55abeb489c87f449ee61ec6bbdd531f80754a221"
+    },
+    {
+      "id": "receiz.economy.global-activation-no-mint.v125",
+      "code": "GLOBAL_ACTIVATION_MINT_FORBIDDEN",
+      "phases": [
+        "command",
+        "event",
+        "admission",
+        "migration"
+      ],
+      "predicateDigest": "1269e8c4ec9b04a0bcd994306d30a14df6b64c2cf91d3ba32f056a77c6393598"
+    }
+  ]
+}

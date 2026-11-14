@@ -1,46 +1,32 @@
 # Receiz · Reality Grade Infrastructure
 
-**Proof Creation Runs Locally. Intelligence Runs Locally.**
+**The source carries authority. Every experience carries it forward.**
 
-Disclosure **v1.2.0**, compatible with **Receiz v128.0.0**. The proof object carries its life across experiences; v127 brings canonical proof creation and intelligence to the device holding the source. This repository carries the public contracts, ontology, exact registry, captured conformance reports and owner-sealed disclosure inventory for that release.
+Disclosure **v1.3.0** accompanies **Receiz v129.5.0** and the exact public `@receiz/sdk@129.5.0` distribution. The release retains proof creation and verification, device-held identity, ownership, Kai ordering, Settlement and append-only continuity beneath the existing Receiz proof object. No server, model, database, source hash or release label becomes its authority.
 
-Builders can seal and verify files locally through the SDK, MCP and AI workflows after explicit one-time signer enrollment. Local KaiSigil generation carries complete temporal proof without enrollment. Receiz Mind retains verified memory and runs local intelligence beneath its source. A server, model answer or release label cannot replace carried proof authority.
-
-[Read the release notes](release/RELEASE-NOTES.md) · [Build with v128](release/BUILDING.md) · [Explore 1,476 public capabilities](https://receiz.com/capabilities) · [Full documentation](https://docs.receiz.com/releases/v128.0.0)
+[Release notes](release/RELEASE-NOTES.md) · [Build with v129.5](release/BUILDING.md) · [Complete source book](release/evidence/receiz-v129.5.0-source.json) · [Academy](https://docs.receiz.com/releases/v129.5.0)
 
 ## One underlying ontology
 
 **Primitives → Relations → Invariants → Laws → Operations → Capabilities → Experiences**
 
-Receiz capabilities compose from shared primitives governed by invariant relations and deterministic transition laws. A proof object carries its source; identity binds an actor; Kai orders changes; verified appends preserve transitions; carried memory lets another experience continue from held history.
+The practical result is source, law, sequence, object and evidence remaining inspectable together, with every reader underneath them. Accepted identity, local custody, lawful history appends, native files and verification carry the same Original across experiences. Current distribution and source facts are bound in [source.json](release/source.json); scoped qualification is recorded separately in [qualification.json](release/qualification.json).
 
-[Inspect the counting scope](release/ONTOLOGY.md) · [Read the 133-law v127 registry](release/laws/v127.0.0-constitution-registry.json) · [Inspect ten captured conformance reports](release/evidence/index.json)
+## Verify the disclosure
 
-## Verify this disclosure
-
-Use Node 24:
+Use Node24:
 
 ```sh
 npm ci --ignore-scripts
 npm test
-npm run verify:release
 npm run conformance:sdk
+npm run verify:release
 ```
 
-The release verifier checks the designated owner's Receiz identity source, carried governance history and exact disclosed file inventory. It rejects altered bytes, substituted owners and unsupported release envelopes. Dependency installation requires transport; verification of held package and release bytes runs locally. A GitHub badge is not release authority.
+The existing verifier checks the designated owner's Identity Seal, carried governance history and exact disclosure inventory. The release proof is [release/attestation.json](release/attestation.json). Altered bytes, substituted owners and incomplete inventories are refused. Dependency installation uses transport; verification of held proof and release bytes is local. A source manifest or CI badge cannot substitute for that proof.
 
-## Release and source continuity
+## Preserved history and scope
 
-This disclosure has its own version. It does not rename the Receiz product release or Receiz Mind's independent 1.1.0/build 2026092205 installer. [Public product history](https://github.com/kojibai/receiz_offline_verifier/releases/tag/v128.0.0) and the [official release record](https://docs.receiz.com/releases/v128.0.0) retain those boundaries.
+The entire signed v1.2.0 disclosure, including all 168 files and its nested history, remains byte-exact under [release/history/v1.2.0](release/history/v1.2.0/README.md). Earlier v1.1.0, v1.0.1, original preparation and captured reports remain unchanged. The admitted registry, 133-law census and historical 1,476-entry catalog retain their v127 identities; they are not renamed as new v129.5 measurements. Current SDK conformance is a separate captured report.
 
-The previous v1.0.1 disclosure and its exact signed evidence remain under [release/history/v1.0.1](release/history/v1.0.1/README.md) and its immutable Git tag. The original preparation inventory under `disclosure/` remains historical; use the current [integration guide](release/BUILDING.md).
-
-## Audit scope
-
-This is a public disclosure of contracts, evidence and read-only audit tools, not the proprietary application runtime or a full private-code audit. Captured hosted reports retain their own revision and schema identities; capture is not an independent rerun. The complete current primitive census remains explicitly unqualified. Implemented proof, identity, ownership and local truth remain directly named.
-
-See [release scope](release/README.md), [license](LICENSE), and [security reporting](disclosure/SECURITY.md). Private identities, signing secrets, deployment credentials and database records are not distributed.
-
-V128 preserves the enclosing proof object through recovered-account Showcase actions, source-scoped signing, local visibility successors, AssetSeal, Mind and coordinated AI/device integrations. The distribution is v128; the admitted registry and historical census remain v127. The exact previous signed v1.1.0 inventory is retained under `release/history/v1.1.0/`.
-
-Current qualification uses SDK128. Captured endpoint reports, v127 registry/census and catalog retain their original historical binding. Prior v1.1.0 complete signed inventory is preserved under `release/history/v1.1.0/`.
+This repository discloses selected public contracts, the complete tagged release book, package publication evidence and read-only audit composition. It does not distribute the proprietary application runtime or private custody, establish a full private-code audit, activate the remaining Crystal cutover, or claim a new hosted deployment. See [release scope](release/README.md), [license](LICENSE) and [security reporting](disclosure/SECURITY.md).

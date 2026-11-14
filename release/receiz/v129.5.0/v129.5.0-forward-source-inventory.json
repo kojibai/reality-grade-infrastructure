@@ -1,0 +1,539 @@
+{
+  "schema": "receiz.private.release-migration-source-inventory.v1",
+  "baseline": "e6479d26ce904e894b2456b178373efb7fdf99c7",
+  "target": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+  "addedPathCount": 53,
+  "meaning": "Added paths in this Git interval, not 53 newly pending production actions. Renumbered/applied-history alignment files require their exact receipts before an application claim. No production SQL ran.",
+  "migrations": [
+    {
+      "path": "supabase/migrations/20261015012532_bank_offline_notes_native.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "be4ea376acbe3bf9aa94f06ce1495b7c4de5e677",
+      "sha256": "efa7c769efcf4a9e1fd096fcfe8b4b82e36dd28e7924ffb9cc20383f4f5a7fc0",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "528e397e1d4821e3591258227b9739e1f9856f52",
+      "firstPathTouchSubject": "feat: fund and redeem Bank Offline Notes with v129 custody",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261019025326_wallet_send_atomic_funding_guard.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "6a61769025f115c38527203e63cae41a788a462b",
+      "sha256": "96591efb3ee4d2770555cce9d5fe64521aceca9fb74a9603d88b5aa61cb274fb",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "24a2bdf39b75ca4a7f670f8f4c35f0c983e9e3de",
+      "firstPathTouchSubject": "Align connected Wallet Send with atomic Reserve funding",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261020204430_bank_connected_note_compatibility_wallet.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "e550e01d23f3be27d342be0b26e3d2dae73ecea9",
+      "sha256": "edacdcc83caf6f01b6b5027f1a113e53992901af0238076962a8b6d813ae4e8e",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "78e49df1186e00fdf723faf35e8ae11ee62f03c7",
+      "firstPathTouchSubject": "Connect Notes to Wallet custody and conserve composite funding",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261021120000_user_profile_named_links.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "d4fa2ca5d7038acb0011d61a639f604618e45b00",
+      "sha256": "a6055fa79a3d6e22b988d66519eec86e88231339f05a3c03933f5973aeddae70",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "df5848a50eafe787248f5af4e955aef3945c952c",
+      "firstPathTouchSubject": "Add synced named links to canonical Receiz profiles",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261022035629_market_trade_exact_arithmetic_and_recovery.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "dda1791cd3edb76a6e1ef4132807f827cfcd6159",
+      "sha256": "ab42673ba27e1ed5c33522c2ded3dccabcdd8cebd0e5ce03c1e3424c52e7af0a",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "b574a762f4eefec17bfe5cb6699a99a5e9bef745",
+      "firstPathTouchSubject": "fix: preserve exact Market arithmetic and terminal trade recovery",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261022040247_market_trade_integer_quotient_exactness.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "ba3c7a408f93dc8407d5d991deea80ad5a4715b0",
+      "sha256": "7dc1785df467798fbbf0f27f0eb3b92a16186c7f34245fbf9a81801206196c4d",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "2bd2725e026e54b2e82318fd85867ec4c5000c1d",
+      "firstPathTouchSubject": "chore: align Market repair with applied migration history",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261023024352_wallet_source_settlement_execution_alignment.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "cc9ebc9e9a6461baff81f1f2e2c2e2190983db70",
+      "sha256": "1ebbea834a3e69d2eb957a5d24accfc643d843602abeb3f520fb116e5d406ea2",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "f9471bba743c8cc3e29f12a98aa42a98ace5e2d8",
+      "firstPathTouchSubject": "fix: execute settlement from admitted source and current debits",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261023122416_wallet_transfer_funding_disclosure.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "1672a73a812efe8d8e0bb5227a084addea79081d",
+      "sha256": "ee21f917d92eec3b60f3e63615ecd9a856cf954961ca772edebebe692252fb40",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "dc7c5c90fc64afd8ea1069f987f3a8af2d9718bd",
+      "firstPathTouchSubject": "chore: align applied funding migration and record production verification",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261023182520_identity_record_bound_account_proof_authority.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "c3ba5a0414297c70292612cd54831ad0c0965384",
+      "sha256": "ab73ac9518b151426877d97c1649b773e9bed111c3a1ba6e2a1e43278145e9e3",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "ef14b19f2010bf6ba5dc10bb0f5910ec8fdec4a1",
+      "firstPathTouchSubject": "fix(identity): bind proof grants to the account carried by the Record",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261024180000_vault_market_share_custody.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "42e430423cd3aef9125152c08e46a4b8fa9d3cc6",
+      "sha256": "247c72944607e7c99562a6a6ad5ebc70bdf16c7e10835bd835246d19ac6c8c21",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "1e689740b14d9b27dc4440b7955929d61f820923",
+      "firstPathTouchSubject": "feat: add isolated Vault custody and optional account passkeys",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261024185257_connected_note_funding_disclosure.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "54b4c04d8b0fa71752c073e8f1feccc79dcb1351",
+      "sha256": "88d58cdc32c5f2725fc601c86f1ed599ea050458a6bf6db6419656e3d04e146e",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "4d350d91e491bd46c93de27f6324376577a6d224",
+      "firstPathTouchSubject": "fix: include connected Notes in funding disclosure",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261024193636_preserve_note_funding_projection_backup.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "04f623087de4c8dfc0a2c98f3af573da899edd44",
+      "sha256": "e53b87fd5c613f45fbf1fecbaa505b6ca86cdd7d31370e0e5dcea953656d2b2c",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "df9314e49ba6180bcfb3defa389bb3cfd34a451f",
+      "firstPathTouchSubject": "chore: preserve funding index before Note disclosure rebuild",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261025052959_native_twin_exact_conversation_memory.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "d04b4ed76d8565c18e875327357c9997f1a07354",
+      "sha256": "f4dc70f93255ac99d98c5135cdeb03fbf28f916a56b309ae757f25beb4fd604b",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "23bd944ebdc2471aa654bb2a5f4f5b9cdc025a60",
+      "firstPathTouchSubject": "feat: give native Twins complete conversation source and scoped tools",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261025123654_bank_offline_financial_source_custody.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "95cf6d775213f7f7756a10f21a9803037e30e734",
+      "sha256": "280c1fe3e2a79ced901dc2641cec0f088c5f397a582b4fc8ed1d2585c579ce5d",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "ab7dcb318cf4833fe423929a256f55d94cc7b919",
+      "firstPathTouchSubject": "docs: record custody migration deployment and preservation",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261025140031_bank_offline_financial_market_capacity.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "cb2f84419bce6da49ab0d19cbef99876f7f04da5",
+      "sha256": "c353aaf27b0ee4f15d4240714aae2e7f28bb42618efcc9ebbcf0cc64e61bac8a",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "f2bf8c2e43c4539e1c6ff34cc0e4bd516f62e1be",
+      "firstPathTouchSubject": "docs: verify deployed offline Market capacity preservation",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261025231948_account_financial_original_adoption.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "199c587c6ee98a08295486e99a9a51ad0cacf102",
+      "sha256": "07b6e1cc288d04c892c8295768ff9bb3a3a1ee68cf82a6dbb52501056ec64a0e",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "394130ebc94b904baba1e4500c12dd4c0f02d6d7",
+      "firstPathTouchSubject": "fix: preserve sealed Kai across financial projection schemas",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261026033537_twin_provider_expense_guard.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "88e7a24eef3a480188dc1e3a6c403d5cc4dd6f7d",
+      "sha256": "50cd10d9a93635ccdc0ac57afd3de1a40b5b247228371fee5fefa701c07a195b",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "b939fab68fe9bb30a83479690b03f949694f4bec",
+      "firstPathTouchSubject": "Record verified live Twin financial migrations",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261026033550_ai_usage_reserve_purchase.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "e88a40d1783ff3bc30ae93d11b6607bd07ca6e1b",
+      "sha256": "2563ad9787ca86761fb2a842c109d7ddc7928e344ea1551d82b9123ed25838d2",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "b939fab68fe9bb30a83479690b03f949694f4bec",
+      "firstPathTouchSubject": "Record verified live Twin financial migrations",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261026042811_bank_offline_financial_pulse_capacity.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "1a93ff973ccf2756f79aafba99eb49627b5490be",
+      "sha256": "d5ff8771f237b08b3df95daec1df1f4efb9e36d24826bbcbf6f80257c366a1e1",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "bad77334e6e6399e4efe7ec5aaebbc32bc1a3db1",
+      "firstPathTouchSubject": "feat: prepare funded dynamic financial sources with finite quantity rights",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261026055631_account_financial_source_release.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "96fbb92dcaa97559ad7c3067e96ad3ce3da4777c",
+      "sha256": "b41a0645237e465c322a93bd967f0ae8d3c394f1c727648731972e3caad17153",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "c622c2d4f23984837a4ec1dedbd33d9962ac438e",
+      "firstPathTouchSubject": "feat: hand back exact financial sources without replaying their actions",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261026061941_account_financial_dynamic_quantity_budget.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "2789a6f36c711ce2a42d1f79c0a1d7b191d2b1e8",
+      "sha256": "da762bbc14f7b90c00e57c7d549d8018162897b59e8ff352065e7c75b029de30",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "c622c2d4f23984837a4ec1dedbd33d9962ac438e",
+      "firstPathTouchSubject": "feat: hand back exact financial sources without replaying their actions",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261026134334_account_financial_acceptance_read.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "128360b15f4e66e0bc680fad7c8285e3be809598",
+      "sha256": "6913ad0a0edfc3038016ed8b289bc387ca7ae6bc94ee7a6207313af127bd8b14",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "2d6c1001d9bffe63598ac36f00c10360379bb395",
+      "firstPathTouchSubject": "feat: carry distinct sent and received Kai in financial receipts",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261027000518_ai_usage_balance_purchase.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "07359333e6afbadab1fc464b1f680b931593751c",
+      "sha256": "13558bfd50d211517b182188431386daff7b6629c37464dbc99cfff5be2063c0",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "06105ce37dd6963e0656762f8f7fd17974c7f9a8",
+      "firstPathTouchSubject": "Compose native organizer records, Twin controls and balance credits",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261027024642_bank_public_market_share_inventory.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "afe933c4b5b1b4a581f05f4de7afcf25979037da",
+      "sha256": "bb9ed8dc64c00c5f6e7cb7268ff73847242f3e867e4f407e7cf391acb28443cb",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "27815482ecf16395bd910afebe634b37557ed7db",
+      "firstPathTouchSubject": "Align inventory migration with applied database version",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261027044345_bank_share_certificate_position_transfer.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "23b2f34419f9cd3da253d30566c2f178a6b3f613",
+      "sha256": "6428810b80b5a8cd36a1e5a357de5222e5662a24878de2eb3d182bef9e03b2d0",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "3ee697892e3cfcc6e4c18c665febacab5a3e361a",
+      "firstPathTouchSubject": "Bind certificate deposits to owners and expose Bankeiz share operations",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261027045224_bank_owner_share_certificate_deposits.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "7eefaaa48dd9377981473f04ae7d90121296c409",
+      "sha256": "4cf695ac004d780a85b9503543b67eec8195363f5c8235dcaf3e2455d3222e45",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "3ee697892e3cfcc6e4c18c665febacab5a3e361a",
+      "firstPathTouchSubject": "Bind certificate deposits to owners and expose Bankeiz share operations",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261027192623_calendar_embed_timezone.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "b16536f4fa42143603ba92d5cbaf0dd93be76f64",
+      "sha256": "322baa392206f84e5868778bdd3f1128112b53aaa6eb3d670a440ca315cb6b8d",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "b6cbe9b55bef03bb4bd4630908511cd5ee4a5a31",
+      "firstPathTouchSubject": "Record applied calendar timezone migration",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261028113321_wallet_original_earning_cash_continuity.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "d1c3a48d17ae3325a55c769e81fcb93039bcab38",
+      "sha256": "220da490abe6f11701ca15ae5494f2ddef3144234a140c2f37bc05242b1fed0a",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "773d9c6646a1949c398c716264bbfd7b0c20823d",
+      "firstPathTouchSubject": "Preserve existing cash when signed Original earning begins",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261028213923_calendar_paid_booking.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "f820ed732cb4c5db1864ea7574434c0a325032ba",
+      "sha256": "e480d89705b188340013b88294879d03a447ea557a9aad76cfda41ca3b155f17",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "fd7cf17e5b20534c9004b21be3844312af79e63b",
+      "firstPathTouchSubject": "Complete native booking conversations and approved appointment payments",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261028235000_calendar_paid_booking_phases.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "99f21258e2cb3e92b68b4b11e7ee70182b7507d5",
+      "sha256": "1faf0e410dd10add8f692f579775f9ea8b54e035b622a4ab1d7b8957387edf49",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "fd7cf17e5b20534c9004b21be3844312af79e63b",
+      "firstPathTouchSubject": "Complete native booking conversations and approved appointment payments",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261029000214_calendar_paid_booking_activation.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "45d6ab38d4c1962aebbbd2d3ce50d34c85e18dbc",
+      "sha256": "b1e1b0ec3b8d4622abd3b5f9cbdca29df9f123e6253c2e654df59de6a914294f",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "fd7cf17e5b20534c9004b21be3844312af79e63b",
+      "firstPathTouchSubject": "Complete native booking conversations and approved appointment payments",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261029163018_calendar_booking_offers.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "7a0d14e0edd0870491ae29aeff3e6103b0b3560c",
+      "sha256": "cb7b5464f212eaeb051b1b0757bbd11e1a97cf8bf23f129cf5e4ebe53f26933d",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "27ec60bd44c672beda92ce5cf88716f0032abace",
+      "firstPathTouchSubject": "Support accepted free and paid Calendar offers with preserved booking recovery",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261029212454_twin_sponsorship_provider_capacity.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "c6c6785135c75757651e95a85713d2b9a2db3bd8",
+      "sha256": "2ee553233b33b3f8f8283e17ea690762276c0cb4d758a03a14b8b218d4ac92b8",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "acde0bf13e36ea73b100ae05df8a2f513f13dcf2",
+      "firstPathTouchSubject": "Keep sponsored Twin replies funded through measured tool continuations",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261031010351_merchant_counter_register.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "eaf7abeec85a209e971bda30169590de52a15d87",
+      "sha256": "6e72e3d54237fe443918ae6f1f362a97736ad895db292050e68e9068515f8309",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "e970fdc3327e0c63d986b764b56264e32e57caff",
+      "firstPathTouchSubject": "Add owner-bound Counter catalog and atomic checkout stock lifecycle",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261104074428_wallet_reserve_unit_attribution_display.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "48425ec22ef5622e7c0dde6f8430bdedc6c4aedf",
+      "sha256": "9c7562024a0e32da87b667eb8b04942eb7fe272de11ad34f15bbc38d8511369c",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "8fe810be8f68875ecb612b3455231059ef9c1105",
+      "firstPathTouchSubject": "Carry recorded Reserve unit attribution in existing wallet reads",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261105003949_prepared_public_market_head.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "2c86f1946ceda350f0bd3512e7ee9100d9c30813",
+      "sha256": "be17b059787e9d516a95dffddc2f80288b3fd6956330a4b160f393f7882b17a7",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "905054633b4a117edee1ada8b3910cc43ef65f52",
+      "firstPathTouchSubject": "Align migration filenames with verified production history",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261108185400_wallet_pending_cancellation.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "987e2ce1b4e36e26aeb5b56dfcca10184ec1b00e",
+      "sha256": "ff57017a4fbad56a97ed44220d438780e436e78fafc5ed92e465a5176113e8b4",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "905054633b4a117edee1ada8b3910cc43ef65f52",
+      "firstPathTouchSubject": "Align migration filenames with verified production history",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261108231500_retained_funding_source_links.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "4f30cfcff04bb20a36cfa081c1aaf5b48c372b48",
+      "sha256": "b3208ebbe4faba433c870f11cefbe2b27ccc0c440304dcd4e92b55915b4dead0",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "d9c3cb8119bf0003852a5319f5cd7657490122e0",
+      "firstPathTouchSubject": "Retain complete funding disclosure and exact recorded source links",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261112161048_profile_source_original_download_consumption.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "9aaa90c792bd9127891048bc6547525e055b9811",
+      "sha256": "11dc0f791c9a20cd39729b2e8951eceadba057541ba727b4fc8957fc55ea18f1",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "dc8a3b03c90ce8c26cb2a6fc30360befe3aa00b4",
+      "firstPathTouchSubject": "Preserve accepted Original delivery and collection purchase custody",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261113024123_twin_provider_legacy_expense_read_index.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "560aabeff486805223879f6f01455b18db3a2217",
+      "sha256": "ab12d38ce7bcec0b9aec1cccecc7c47a5597e784bb03f2abe4486d780a21d528",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "0ef5db4aea7442eef8010cdb10a00fdec16c61bb",
+      "firstPathTouchSubject": "Remove redundant Twin context and booking reservation work",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261113172959_username_email_routing.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "5bc087514a92b66c4abd75a74a550dfcb9c88112",
+      "sha256": "98cf07bad5ef7eae49cdd3fcdf2c5ee48048b2ae89171d605a79a4027a59277e",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "3993e6fe510d0a4df42bf9ba845d0239f022f70d",
+      "firstPathTouchSubject": "Retain external email observations in existing Messages custody",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261113181715_username_email_reply_bindings.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "35e9ce6241ccb9b31a03cf96f868d776fd1bdbc8",
+      "sha256": "3b0f5340b542a38bff2ccd659a2287e0fcad84ce3b882110e54b42ad24d391de",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "a15971e53ad6e67185b51149b0ec1956faa83968",
+      "firstPathTouchSubject": "Bind username email replies to exact existing message threads",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261113184422_username_email_received_observations.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "96a9321cbb10dae936b31b16ce48a5b24bf66a58",
+      "sha256": "5c452b5b9575ad4bc1498d9f48dc62bdcabf1dbc5fd41f4979bf5f7aef39a883",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "561fa42eb38c2a714a12f52dbb7231356a4419e4",
+      "firstPathTouchSubject": "Connect username email to Messages and preserve booking identity continuity",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261113201835_email_recipient_adoption.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "7494b6ac84f3cfee251d263b9fafb6d1da60a084",
+      "sha256": "81538798a8c9c13d86b18752b6bdb4c3820251a080a7b0f124a10d8497ea9833",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "561fa42eb38c2a714a12f52dbb7231356a4419e4",
+      "firstPathTouchSubject": "Connect username email to Messages and preserve booking identity continuity",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261113202044_username_email_permanent_aliases.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "6072685fc1c7d3baa43382c7fd439dec2c806bbb",
+      "sha256": "3f4a3a9fc3b501190900614882dd2192b37e553807eca320790dc04c2c38dcd1",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "561fa42eb38c2a714a12f52dbb7231356a4419e4",
+      "firstPathTouchSubject": "Connect username email to Messages and preserve booking identity continuity",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261113202506_username_email_delivery_intents.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "6a6d3297b698a84db36962d6c3912c31a2aa4484",
+      "sha256": "08cdd327a7345b0cb451a191a9ed23df1531e8bd9f312c27684374c7b10dc421",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "561fa42eb38c2a714a12f52dbb7231356a4419e4",
+      "firstPathTouchSubject": "Connect username email to Messages and preserve booking identity continuity",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261113213259_messaging_email_access_guards.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "c983f36743da3fef59e7dfe016930b13c646caf7",
+      "sha256": "b5948f8e8031174e28aecd0ff4e0548eecbb062c7a38c9a53644bce48c670a4c",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "561fa42eb38c2a714a12f52dbb7231356a4419e4",
+      "firstPathTouchSubject": "Connect username email to Messages and preserve booking identity continuity",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261113213920_username_email_dispatch_outcomes.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "cb1e668550173b0ac486437416e6a8103ff8c74b",
+      "sha256": "d4d812510d3be62effc50c14748372066a923233bd6cc3e717114ecb414cb441",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "561fa42eb38c2a714a12f52dbb7231356a4419e4",
+      "firstPathTouchSubject": "Connect username email to Messages and preserve booking identity continuity",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261113214149_username_email_admitted_name_guard.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "f151dc0cb4d5ab066a3357910eb2482401065b2b",
+      "sha256": "e3076f18175f434dd2d64dbc49c4ad15b32c9a02c6e148f815854d6b86508653",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "561fa42eb38c2a714a12f52dbb7231356a4419e4",
+      "firstPathTouchSubject": "Connect username email to Messages and preserve booking identity continuity",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261113225427_username_email_literal_routes.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "ac9177a503cffd45676813deb97ab58d0c472766",
+      "sha256": "52609983bab5b1fd7f61b8b2b35492e1d6caa090fefb5be79f659f09f978ac80",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "561fa42eb38c2a714a12f52dbb7231356a4419e4",
+      "firstPathTouchSubject": "Connect username email to Messages and preserve booking identity continuity",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261114004616_email_correspondent_verified_alias.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "5bc9eb568b192b204888439ede5b48f0a4dfa839",
+      "sha256": "28431e4028d64c8a19eeebf6851f59ab4f25994eacd9c11097e572ead55b2b72",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "c851b60df2a1fc69ef1e0255d27d3842d7430b7a",
+      "firstPathTouchSubject": "Keep Bankeiz email branding and verified recipients in one conversation",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261114005231_email_recipient_verified_alias.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "af2fee41ec4cf90d5515dda7920102112a41c004",
+      "sha256": "c1cacf8e2e5accb27240bd0e84386b29d0d5a8edcc44f1dd166091102f7a304f",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "c851b60df2a1fc69ef1e0255d27d3842d7430b7a",
+      "firstPathTouchSubject": "Keep Bankeiz email branding and verified recipients in one conversation",
+      "productionAppliedState": "unverified-by-this-inventory"
+    },
+    {
+      "path": "supabase/migrations/20261114020815_calendar_booking_notice.sql",
+      "sourceCommit": "f990dc58ab605806eaccd45e1146d2ba7c4dd958",
+      "gitBlobSha1": "989260622215f0224aca2637acdc599ff6eef209",
+      "sha256": "478a1a33c7a6f9cf460acc43c815d2fa7a84bf51c8fcb5f30ebccc1c6cb50481",
+      "candidateMatchesCommittedSource": true,
+      "firstPathTouchCommitInRange": "7ab22963685a8ccec066e938e41ccfbab9ab2310",
+      "firstPathTouchSubject": "Let owners set same-day booking and minimum advance notice",
+      "productionAppliedState": "unverified-by-this-inventory"
+    }
+  ]
+}

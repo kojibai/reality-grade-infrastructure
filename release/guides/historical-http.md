@@ -6,9 +6,13 @@ does not mean the current Receiz server implements their historical routes.
 files, missing routes, and historical source evidence for these methods.
 Route source evidence is not production qualification or proof authority.
 
-The newly mapped MCP methods have 12 current HTTP compositions: eight Twin
-operations, three webhook endpoint operations, and card checkout-session creation.
-The other 69 bindings retain historical HTTP contracts. The older `media.upload`,
+The current JSON SDK adapter family has 86 MCP bindings: 17 current HTTP
+compositions and 69 historical HTTP contracts. Current compositions include eight
+Twin operations, three webhook endpoint operations, commerce card-session
+creation, wallet read/transfer, delegated checkout creation/status, and public
+embedded merchant checkout. Two additional financial artifact adapters preserve
+exact sealed note-download bytes and canonical bearer-claim custody privately;
+they are separate from JSON-only dispatch. The older `media.upload`,
 `media.transform`, and `proof.query` methods also require historical transport.
 
 Historical categories are customers, merchants, commerce beyond card checkout,

@@ -1,13 +1,9 @@
 # Disclosure release boundary
 
-Disclosure version: **1.2.0**. Compatible product release: **128.0.0**. Exact source coordinates are recorded in [source.json](source.json).
+Disclosure **1.3.0** accompanies product **129.5.0**. [source.json](source.json) binds the published Receiz tag and the separately committed standalone verifier. [evidence/receiz-v129.5.0-source.json](evidence/receiz-v129.5.0-source.json) enumerates all 16 tagged release-family files and their exact imported bytes. [qualification.json](qualification.json) separates source, package/consumer evidence, the release-proof locator and deployment status.
 
-The owner-sealed payload binds the candidate commit and tree, complete file inventory, public report snapshots, law registry, ontology, public guides and unchanged read-only audit composition. The subsequent release commit adds only the carried attestation. The signature does not hash its own containing file. Corrections require a successor release; prior evidence and tags remain immutable.
+The complete old1.2.0 repository tree and owner proof are preserved under history/v1.2.0. Earlier releases, captured reports and the v127 registry/census/catalog retain their original Source, signatures and scope.
 
-The audit tool reuses the existing Receiz governance verifier and published `@receiz/sdk@128.0.0`. It introduces no signing service, new root or new proof scheme. The designated bjklock identity remains pinned independently of the supplied attestation. Private custody stays outside this public repo.
+The existing owner-sealed payload binds the clean candidate commit/tree, tagged canonical Source, exact product-history coordinate, scope and every disclosure file. The following release commit adds only the current attestation. inventory() excludes that containing file to avoid self-hashing; all historical attestations remain included. Any changed disclosed byte requires a successor proof.
 
-The previous v1.0.1 release bytes and signature are preserved under [history/v1.0.1](history/v1.0.1/README.md); the original v1.0.0 signature remains preserved as well. The historical preparation tree is unchanged. Current release entry points are this directory and the root README.
-
-The SDK dependency remains exactly pinned; the existing transitive Underscore override remains 1.13.8. Qualification records describe the actual installed bytes. Hosted report capture, SDK conformance, local audit tests and sealed inventory verification are separate evidence boundaries. No complete private application audit or institutional certification is claimed.
-
-Current qualification uses SDK128. Captured endpoint reports, v127 registry/census and catalog retain their original historical binding. Prior v1.1.0 complete signed inventory is preserved under `release/history/v1.1.0/`.
+The verifier reuses the published @receiz/sdk@129.5.0 and the pinned governance owner/source chain. No signing service, root override, replacement owner or arbitrary issuer is admitted. Private signing custody stays outside this public repository.

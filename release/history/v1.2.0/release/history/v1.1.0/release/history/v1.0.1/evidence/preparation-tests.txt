@@ -1,0 +1,20 @@
+✔ preparation has no release authority and standalone verifier rejects release mode (137.791416ms)
+✔ rejects altered (82.591542ms)
+✔ rejects missing (79.856792ms)
+✔ rejects extra (80.85875ms)
+✔ rejects symlink (77.9795ms)
+✔ rejects hardlink (76.918375ms)
+✔ rejects traversal (76.96675ms)
+✔ rejects private-manifest-field (76.165209ms)
+✔ rejects fake-release (76.110125ms)
+✔ preparer refuses existing destination and linked ancestor (105.046875ms)
+✔ unreviewed input bytes cannot enter the output even when semantically innocuous (81.93125ms)
+✔ preparer rejects prohibited filenames, source maps, source, and literal secrets (2.755791ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 995.963709
